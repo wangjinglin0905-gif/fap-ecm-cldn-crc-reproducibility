@@ -1,0 +1,67 @@
+class,cell_type,cell_subtype,n_cells
+Normal,B cells,CD19+CD20+ B,1684
+Normal,B cells,IgA+ Plasma,3366
+Normal,B cells,IgG+ Plasma,94
+Normal,B cells,Unknown,64
+Normal,Epithelial cells,Goblet cells,139
+Normal,Epithelial cells,Intermediate,181
+Normal,Epithelial cells,Mature Enterocytes type 1,213
+Normal,Epithelial cells,Mature Enterocytes type 2,131
+Normal,Epithelial cells,Stem-like/TA,406
+Normal,Mast cells,Mast cells,184
+Normal,Myeloids,Pro-inflammatory,74
+Normal,Myeloids,Proliferating,6
+Normal,Myeloids,SPP1+,156
+Normal,Myeloids,Unknown,4
+Normal,Myeloids,cDC,129
+Normal,Stromal cells,Enteric glial cells,282
+Normal,Stromal cells,Lymphatic ECs,80
+Normal,Stromal cells,Myofibroblasts,9
+Normal,Stromal cells,Pericytes,92
+Normal,Stromal cells,Smooth muscle cells,123
+Normal,Stromal cells,Stalk-like ECs,96
+Normal,Stromal cells,Stromal 1,972
+Normal,Stromal cells,Stromal 2,236
+Normal,Stromal cells,Stromal 3,744
+Normal,Stromal cells,Tip-like ECs,563
+Normal,T cells,CD4+ T cells,3325
+Normal,T cells,CD8+ T cells,1757
+Normal,T cells,NK cells,163
+Normal,T cells,Regulatory T cells,154
+Normal,T cells,T follicular helper cells,72
+Normal,T cells,T helper 17 cells,17
+Normal,T cells,Unknown,111
+Normal,T cells,gamma delta T cells,777
+Tumor,B cells,CD19+CD20+ B,2049
+Tumor,B cells,IgA+ Plasma,180
+Tumor,B cells,IgG+ Plasma,1661
+Tumor,B cells,Unknown,48
+Tumor,Epithelial cells,CMS1,1201
+Tumor,Epithelial cells,CMS2,10771
+Tumor,Epithelial cells,CMS3,5486
+Tumor,Epithelial cells,CMS4,11
+Tumor,Mast cells,Mast cells,3
+Tumor,Myeloids,Pro-inflammatory,2325
+Tumor,Myeloids,Proliferating,165
+Tumor,Myeloids,SPP1+,3096
+Tumor,Myeloids,Unknown,461
+Tumor,Myeloids,cDC,353
+Tumor,Stromal cells,Enteric glial cells,23
+Tumor,Stromal cells,Lymphatic ECs,28
+Tumor,Stromal cells,Myofibroblasts,1146
+Tumor,Stromal cells,Pericytes,353
+Tumor,Stromal cells,Proliferative ECs,44
+Tumor,Stromal cells,Smooth muscle cells,91
+Tumor,Stromal cells,Stalk-like ECs,342
+Tumor,Stromal cells,Stromal 1,73
+Tumor,Stromal cells,Stromal 2,158
+Tumor,Stromal cells,Stromal 3,124
+Tumor,Stromal cells,Tip-like ECs,354
+Tumor,T cells,CD4+ T cells,3980
+Tumor,T cells,CD8+ T cells,4647
+Tumor,T cells,NK cells,948
+Tumor,T cells,Regulatory T cells,2943
+Tumor,T cells,T follicular helper cells,548
+Tumor,T cells,T helper 17 cells,1961
+Tumor,T cells,Unknown,1493
+Tumor,T cells,gamma delta T cells,219

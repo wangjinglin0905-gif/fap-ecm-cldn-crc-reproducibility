@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# R temporary files
+.Rhistory
+.RData
+.Rapp.history
+*.Rproj
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Large raw data (not redistributed — see manifests/raw_input_manifest_r461.csv)
+inputs/
+*.h5
+*.h5ad
+*.mtx
+*.mtx.gz

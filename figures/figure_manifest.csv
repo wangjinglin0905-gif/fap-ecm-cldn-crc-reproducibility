@@ -1,0 +1,12 @@
+"figure","png","tiff","png_dpi","tiff_dpi","png_exists","tiff_exists"
+"Figure_01","outputs/figures/main/Figure_01.png","outputs/figures/main/Figure_01.tiff",300,600,TRUE,TRUE
+"Figure_02","outputs/figures/main/Figure_02.png","outputs/figures/main/Figure_02.tiff",300,600,TRUE,TRUE
+"Figure_03","outputs/figures/main/Figure_03.png","outputs/figures/main/Figure_03.tiff",300,600,TRUE,TRUE
+"Figure_04","outputs/figures/main/Figure_04.png","outputs/figures/main/Figure_04.tiff",300,600,TRUE,TRUE
+"Figure_05","outputs/figures/main/Figure_05.png","outputs/figures/main/Figure_05.tiff",300,600,TRUE,TRUE
+"Figure_06","outputs/figures/main/Figure_06.png","outputs/figures/main/Figure_06.tiff",300,600,TRUE,TRUE
+"Figure_S01","outputs/figures/supplementary/Figure_S01.png","outputs/figures/supplementary/Figure_S01.tiff",300,600,TRUE,TRUE
+"Figure_S02","outputs/figures/supplementary/Figure_S02.png","outputs/figures/supplementary/Figure_S02.tiff",300,600,TRUE,TRUE
+"Figure_S03","outputs/figures/supplementary/Figure_S03.png","outputs/figures/supplementary/Figure_S03.tiff",300,600,TRUE,TRUE
+"Figure_S04","outputs/figures/supplementary/Figure_S04.png","outputs/figures/supplementary/Figure_S04.tiff",300,600,TRUE,TRUE
+"Figure_S05","outputs/figures/supplementary/Figure_S05.png","outputs/figures/supplementary/Figure_S05.tiff",300,600,TRUE,TRUE

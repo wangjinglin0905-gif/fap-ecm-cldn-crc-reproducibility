@@ -1,0 +1,916 @@
+patient,class,cell_type,cell_subtype,n_cells
+SMC01,Normal,B cells,CD19+CD20+ B,135
+SMC01,Normal,B cells,IgA+ Plasma,633
+SMC01,Normal,B cells,IgG+ Plasma,11
+SMC01,Normal,B cells,Unknown,9
+SMC01,Normal,Epithelial cells,Goblet cells,24
+SMC01,Normal,Epithelial cells,Intermediate,33
+SMC01,Normal,Epithelial cells,Mature Enterocytes type 1,4
+SMC01,Normal,Epithelial cells,Mature Enterocytes type 2,8
+SMC01,Normal,Epithelial cells,Stem-like/TA,90
+SMC01,Normal,Mast cells,Mast cells,82
+SMC01,Normal,Myeloids,Pro-inflammatory,9
+SMC01,Normal,Myeloids,Proliferating,1
+SMC01,Normal,Myeloids,SPP1+,35
+SMC01,Normal,Myeloids,cDC,22
+SMC01,Normal,Stromal cells,Enteric glial cells,54
+SMC01,Normal,Stromal cells,Lymphatic ECs,11
+SMC01,Normal,Stromal cells,Myofibroblasts,1
+SMC01,Normal,Stromal cells,Pericytes,22
+SMC01,Normal,Stromal cells,Smooth muscle cells,19
+SMC01,Normal,Stromal cells,Stalk-like ECs,22
+SMC01,Normal,Stromal cells,Stromal 1,146
+SMC01,Normal,Stromal cells,Stromal 2,26
+SMC01,Normal,Stromal cells,Stromal 3,81
+SMC01,Normal,Stromal cells,Tip-like ECs,58
+SMC01,Normal,T cells,CD4+ T cells,514
+SMC01,Normal,T cells,CD8+ T cells,230
+SMC01,Normal,T cells,NK cells,22
+SMC01,Normal,T cells,Regulatory T cells,20
+SMC01,Normal,T cells,T follicular helper cells,9
+SMC01,Normal,T cells,T helper 17 cells,1
+SMC01,Normal,T cells,Unknown,33
+SMC01,Normal,T cells,gamma delta T cells,70
+SMC01,Tumor,B cells,CD19+CD20+ B,64
+SMC01,Tumor,B cells,IgA+ Plasma,7
+SMC01,Tumor,B cells,IgG+ Plasma,56
+SMC01,Tumor,B cells,Unknown,2
+SMC01,Tumor,Epithelial cells,CMS1,3
+SMC01,Tumor,Epithelial cells,CMS2,1004
+SMC01,Tumor,Epithelial cells,CMS3,86
+SMC01,Tumor,Myeloids,Pro-inflammatory,62
+SMC01,Tumor,Myeloids,Proliferating,3
+SMC01,Tumor,Myeloids,SPP1+,64
+SMC01,Tumor,Myeloids,Unknown,33
+SMC01,Tumor,Myeloids,cDC,9
+SMC01,Tumor,Stromal cells,Lymphatic ECs,2
+SMC01,Tumor,Stromal cells,Myofibroblasts,69
+SMC01,Tumor,Stromal cells,Pericytes,19
+SMC01,Tumor,Stromal cells,Proliferative ECs,3
+SMC01,Tumor,Stromal cells,Stalk-like ECs,19
+SMC01,Tumor,Stromal cells,Stromal 1,5
+SMC01,Tumor,Stromal cells,Stromal 2,19
+SMC01,Tumor,Stromal cells,Tip-like ECs,18
+SMC01,Tumor,T cells,CD4+ T cells,150
+SMC01,Tumor,T cells,CD8+ T cells,451
+SMC01,Tumor,T cells,NK cells,55
+SMC01,Tumor,T cells,Regulatory T cells,239
+SMC01,Tumor,T cells,T follicular helper cells,50
+SMC01,Tumor,T cells,T helper 17 cells,117
+SMC01,Tumor,T cells,Unknown,165
+SMC01,Tumor,T cells,gamma delta T cells,17
+SMC02,Normal,B cells,CD19+CD20+ B,102
+SMC02,Normal,B cells,IgA+ Plasma,381
+SMC02,Normal,B cells,IgG+ Plasma,5
+SMC02,Normal,B cells,Unknown,12
+SMC02,Normal,Epithelial cells,Goblet cells,20
+SMC02,Normal,Epithelial cells,Intermediate,28
+SMC02,Normal,Epithelial cells,Mature Enterocytes type 1,4
+SMC02,Normal,Epithelial cells,Mature Enterocytes type 2,14
+SMC02,Normal,Epithelial cells,Stem-like/TA,53
+SMC02,Normal,Mast cells,Mast cells,5
+SMC02,Normal,Myeloids,Pro-inflammatory,5
+SMC02,Normal,Myeloids,Proliferating,1
+SMC02,Normal,Myeloids,SPP1+,10
+SMC02,Normal,Myeloids,cDC,5
+SMC02,Normal,Stromal cells,Enteric glial cells,38
+SMC02,Normal,Stromal cells,Lymphatic ECs,10
+SMC02,Normal,Stromal cells,Myofibroblasts,1
+SMC02,Normal,Stromal cells,Pericytes,10
+SMC02,Normal,Stromal cells,Smooth muscle cells,16
+SMC02,Normal,Stromal cells,Stalk-like ECs,17
+SMC02,Normal,Stromal cells,Stromal 1,43
+SMC02,Normal,Stromal cells,Stromal 2,29
+SMC02,Normal,Stromal cells,Stromal 3,43
+SMC02,Normal,Stromal cells,Tip-like ECs,58
+SMC02,Normal,T cells,CD4+ T cells,203
+SMC02,Normal,T cells,CD8+ T cells,61
+SMC02,Normal,T cells,NK cells,5
+SMC02,Normal,T cells,Regulatory T cells,13
+SMC02,Normal,T cells,T follicular helper cells,2
+SMC02,Normal,T cells,Unknown,7
+SMC02,Normal,T cells,gamma delta T cells,115
+SMC02,Tumor,B cells,CD19+CD20+ B,70
+SMC02,Tumor,B cells,IgG+ Plasma,18
+SMC02,Tumor,B cells,Unknown,2
+SMC02,Tumor,Epithelial cells,CMS1,5
+SMC02,Tumor,Epithelial cells,CMS2,342
+SMC02,Tumor,Epithelial cells,CMS3,4
+SMC02,Tumor,Epithelial cells,CMS4,1
+SMC02,Tumor,Myeloids,Pro-inflammatory,249
+SMC02,Tumor,Myeloids,Proliferating,6
+SMC02,Tumor,Myeloids,SPP1+,293
+SMC02,Tumor,Myeloids,Unknown,36
+SMC02,Tumor,Myeloids,cDC,31
+SMC02,Tumor,Stromal cells,Lymphatic ECs,3
+SMC02,Tumor,Stromal cells,Myofibroblasts,42
+SMC02,Tumor,Stromal cells,Pericytes,5
+SMC02,Tumor,Stromal cells,Proliferative ECs,2
+SMC02,Tumor,Stromal cells,Smooth muscle cells,1
+SMC02,Tumor,Stromal cells,Stalk-like ECs,15
+SMC02,Tumor,Stromal cells,Stromal 1,3
+SMC02,Tumor,Stromal cells,Stromal 2,17
+SMC02,Tumor,Stromal cells,Stromal 3,2
+SMC02,Tumor,Stromal cells,Tip-like ECs,15
+SMC02,Tumor,T cells,CD4+ T cells,82
+SMC02,Tumor,T cells,CD8+ T cells,140
+SMC02,Tumor,T cells,NK cells,29
+SMC02,Tumor,T cells,Regulatory T cells,140
+SMC02,Tumor,T cells,T follicular helper cells,9
+SMC02,Tumor,T cells,T helper 17 cells,64
+SMC02,Tumor,T cells,Unknown,63
+SMC03,Normal,B cells,CD19+CD20+ B,337
+SMC03,Normal,B cells,IgA+ Plasma,355
+SMC03,Normal,B cells,IgG+ Plasma,2
+SMC03,Normal,B cells,Unknown,3
+SMC03,Normal,Epithelial cells,Goblet cells,1
+SMC03,Normal,Epithelial cells,Intermediate,18
+SMC03,Normal,Epithelial cells,Mature Enterocytes type 1,4
+SMC03,Normal,Epithelial cells,Mature Enterocytes type 2,2
+SMC03,Normal,Epithelial cells,Stem-like/TA,40
+SMC03,Normal,Mast cells,Mast cells,2
+SMC03,Normal,Myeloids,Pro-inflammatory,1
+SMC03,Normal,Myeloids,cDC,2
+SMC03,Normal,Stromal cells,Enteric glial cells,1
+SMC03,Normal,Stromal cells,Pericytes,2
+SMC03,Normal,Stromal cells,Smooth muscle cells,5
+SMC03,Normal,Stromal cells,Stromal 1,1
+SMC03,Normal,Stromal cells,Stromal 2,1
+SMC03,Normal,Stromal cells,Stromal 3,2
+SMC03,Normal,Stromal cells,Tip-like ECs,13
+SMC03,Normal,T cells,CD4+ T cells,307
+SMC03,Normal,T cells,CD8+ T cells,72
+SMC03,Normal,T cells,Regulatory T cells,6
+SMC03,Normal,T cells,T follicular helper cells,2
+SMC03,Normal,T cells,T helper 17 cells,1
+SMC03,Normal,T cells,Unknown,19
+SMC03,Normal,T cells,gamma delta T cells,63
+SMC03,Tumor,B cells,CD19+CD20+ B,159
+SMC03,Tumor,B cells,IgG+ Plasma,139
+SMC03,Tumor,B cells,Unknown,2
+SMC03,Tumor,Epithelial cells,CMS1,722
+SMC03,Tumor,Epithelial cells,CMS2,1
+SMC03,Tumor,Epithelial cells,CMS3,73
+SMC03,Tumor,Myeloids,Pro-inflammatory,108
+SMC03,Tumor,Myeloids,Proliferating,5
+SMC03,Tumor,Myeloids,SPP1+,188
+SMC03,Tumor,Myeloids,Unknown,8
+SMC03,Tumor,Myeloids,cDC,7
+SMC03,Tumor,Stromal cells,Myofibroblasts,78
+SMC03,Tumor,Stromal cells,Pericytes,6
+SMC03,Tumor,Stromal cells,Proliferative ECs,1
+SMC03,Tumor,Stromal cells,Stalk-like ECs,25
+SMC03,Tumor,Stromal cells,Stromal 1,1
+SMC03,Tumor,Stromal cells,Stromal 3,101
+SMC03,Tumor,Stromal cells,Tip-like ECs,6
+SMC03,Tumor,T cells,CD4+ T cells,126
+SMC03,Tumor,T cells,CD8+ T cells,100
+SMC03,Tumor,T cells,NK cells,74
+SMC03,Tumor,T cells,Regulatory T cells,70
+SMC03,Tumor,T cells,T follicular helper cells,11
+SMC03,Tumor,T cells,T helper 17 cells,2
+SMC03,Tumor,T cells,Unknown,110
+SMC04,Normal,B cells,CD19+CD20+ B,111
+SMC04,Normal,B cells,IgA+ Plasma,454
+SMC04,Normal,B cells,IgG+ Plasma,1
+SMC04,Normal,B cells,Unknown,3
+SMC04,Normal,Epithelial cells,Goblet cells,15
+SMC04,Normal,Epithelial cells,Intermediate,22
+SMC04,Normal,Epithelial cells,Mature Enterocytes type 1,76
+SMC04,Normal,Epithelial cells,Mature Enterocytes type 2,8
+SMC04,Normal,Epithelial cells,Stem-like/TA,48
+SMC04,Normal,Mast cells,Mast cells,9
+SMC04,Normal,Myeloids,Pro-inflammatory,5
+SMC04,Normal,Myeloids,Proliferating,3
+SMC04,Normal,Myeloids,SPP1+,28
+SMC04,Normal,Myeloids,Unknown,1
+SMC04,Normal,Myeloids,cDC,29
+SMC04,Normal,Stromal cells,Enteric glial cells,19
+SMC04,Normal,Stromal cells,Lymphatic ECs,14
+SMC04,Normal,Stromal cells,Pericytes,17
+SMC04,Normal,Stromal cells,Smooth muscle cells,17
+SMC04,Normal,Stromal cells,Stalk-like ECs,10
+SMC04,Normal,Stromal cells,Stromal 1,149
+SMC04,Normal,Stromal cells,Stromal 2,27
+SMC04,Normal,Stromal cells,Stromal 3,136
+SMC04,Normal,Stromal cells,Tip-like ECs,50
+SMC04,Normal,T cells,CD4+ T cells,294
+SMC04,Normal,T cells,CD8+ T cells,161
+SMC04,Normal,T cells,NK cells,15
+SMC04,Normal,T cells,Regulatory T cells,6
+SMC04,Normal,T cells,T follicular helper cells,4
+SMC04,Normal,T cells,T helper 17 cells,1
+SMC04,Normal,T cells,Unknown,7
+SMC04,Normal,T cells,gamma delta T cells,48
+SMC04,Tumor,B cells,CD19+CD20+ B,91
+SMC04,Tumor,B cells,IgA+ Plasma,1
+SMC04,Tumor,B cells,IgG+ Plasma,10
+SMC04,Tumor,B cells,Unknown,1
+SMC04,Tumor,Epithelial cells,CMS2,285
+SMC04,Tumor,Epithelial cells,CMS3,21
+SMC04,Tumor,Epithelial cells,CMS4,1
+SMC04,Tumor,Myeloids,Pro-inflammatory,400
+SMC04,Tumor,Myeloids,Proliferating,13
+SMC04,Tumor,Myeloids,SPP1+,345
+SMC04,Tumor,Myeloids,Unknown,35
+SMC04,Tumor,Myeloids,cDC,30
+SMC04,Tumor,Stromal cells,Enteric glial cells,5
+SMC04,Tumor,Stromal cells,Lymphatic ECs,5
+SMC04,Tumor,Stromal cells,Myofibroblasts,32
+SMC04,Tumor,Stromal cells,Pericytes,19
+SMC04,Tumor,Stromal cells,Proliferative ECs,5
+SMC04,Tumor,Stromal cells,Smooth muscle cells,5
+SMC04,Tumor,Stromal cells,Stalk-like ECs,50
+SMC04,Tumor,Stromal cells,Stromal 1,1
+SMC04,Tumor,Stromal cells,Stromal 2,5
+SMC04,Tumor,Stromal cells,Stromal 3,1
+SMC04,Tumor,Stromal cells,Tip-like ECs,21
+SMC04,Tumor,T cells,CD4+ T cells,192
+SMC04,Tumor,T cells,CD8+ T cells,79
+SMC04,Tumor,T cells,NK cells,21
+SMC04,Tumor,T cells,Regulatory T cells,131
+SMC04,Tumor,T cells,T follicular helper cells,6
+SMC04,Tumor,T cells,T helper 17 cells,23
+SMC04,Tumor,T cells,Unknown,7
+SMC05,Normal,B cells,CD19+CD20+ B,53
+SMC05,Normal,B cells,IgA+ Plasma,204
+SMC05,Normal,B cells,IgG+ Plasma,1
+SMC05,Normal,B cells,Unknown,4
+SMC05,Normal,Epithelial cells,Goblet cells,6
+SMC05,Normal,Epithelial cells,Intermediate,16
+SMC05,Normal,Epithelial cells,Mature Enterocytes type 1,3
+SMC05,Normal,Epithelial cells,Mature Enterocytes type 2,23
+SMC05,Normal,Epithelial cells,Stem-like/TA,27
+SMC05,Normal,Mast cells,Mast cells,7
+SMC05,Normal,Myeloids,Pro-inflammatory,5
+SMC05,Normal,Myeloids,SPP1+,7
+SMC05,Normal,Myeloids,cDC,9
+SMC05,Normal,Stromal cells,Enteric glial cells,31
+SMC05,Normal,Stromal cells,Lymphatic ECs,4
+SMC05,Normal,Stromal cells,Myofibroblasts,1
+SMC05,Normal,Stromal cells,Pericytes,4
+SMC05,Normal,Stromal cells,Smooth muscle cells,2
+SMC05,Normal,Stromal cells,Stalk-like ECs,4
+SMC05,Normal,Stromal cells,Stromal 1,67
+SMC05,Normal,Stromal cells,Stromal 2,16
+SMC05,Normal,Stromal cells,Stromal 3,39
+SMC05,Normal,Stromal cells,Tip-like ECs,96
+SMC05,Normal,T cells,CD4+ T cells,186
+SMC05,Normal,T cells,CD8+ T cells,187
+SMC05,Normal,T cells,NK cells,15
+SMC05,Normal,T cells,Regulatory T cells,9
+SMC05,Normal,T cells,T follicular helper cells,2
+SMC05,Normal,T cells,Unknown,2
+SMC05,Normal,T cells,gamma delta T cells,84
+SMC05,Tumor,B cells,CD19+CD20+ B,77
+SMC05,Tumor,B cells,IgA+ Plasma,8
+SMC05,Tumor,B cells,IgG+ Plasma,20
+SMC05,Tumor,B cells,Unknown,1
+SMC05,Tumor,Epithelial cells,CMS1,3
+SMC05,Tumor,Epithelial cells,CMS2,2
+SMC05,Tumor,Epithelial cells,CMS3,8
+SMC05,Tumor,Myeloids,Pro-inflammatory,4
+SMC05,Tumor,Myeloids,SPP1+,11
+SMC05,Tumor,Myeloids,Unknown,4
+SMC05,Tumor,Myeloids,cDC,1
+SMC05,Tumor,Stromal cells,Lymphatic ECs,1
+SMC05,Tumor,Stromal cells,Myofibroblasts,5
+SMC05,Tumor,Stromal cells,Pericytes,4
+SMC05,Tumor,Stromal cells,Smooth muscle cells,1
+SMC05,Tumor,Stromal cells,Stalk-like ECs,2
+SMC05,Tumor,Stromal cells,Stromal 3,3
+SMC05,Tumor,T cells,CD4+ T cells,127
+SMC05,Tumor,T cells,CD8+ T cells,259
+SMC05,Tumor,T cells,NK cells,19
+SMC05,Tumor,T cells,Regulatory T cells,54
+SMC05,Tumor,T cells,T follicular helper cells,37
+SMC05,Tumor,T cells,T helper 17 cells,9
+SMC06,Normal,B cells,CD19+CD20+ B,132
+SMC06,Normal,B cells,IgA+ Plasma,282
+SMC06,Normal,B cells,IgG+ Plasma,49
+SMC06,Normal,B cells,Unknown,12
+SMC06,Normal,Epithelial cells,Goblet cells,1
+SMC06,Normal,Epithelial cells,Intermediate,11
+SMC06,Normal,Epithelial cells,Mature Enterocytes type 2,4
+SMC06,Normal,Epithelial cells,Stem-like/TA,7
+SMC06,Normal,Mast cells,Mast cells,1
+SMC06,Normal,Myeloids,Pro-inflammatory,4
+SMC06,Normal,Myeloids,Proliferating,1
+SMC06,Normal,Myeloids,SPP1+,2
+SMC06,Normal,Myeloids,Unknown,1
+SMC06,Normal,Myeloids,cDC,19
+SMC06,Normal,Stromal cells,Enteric glial cells,4
+SMC06,Normal,Stromal cells,Pericytes,5
+SMC06,Normal,Stromal cells,Stalk-like ECs,4
+SMC06,Normal,Stromal cells,Stromal 1,32
+SMC06,Normal,Stromal cells,Stromal 2,5
+SMC06,Normal,Stromal cells,Stromal 3,15
+SMC06,Normal,Stromal cells,Tip-like ECs,22
+SMC06,Normal,T cells,CD4+ T cells,540
+SMC06,Normal,T cells,CD8+ T cells,209
+SMC06,Normal,T cells,NK cells,26
+SMC06,Normal,T cells,Regulatory T cells,30
+SMC06,Normal,T cells,T follicular helper cells,5
+SMC06,Normal,T cells,T helper 17 cells,3
+SMC06,Normal,T cells,Unknown,9
+SMC06,Normal,T cells,gamma delta T cells,79
+SMC06,Tumor,B cells,CD19+CD20+ B,30
+SMC06,Tumor,B cells,IgG+ Plasma,70
+SMC06,Tumor,B cells,Unknown,4
+SMC06,Tumor,Epithelial cells,CMS1,85
+SMC06,Tumor,Epithelial cells,CMS2,24
+SMC06,Tumor,Epithelial cells,CMS3,80
+SMC06,Tumor,Mast cells,Mast cells,1
+SMC06,Tumor,Myeloids,Pro-inflammatory,77
+SMC06,Tumor,Myeloids,Proliferating,5
+SMC06,Tumor,Myeloids,SPP1+,122
+SMC06,Tumor,Myeloids,Unknown,6
+SMC06,Tumor,Myeloids,cDC,5
+SMC06,Tumor,Stromal cells,Lymphatic ECs,2
+SMC06,Tumor,Stromal cells,Myofibroblasts,65
+SMC06,Tumor,Stromal cells,Pericytes,10
+SMC06,Tumor,Stromal cells,Smooth muscle cells,1
+SMC06,Tumor,Stromal cells,Stalk-like ECs,1
+SMC06,Tumor,Stromal cells,Stromal 1,1
+SMC06,Tumor,Stromal cells,Stromal 3,1
+SMC06,Tumor,Stromal cells,Tip-like ECs,2
+SMC06,Tumor,T cells,CD4+ T cells,12
+SMC06,Tumor,T cells,CD8+ T cells,20
+SMC06,Tumor,T cells,NK cells,62
+SMC06,Tumor,T cells,Regulatory T cells,439
+SMC06,Tumor,T cells,T follicular helper cells,5
+SMC06,Tumor,T cells,T helper 17 cells,3
+SMC06,Tumor,T cells,Unknown,408
+SMC07,Normal,B cells,CD19+CD20+ B,289
+SMC07,Normal,B cells,IgA+ Plasma,213
+SMC07,Normal,B cells,IgG+ Plasma,4
+SMC07,Normal,B cells,Unknown,1
+SMC07,Normal,Epithelial cells,Goblet cells,21
+SMC07,Normal,Epithelial cells,Intermediate,19
+SMC07,Normal,Epithelial cells,Mature Enterocytes type 1,11
+SMC07,Normal,Epithelial cells,Mature Enterocytes type 2,27
+SMC07,Normal,Epithelial cells,Stem-like/TA,50
+SMC07,Normal,Mast cells,Mast cells,3
+SMC07,Normal,Myeloids,Pro-inflammatory,7
+SMC07,Normal,Myeloids,SPP1+,17
+SMC07,Normal,Myeloids,cDC,4
+SMC07,Normal,Stromal cells,Enteric glial cells,63
+SMC07,Normal,Stromal cells,Lymphatic ECs,24
+SMC07,Normal,Stromal cells,Myofibroblasts,1
+SMC07,Normal,Stromal cells,Pericytes,6
+SMC07,Normal,Stromal cells,Smooth muscle cells,30
+SMC07,Normal,Stromal cells,Stalk-like ECs,14
+SMC07,Normal,Stromal cells,Stromal 1,167
+SMC07,Normal,Stromal cells,Stromal 2,31
+SMC07,Normal,Stromal cells,Stromal 3,118
+SMC07,Normal,Stromal cells,Tip-like ECs,124
+SMC07,Normal,T cells,CD4+ T cells,537
+SMC07,Normal,T cells,CD8+ T cells,208
+SMC07,Normal,T cells,NK cells,21
+SMC07,Normal,T cells,Regulatory T cells,22
+SMC07,Normal,T cells,T follicular helper cells,20
+SMC07,Normal,T cells,T helper 17 cells,2
+SMC07,Normal,T cells,Unknown,13
+SMC07,Normal,T cells,gamma delta T cells,147
+SMC07,Tumor,B cells,CD19+CD20+ B,282
+SMC07,Tumor,B cells,IgA+ Plasma,106
+SMC07,Tumor,B cells,IgG+ Plasma,415
+SMC07,Tumor,B cells,Unknown,11
+SMC07,Tumor,Epithelial cells,CMS1,8
+SMC07,Tumor,Epithelial cells,CMS2,493
+SMC07,Tumor,Epithelial cells,CMS3,40
+SMC07,Tumor,Epithelial cells,CMS4,1
+SMC07,Tumor,Mast cells,Mast cells,2
+SMC07,Tumor,Myeloids,Pro-inflammatory,72
+SMC07,Tumor,Myeloids,Proliferating,32
+SMC07,Tumor,Myeloids,SPP1+,140
+SMC07,Tumor,Myeloids,Unknown,56
+SMC07,Tumor,Myeloids,cDC,32
+SMC07,Tumor,Stromal cells,Enteric glial cells,1
+SMC07,Tumor,Stromal cells,Lymphatic ECs,1
+SMC07,Tumor,Stromal cells,Myofibroblasts,26
+SMC07,Tumor,Stromal cells,Pericytes,40
+SMC07,Tumor,Stromal cells,Proliferative ECs,9
+SMC07,Tumor,Stromal cells,Smooth muscle cells,6
+SMC07,Tumor,Stromal cells,Stalk-like ECs,37
+SMC07,Tumor,Stromal cells,Stromal 1,11
+SMC07,Tumor,Stromal cells,Stromal 2,27
+SMC07,Tumor,Stromal cells,Stromal 3,2
+SMC07,Tumor,Stromal cells,Tip-like ECs,49
+SMC07,Tumor,T cells,CD4+ T cells,934
+SMC07,Tumor,T cells,CD8+ T cells,486
+SMC07,Tumor,T cells,NK cells,89
+SMC07,Tumor,T cells,Regulatory T cells,264
+SMC07,Tumor,T cells,T follicular helper cells,80
+SMC07,Tumor,T cells,T helper 17 cells,146
+SMC07,Tumor,T cells,Unknown,12
+SMC07,Tumor,T cells,gamma delta T cells,160
+SMC08,Normal,B cells,CD19+CD20+ B,432
+SMC08,Normal,B cells,IgA+ Plasma,129
+SMC08,Normal,B cells,IgG+ Plasma,19
+SMC08,Normal,B cells,Unknown,11
+SMC08,Normal,Epithelial cells,Goblet cells,3
+SMC08,Normal,Epithelial cells,Intermediate,9
+SMC08,Normal,Epithelial cells,Mature Enterocytes type 2,1
+SMC08,Normal,Epithelial cells,Stem-like/TA,5
+SMC08,Normal,Mast cells,Mast cells,41
+SMC08,Normal,Myeloids,Pro-inflammatory,19
+SMC08,Normal,Myeloids,SPP1+,8
+SMC08,Normal,Myeloids,cDC,7
+SMC08,Normal,Stromal cells,Enteric glial cells,17
+SMC08,Normal,Stromal cells,Lymphatic ECs,2
+SMC08,Normal,Stromal cells,Myofibroblasts,4
+SMC08,Normal,Stromal cells,Pericytes,8
+SMC08,Normal,Stromal cells,Smooth muscle cells,5
+SMC08,Normal,Stromal cells,Stalk-like ECs,19
+SMC08,Normal,Stromal cells,Stromal 1,66
+SMC08,Normal,Stromal cells,Stromal 2,20
+SMC08,Normal,Stromal cells,Stromal 3,42
+SMC08,Normal,Stromal cells,Tip-like ECs,50
+SMC08,Normal,T cells,CD4+ T cells,241
+SMC08,Normal,T cells,CD8+ T cells,294
+SMC08,Normal,T cells,NK cells,30
+SMC08,Normal,T cells,Regulatory T cells,18
+SMC08,Normal,T cells,T follicular helper cells,26
+SMC08,Normal,T cells,T helper 17 cells,8
+SMC08,Normal,T cells,Unknown,6
+SMC08,Normal,T cells,gamma delta T cells,80
+SMC08,Tumor,B cells,CD19+CD20+ B,163
+SMC08,Tumor,B cells,IgG+ Plasma,129
+SMC08,Tumor,B cells,Unknown,12
+SMC08,Tumor,Epithelial cells,CMS1,1
+SMC08,Tumor,Epithelial cells,CMS2,316
+SMC08,Tumor,Epithelial cells,CMS3,3
+SMC08,Tumor,Myeloids,Pro-inflammatory,126
+SMC08,Tumor,Myeloids,Proliferating,1
+SMC08,Tumor,Myeloids,SPP1+,150
+SMC08,Tumor,Myeloids,Unknown,21
+SMC08,Tumor,Myeloids,cDC,12
+SMC08,Tumor,Stromal cells,Myofibroblasts,120
+SMC08,Tumor,Stromal cells,Pericytes,7
+SMC08,Tumor,Stromal cells,Proliferative ECs,2
+SMC08,Tumor,Stromal cells,Smooth muscle cells,1
+SMC08,Tumor,Stromal cells,Stalk-like ECs,17
+SMC08,Tumor,Stromal cells,Stromal 1,4
+SMC08,Tumor,Stromal cells,Stromal 2,2
+SMC08,Tumor,Stromal cells,Tip-like ECs,5
+SMC08,Tumor,T cells,CD4+ T cells,147
+SMC08,Tumor,T cells,CD8+ T cells,264
+SMC08,Tumor,T cells,NK cells,38
+SMC08,Tumor,T cells,Regulatory T cells,84
+SMC08,Tumor,T cells,T follicular helper cells,51
+SMC08,Tumor,T cells,T helper 17 cells,219
+SMC08,Tumor,T cells,Unknown,194
+SMC09,Normal,B cells,CD19+CD20+ B,26
+SMC09,Normal,B cells,IgA+ Plasma,351
+SMC09,Normal,B cells,IgG+ Plasma,1
+SMC09,Normal,B cells,Unknown,4
+SMC09,Normal,Epithelial cells,Goblet cells,30
+SMC09,Normal,Epithelial cells,Intermediate,17
+SMC09,Normal,Epithelial cells,Mature Enterocytes type 1,96
+SMC09,Normal,Epithelial cells,Mature Enterocytes type 2,13
+SMC09,Normal,Epithelial cells,Stem-like/TA,33
+SMC09,Normal,Mast cells,Mast cells,6
+SMC09,Normal,Myeloids,Pro-inflammatory,2
+SMC09,Normal,Myeloids,SPP1+,19
+SMC09,Normal,Myeloids,Unknown,2
+SMC09,Normal,Myeloids,cDC,12
+SMC09,Normal,Stromal cells,Enteric glial cells,4
+SMC09,Normal,Stromal cells,Lymphatic ECs,2
+SMC09,Normal,Stromal cells,Myofibroblasts,1
+SMC09,Normal,Stromal cells,Pericytes,1
+SMC09,Normal,Stromal cells,Smooth muscle cells,9
+SMC09,Normal,Stromal cells,Stalk-like ECs,3
+SMC09,Normal,Stromal cells,Stromal 1,61
+SMC09,Normal,Stromal cells,Stromal 2,16
+SMC09,Normal,Stromal cells,Stromal 3,32
+SMC09,Normal,Stromal cells,Tip-like ECs,7
+SMC09,Normal,T cells,CD4+ T cells,218
+SMC09,Normal,T cells,CD8+ T cells,101
+SMC09,Normal,T cells,NK cells,8
+SMC09,Normal,T cells,Regulatory T cells,16
+SMC09,Normal,T cells,T follicular helper cells,1
+SMC09,Normal,T cells,T helper 17 cells,1
+SMC09,Normal,T cells,Unknown,10
+SMC09,Normal,T cells,gamma delta T cells,51
+SMC09,Tumor,B cells,CD19+CD20+ B,9
+SMC09,Tumor,B cells,IgA+ Plasma,1
+SMC09,Tumor,B cells,IgG+ Plasma,11
+SMC09,Tumor,Epithelial cells,CMS1,3
+SMC09,Tumor,Epithelial cells,CMS2,1841
+SMC09,Tumor,Epithelial cells,CMS3,43
+SMC09,Tumor,Myeloids,Pro-inflammatory,138
+SMC09,Tumor,Myeloids,Proliferating,10
+SMC09,Tumor,Myeloids,SPP1+,204
+SMC09,Tumor,Myeloids,Unknown,33
+SMC09,Tumor,Myeloids,cDC,16
+SMC09,Tumor,Stromal cells,Lymphatic ECs,1
+SMC09,Tumor,Stromal cells,Myofibroblasts,12
+SMC09,Tumor,Stromal cells,Pericytes,9
+SMC09,Tumor,Stromal cells,Proliferative ECs,1
+SMC09,Tumor,Stromal cells,Smooth muscle cells,2
+SMC09,Tumor,Stromal cells,Stalk-like ECs,9
+SMC09,Tumor,Stromal cells,Stromal 1,1
+SMC09,Tumor,Stromal cells,Stromal 2,1
+SMC09,Tumor,Stromal cells,Tip-like ECs,9
+SMC09,Tumor,T cells,CD4+ T cells,118
+SMC09,Tumor,T cells,CD8+ T cells,1017
+SMC09,Tumor,T cells,NK cells,26
+SMC09,Tumor,T cells,Regulatory T cells,218
+SMC09,Tumor,T cells,T follicular helper cells,23
+SMC09,Tumor,T cells,T helper 17 cells,27
+SMC09,Tumor,T cells,Unknown,2
+SMC09,Tumor,T cells,gamma delta T cells,4
+SMC10,Normal,B cells,CD19+CD20+ B,67
+SMC10,Normal,B cells,IgA+ Plasma,364
+SMC10,Normal,B cells,IgG+ Plasma,1
+SMC10,Normal,B cells,Unknown,5
+SMC10,Normal,Epithelial cells,Goblet cells,18
+SMC10,Normal,Epithelial cells,Intermediate,8
+SMC10,Normal,Epithelial cells,Mature Enterocytes type 1,15
+SMC10,Normal,Epithelial cells,Mature Enterocytes type 2,31
+SMC10,Normal,Epithelial cells,Stem-like/TA,53
+SMC10,Normal,Mast cells,Mast cells,28
+SMC10,Normal,Myeloids,Pro-inflammatory,17
+SMC10,Normal,Myeloids,SPP1+,30
+SMC10,Normal,Myeloids,cDC,20
+SMC10,Normal,Stromal cells,Enteric glial cells,51
+SMC10,Normal,Stromal cells,Lymphatic ECs,13
+SMC10,Normal,Stromal cells,Pericytes,17
+SMC10,Normal,Stromal cells,Smooth muscle cells,20
+SMC10,Normal,Stromal cells,Stalk-like ECs,3
+SMC10,Normal,Stromal cells,Stromal 1,240
+SMC10,Normal,Stromal cells,Stromal 2,65
+SMC10,Normal,Stromal cells,Stromal 3,236
+SMC10,Normal,Stromal cells,Tip-like ECs,85
+SMC10,Normal,T cells,CD4+ T cells,285
+SMC10,Normal,T cells,CD8+ T cells,234
+SMC10,Normal,T cells,NK cells,21
+SMC10,Normal,T cells,Regulatory T cells,14
+SMC10,Normal,T cells,T follicular helper cells,1
+SMC10,Normal,T cells,Unknown,5
+SMC10,Normal,T cells,gamma delta T cells,40
+SMC10,Tumor,B cells,CD19+CD20+ B,22
+SMC10,Tumor,B cells,IgG+ Plasma,90
+SMC10,Tumor,B cells,Unknown,1
+SMC10,Tumor,Epithelial cells,CMS1,79
+SMC10,Tumor,Epithelial cells,CMS2,40
+SMC10,Tumor,Epithelial cells,CMS3,392
+SMC10,Tumor,Myeloids,Pro-inflammatory,128
+SMC10,Tumor,Myeloids,Proliferating,42
+SMC10,Tumor,Myeloids,SPP1+,398
+SMC10,Tumor,Myeloids,Unknown,84
+SMC10,Tumor,Myeloids,cDC,19
+SMC10,Tumor,Stromal cells,Enteric glial cells,1
+SMC10,Tumor,Stromal cells,Lymphatic ECs,1
+SMC10,Tumor,Stromal cells,Myofibroblasts,64
+SMC10,Tumor,Stromal cells,Pericytes,16
+SMC10,Tumor,Stromal cells,Proliferative ECs,4
+SMC10,Tumor,Stromal cells,Smooth muscle cells,8
+SMC10,Tumor,Stromal cells,Stalk-like ECs,13
+SMC10,Tumor,Stromal cells,Stromal 1,19
+SMC10,Tumor,Stromal cells,Stromal 2,7
+SMC10,Tumor,Stromal cells,Stromal 3,3
+SMC10,Tumor,Stromal cells,Tip-like ECs,22
+SMC10,Tumor,T cells,CD4+ T cells,134
+SMC10,Tumor,T cells,CD8+ T cells,273
+SMC10,Tumor,T cells,NK cells,26
+SMC10,Tumor,T cells,Regulatory T cells,260
+SMC10,Tumor,T cells,T follicular helper cells,11
+SMC10,Tumor,T cells,T helper 17 cells,39
+SMC10,Tumor,T cells,Unknown,3
+SMC10,Tumor,T cells,gamma delta T cells,1
+SMC11,Tumor,B cells,CD19+CD20+ B,61
+SMC11,Tumor,B cells,IgA+ Plasma,3
+SMC11,Tumor,B cells,IgG+ Plasma,186
+SMC11,Tumor,B cells,Unknown,4
+SMC11,Tumor,Epithelial cells,CMS1,2
+SMC11,Tumor,Epithelial cells,CMS2,321
+SMC11,Tumor,Epithelial cells,CMS3,3
+SMC11,Tumor,Myeloids,Pro-inflammatory,18
+SMC11,Tumor,Myeloids,Proliferating,3
+SMC11,Tumor,Myeloids,SPP1+,39
+SMC11,Tumor,Myeloids,Unknown,8
+SMC11,Tumor,Myeloids,cDC,8
+SMC11,Tumor,Stromal cells,Myofibroblasts,9
+SMC11,Tumor,Stromal cells,Pericytes,10
+SMC11,Tumor,Stromal cells,Stalk-like ECs,6
+SMC11,Tumor,Stromal cells,Stromal 1,2
+SMC11,Tumor,Stromal cells,Stromal 2,11
+SMC11,Tumor,Stromal cells,Tip-like ECs,15
+SMC11,Tumor,T cells,CD4+ T cells,137
+SMC11,Tumor,T cells,CD8+ T cells,189
+SMC11,Tumor,T cells,NK cells,138
+SMC11,Tumor,T cells,Regulatory T cells,106
+SMC11,Tumor,T cells,T follicular helper cells,88
+SMC11,Tumor,T cells,T helper 17 cells,318
+SMC11,Tumor,T cells,Unknown,3
+SMC11,Tumor,T cells,gamma delta T cells,10
+SMC14,Tumor,B cells,CD19+CD20+ B,37
+SMC14,Tumor,B cells,IgA+ Plasma,1
+SMC14,Tumor,B cells,IgG+ Plasma,20
+SMC14,Tumor,Epithelial cells,CMS1,12
+SMC14,Tumor,Epithelial cells,CMS2,104
+SMC14,Tumor,Epithelial cells,CMS3,48
+SMC14,Tumor,Epithelial cells,CMS4,2
+SMC14,Tumor,Myeloids,Pro-inflammatory,244
+SMC14,Tumor,Myeloids,Proliferating,4
+SMC14,Tumor,Myeloids,SPP1+,276
+SMC14,Tumor,Myeloids,Unknown,30
+SMC14,Tumor,Myeloids,cDC,39
+SMC14,Tumor,Stromal cells,Enteric glial cells,4
+SMC14,Tumor,Stromal cells,Lymphatic ECs,4
+SMC14,Tumor,Stromal cells,Myofibroblasts,133
+SMC14,Tumor,Stromal cells,Pericytes,23
+SMC14,Tumor,Stromal cells,Proliferative ECs,4
+SMC14,Tumor,Stromal cells,Smooth muscle cells,37
+SMC14,Tumor,Stromal cells,Stalk-like ECs,57
+SMC14,Tumor,Stromal cells,Stromal 1,2
+SMC14,Tumor,Stromal cells,Stromal 2,2
+SMC14,Tumor,Stromal cells,Tip-like ECs,31
+SMC14,Tumor,T cells,CD4+ T cells,179
+SMC14,Tumor,T cells,CD8+ T cells,243
+SMC14,Tumor,T cells,NK cells,54
+SMC14,Tumor,T cells,Regulatory T cells,102
+SMC14,Tumor,T cells,T follicular helper cells,5
+SMC14,Tumor,T cells,T helper 17 cells,35
+SMC14,Tumor,T cells,Unknown,17
+SMC15,Tumor,B cells,CD19+CD20+ B,272
+SMC15,Tumor,B cells,IgA+ Plasma,4
+SMC15,Tumor,B cells,IgG+ Plasma,102
+SMC15,Tumor,B cells,Unknown,2
+SMC15,Tumor,Epithelial cells,CMS1,1
+SMC15,Tumor,Epithelial cells,CMS2,267
+SMC15,Tumor,Epithelial cells,CMS3,50
+SMC15,Tumor,Epithelial cells,CMS4,1
+SMC15,Tumor,Myeloids,Pro-inflammatory,53
+SMC15,Tumor,Myeloids,Proliferating,4
+SMC15,Tumor,Myeloids,SPP1+,63
+SMC15,Tumor,Myeloids,Unknown,9
+SMC15,Tumor,Myeloids,cDC,19
+SMC15,Tumor,Stromal cells,Enteric glial cells,10
+SMC15,Tumor,Stromal cells,Lymphatic ECs,5
+SMC15,Tumor,Stromal cells,Myofibroblasts,81
+SMC15,Tumor,Stromal cells,Pericytes,71
+SMC15,Tumor,Stromal cells,Proliferative ECs,2
+SMC15,Tumor,Stromal cells,Smooth muscle cells,11
+SMC15,Tumor,Stromal cells,Stalk-like ECs,21
+SMC15,Tumor,Stromal cells,Stromal 1,9
+SMC15,Tumor,Stromal cells,Stromal 2,16
+SMC15,Tumor,Stromal cells,Stromal 3,9
+SMC15,Tumor,Stromal cells,Tip-like ECs,71
+SMC15,Tumor,T cells,CD4+ T cells,119
+SMC15,Tumor,T cells,CD8+ T cells,113
+SMC15,Tumor,T cells,NK cells,23
+SMC15,Tumor,T cells,Regulatory T cells,162
+SMC15,Tumor,T cells,T follicular helper cells,38
+SMC15,Tumor,T cells,T helper 17 cells,157
+SMC15,Tumor,T cells,Unknown,258
+SMC15,Tumor,T cells,gamma delta T cells,4
+SMC16,Tumor,B cells,CD19+CD20+ B,8
+SMC16,Tumor,B cells,IgA+ Plasma,1
+SMC16,Tumor,B cells,IgG+ Plasma,3
+SMC16,Tumor,Epithelial cells,CMS1,102
+SMC16,Tumor,Epithelial cells,CMS2,4
+SMC16,Tumor,Epithelial cells,CMS3,2614
+SMC16,Tumor,Myeloids,Pro-inflammatory,18
+SMC16,Tumor,Myeloids,Proliferating,2
+SMC16,Tumor,Myeloids,SPP1+,21
+SMC16,Tumor,Myeloids,Unknown,4
+SMC16,Tumor,Myeloids,cDC,1
+SMC16,Tumor,Stromal cells,Lymphatic ECs,2
+SMC16,Tumor,Stromal cells,Myofibroblasts,3
+SMC16,Tumor,Stromal cells,Pericytes,2
+SMC16,Tumor,Stromal cells,Smooth muscle cells,2
+SMC16,Tumor,Stromal cells,Stalk-like ECs,2
+SMC16,Tumor,Stromal cells,Stromal 2,13
+SMC16,Tumor,Stromal cells,Tip-like ECs,5
+SMC16,Tumor,T cells,CD4+ T cells,47
+SMC16,Tumor,T cells,CD8+ T cells,35
+SMC16,Tumor,T cells,NK cells,10
+SMC16,Tumor,T cells,Regulatory T cells,29
+SMC16,Tumor,T cells,T helper 17 cells,26
+SMC16,Tumor,T cells,gamma delta T cells,2
+SMC17,Tumor,B cells,CD19+CD20+ B,11
+SMC17,Tumor,B cells,IgG+ Plasma,32
+SMC17,Tumor,B cells,Unknown,1
+SMC17,Tumor,Epithelial cells,CMS1,18
+SMC17,Tumor,Epithelial cells,CMS3,486
+SMC17,Tumor,Epithelial cells,CMS4,1
+SMC17,Tumor,Myeloids,Pro-inflammatory,162
+SMC17,Tumor,Myeloids,Proliferating,8
+SMC17,Tumor,Myeloids,SPP1+,160
+SMC17,Tumor,Myeloids,Unknown,15
+SMC17,Tumor,Myeloids,cDC,17
+SMC17,Tumor,Stromal cells,Enteric glial cells,1
+SMC17,Tumor,Stromal cells,Myofibroblasts,74
+SMC17,Tumor,Stromal cells,Pericytes,54
+SMC17,Tumor,Stromal cells,Proliferative ECs,6
+SMC17,Tumor,Stromal cells,Smooth muscle cells,4
+SMC17,Tumor,Stromal cells,Stalk-like ECs,23
+SMC17,Tumor,Stromal cells,Stromal 2,2
+SMC17,Tumor,Stromal cells,Tip-like ECs,39
+SMC17,Tumor,T cells,CD4+ T cells,70
+SMC17,Tumor,T cells,CD8+ T cells,54
+SMC17,Tumor,T cells,NK cells,20
+SMC17,Tumor,T cells,Regulatory T cells,46
+SMC17,Tumor,T cells,T follicular helper cells,3
+SMC17,Tumor,T cells,T helper 17 cells,29
+SMC17,Tumor,T cells,Unknown,7
+SMC18,Tumor,B cells,CD19+CD20+ B,36
+SMC18,Tumor,B cells,IgA+ Plasma,4
+SMC18,Tumor,B cells,IgG+ Plasma,21
+SMC18,Tumor,Epithelial cells,CMS1,2
+SMC18,Tumor,Epithelial cells,CMS2,1458
+SMC18,Tumor,Epithelial cells,CMS3,56
+SMC18,Tumor,Myeloids,Pro-inflammatory,28
+SMC18,Tumor,Myeloids,Proliferating,2
+SMC18,Tumor,Myeloids,SPP1+,37
+SMC18,Tumor,Myeloids,Unknown,3
+SMC18,Tumor,Myeloids,cDC,9
+SMC18,Tumor,Stromal cells,Myofibroblasts,1
+SMC18,Tumor,Stromal cells,Stalk-like ECs,4
+SMC18,Tumor,Stromal cells,Stromal 3,1
+SMC18,Tumor,Stromal cells,Tip-like ECs,1
+SMC18,Tumor,T cells,CD4+ T cells,78
+SMC18,Tumor,T cells,CD8+ T cells,61
+SMC18,Tumor,T cells,NK cells,16
+SMC18,Tumor,T cells,Regulatory T cells,49
+SMC18,Tumor,T cells,T follicular helper cells,4
+SMC18,Tumor,T cells,T helper 17 cells,56
+SMC18,Tumor,T cells,gamma delta T cells,9
+SMC19,Tumor,B cells,CD19+CD20+ B,233
+SMC19,Tumor,B cells,IgA+ Plasma,40
+SMC19,Tumor,B cells,IgG+ Plasma,56
+SMC19,Tumor,B cells,Unknown,1
+SMC19,Tumor,Epithelial cells,CMS1,2
+SMC19,Tumor,Epithelial cells,CMS2,27
+SMC19,Tumor,Epithelial cells,CMS3,353
+SMC19,Tumor,Myeloids,Pro-inflammatory,7
+SMC19,Tumor,Myeloids,SPP1+,14
+SMC19,Tumor,Myeloids,Unknown,3
+SMC19,Tumor,Myeloids,cDC,6
+SMC19,Tumor,Stromal cells,Myofibroblasts,2
+SMC19,Tumor,Stromal cells,Pericytes,3
+SMC19,Tumor,Stromal cells,Smooth muscle cells,4
+SMC19,Tumor,Stromal cells,Stalk-like ECs,4
+SMC19,Tumor,Stromal cells,Stromal 1,5
+SMC19,Tumor,Stromal cells,Stromal 2,17
+SMC19,Tumor,Stromal cells,Tip-like ECs,2
+SMC19,Tumor,T cells,CD4+ T cells,514
+SMC19,Tumor,T cells,CD8+ T cells,118
+SMC19,Tumor,T cells,NK cells,12
+SMC19,Tumor,T cells,Regulatory T cells,46
+SMC19,Tumor,T cells,T follicular helper cells,4
+SMC19,Tumor,T cells,T helper 17 cells,61
+SMC19,Tumor,T cells,Unknown,6
+SMC20,Tumor,B cells,CD19+CD20+ B,35
+SMC20,Tumor,B cells,IgG+ Plasma,54
+SMC20,Tumor,Epithelial cells,CMS1,1
+SMC20,Tumor,Epithelial cells,CMS3,522
+SMC20,Tumor,Epithelial cells,CMS4,1
+SMC20,Tumor,Myeloids,Pro-inflammatory,83
+SMC20,Tumor,Myeloids,Proliferating,5
+SMC20,Tumor,Myeloids,SPP1+,208
+SMC20,Tumor,Myeloids,Unknown,28
+SMC20,Tumor,Myeloids,cDC,23
+SMC20,Tumor,Stromal cells,Myofibroblasts,299
+SMC20,Tumor,Stromal cells,Pericytes,39
+SMC20,Tumor,Stromal cells,Smooth muscle cells,7
+SMC20,Tumor,Stromal cells,Stalk-like ECs,10
+SMC20,Tumor,Stromal cells,Stromal 1,2
+SMC20,Tumor,Stromal cells,Stromal 2,4
+SMC20,Tumor,Stromal cells,Tip-like ECs,13
+SMC20,Tumor,T cells,CD4+ T cells,23
+SMC20,Tumor,T cells,CD8+ T cells,35
+SMC20,Tumor,T cells,NK cells,31
+SMC20,Tumor,T cells,Regulatory T cells,65
+SMC20,Tumor,T cells,T helper 17 cells,1
+SMC20,Tumor,T cells,Unknown,191
+SMC20,Tumor,T cells,gamma delta T cells,1
+SMC21,Tumor,B cells,CD19+CD20+ B,51
+SMC21,Tumor,B cells,IgA+ Plasma,1
+SMC21,Tumor,B cells,IgG+ Plasma,15
+SMC21,Tumor,Epithelial cells,CMS1,3
+SMC21,Tumor,Epithelial cells,CMS2,1673
+SMC21,Tumor,Epithelial cells,CMS3,51
+SMC21,Tumor,Myeloids,Pro-inflammatory,15
+SMC21,Tumor,Myeloids,Proliferating,5
+SMC21,Tumor,Myeloids,SPP1+,35
+SMC21,Tumor,Myeloids,Unknown,4
+SMC21,Tumor,Myeloids,cDC,3
+SMC21,Tumor,Stromal cells,Myofibroblasts,2
+SMC21,Tumor,Stromal cells,Stromal 2,2
+SMC21,Tumor,T cells,CD4+ T cells,57
+SMC21,Tumor,T cells,CD8+ T cells,93
+SMC21,Tumor,T cells,NK cells,27
+SMC21,Tumor,T cells,Regulatory T cells,80
+SMC21,Tumor,T cells,T follicular helper cells,5
+SMC21,Tumor,T cells,T helper 17 cells,220
+SMC21,Tumor,T cells,Unknown,5
+SMC21,Tumor,T cells,gamma delta T cells,1
+SMC22,Tumor,B cells,CD19+CD20+ B,18
+SMC22,Tumor,B cells,IgG+ Plasma,5
+SMC22,Tumor,Epithelial cells,CMS1,3
+SMC22,Tumor,Epithelial cells,CMS2,1690
+SMC22,Tumor,Epithelial cells,CMS3,209
+SMC22,Tumor,Myeloids,Pro-inflammatory,43
+SMC22,Tumor,Myeloids,Proliferating,3
+SMC22,Tumor,Myeloids,SPP1+,31
+SMC22,Tumor,Myeloids,Unknown,2
+SMC22,Tumor,Myeloids,cDC,7
+SMC22,Tumor,Stromal cells,Lymphatic ECs,1
+SMC22,Tumor,Stromal cells,Myofibroblasts,1
+SMC22,Tumor,Stromal cells,Pericytes,2
+SMC22,Tumor,Stromal cells,Stalk-like ECs,5
+SMC22,Tumor,Stromal cells,Stromal 2,3
+SMC22,Tumor,Stromal cells,Tip-like ECs,4
+SMC22,Tumor,T cells,CD4+ T cells,45
+SMC22,Tumor,T cells,CD8+ T cells,91
+SMC22,Tumor,T cells,NK cells,12
+SMC22,Tumor,T cells,Regulatory T cells,50
+SMC22,Tumor,T cells,T follicular helper cells,2
+SMC22,Tumor,T cells,T helper 17 cells,122
+SMC22,Tumor,T cells,Unknown,14
+SMC23,Tumor,B cells,CD19+CD20+ B,31
+SMC23,Tumor,B cells,IgA+ Plasma,2
+SMC23,Tumor,B cells,IgG+ Plasma,84
+SMC23,Tumor,B cells,Unknown,1
+SMC23,Tumor,Epithelial cells,CMS1,4
+SMC23,Tumor,Epithelial cells,CMS2,491
+SMC23,Tumor,Epithelial cells,CMS3,142
+SMC23,Tumor,Epithelial cells,CMS4,2
+SMC23,Tumor,Myeloids,Pro-inflammatory,69
+SMC23,Tumor,Myeloids,Proliferating,6
+SMC23,Tumor,Myeloids,SPP1+,129
+SMC23,Tumor,Myeloids,Unknown,15
+SMC23,Tumor,Myeloids,cDC,23
+SMC23,Tumor,Stromal cells,Myofibroblasts,5
+SMC23,Tumor,Stromal cells,Pericytes,5
+SMC23,Tumor,Stromal cells,Proliferative ECs,2
+SMC23,Tumor,Stromal cells,Smooth muscle cells,1
+SMC23,Tumor,Stromal cells,Stalk-like ECs,4
+SMC23,Tumor,Stromal cells,Stromal 1,3
+SMC23,Tumor,Stromal cells,Stromal 2,6
+SMC23,Tumor,Stromal cells,Tip-like ECs,7
+SMC23,Tumor,T cells,CD4+ T cells,280
+SMC23,Tumor,T cells,CD8+ T cells,103
+SMC23,Tumor,T cells,NK cells,39
+SMC23,Tumor,T cells,Regulatory T cells,90
+SMC23,Tumor,T cells,T follicular helper cells,14
+SMC23,Tumor,T cells,T helper 17 cells,76
+SMC23,Tumor,T cells,Unknown,3
+SMC23,Tumor,T cells,gamma delta T cells,2
+SMC24,Tumor,B cells,CD19+CD20+ B,125
+SMC24,Tumor,B cells,IgG+ Plasma,36
+SMC24,Tumor,Epithelial cells,CMS1,142
+SMC24,Tumor,Epithelial cells,CMS2,2
+SMC24,Tumor,Epithelial cells,CMS3,172
+SMC24,Tumor,Epithelial cells,CMS4,1
+SMC24,Tumor,Myeloids,Pro-inflammatory,190
+SMC24,Tumor,Myeloids,Proliferating,4
+SMC24,Tumor,Myeloids,SPP1+,142
+SMC24,Tumor,Myeloids,Unknown,20
+SMC24,Tumor,Myeloids,cDC,23
+SMC24,Tumor,Stromal cells,Enteric glial cells,1
+SMC24,Tumor,Stromal cells,Myofibroblasts,22
+SMC24,Tumor,Stromal cells,Pericytes,7
+SMC24,Tumor,Stromal cells,Proliferative ECs,2
+SMC24,Tumor,Stromal cells,Stalk-like ECs,5
+SMC24,Tumor,Stromal cells,Stromal 1,4
+SMC24,Tumor,Stromal cells,Stromal 2,1
+SMC24,Tumor,Stromal cells,Stromal 3,1
+SMC24,Tumor,Stromal cells,Tip-like ECs,12
+SMC24,Tumor,T cells,CD4+ T cells,138
+SMC24,Tumor,T cells,CD8+ T cells,242
+SMC24,Tumor,T cells,NK cells,55
+SMC24,Tumor,T cells,Regulatory T cells,126
+SMC24,Tumor,T cells,T follicular helper cells,71
+SMC24,Tumor,T cells,T helper 17 cells,9
+SMC24,Tumor,T cells,Unknown,23
+SMC24,Tumor,T cells,gamma delta T cells,4
+SMC25,Tumor,B cells,CD19+CD20+ B,164
+SMC25,Tumor,B cells,IgA+ Plasma,1
+SMC25,Tumor,B cells,IgG+ Plasma,89
+SMC25,Tumor,B cells,Unknown,3
+SMC25,Tumor,Epithelial cells,CMS2,386
+SMC25,Tumor,Epithelial cells,CMS3,30
+SMC25,Tumor,Myeloids,Pro-inflammatory,31
+SMC25,Tumor,Myeloids,Proliferating,2
+SMC25,Tumor,Myeloids,SPP1+,26
+SMC25,Tumor,Myeloids,Unknown,4
+SMC25,Tumor,Myeloids,cDC,13
+SMC25,Tumor,Stromal cells,Myofibroblasts,1
+SMC25,Tumor,Stromal cells,Pericytes,2
+SMC25,Tumor,Stromal cells,Proliferative ECs,1
+SMC25,Tumor,Stromal cells,Stalk-like ECs,13
+SMC25,Tumor,Stromal cells,Stromal 2,3
+SMC25,Tumor,Stromal cells,Tip-like ECs,7
+SMC25,Tumor,T cells,CD4+ T cells,271
+SMC25,Tumor,T cells,CD8+ T cells,181
+SMC25,Tumor,T cells,NK cells,72
+SMC25,Tumor,T cells,Regulatory T cells,93
+SMC25,Tumor,T cells,T follicular helper cells,31
+SMC25,Tumor,T cells,T helper 17 cells,202
+SMC25,Tumor,T cells,Unknown,2
+SMC25,Tumor,T cells,gamma delta T cells,4

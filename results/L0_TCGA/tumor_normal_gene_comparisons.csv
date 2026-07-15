@@ -1,0 +1,5 @@
+gene,n_tumor,n_adjacent_normal,median_tumor,median_adjacent_normal,median_difference,p_value,fdr_bh
+FAP,383,51,8.0027,3.7993,4.2034,0,0
+CLDN1,383,51,11.0032,6.0044,4.9988,0,0
+CLDN2,383,51,10.9615,4.4119,6.5496,0,0
+CLDN4,383,51,14.0196,14.3241,-0.304499999999999,0.000152218633751273,0.000152218633751273

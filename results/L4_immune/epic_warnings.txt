@@ -1,0 +1,3 @@
+The optimization didn't fully converge for some samples:
+TCGA-A6-A566-01; TCGA-A6-6781-01; TCGA-D5-6531-01; TCGA-F4-6569-01; TCGA-CM-4751-01; TCGA-NH-A50T-01; TCGA-G4-6303-01; TCGA-CM-5861-01; TCGA-F4-6855-01; TCGA-AY-A69D-01; TCGA-AA-3502-01; TCGA-A6-6141-01; TCGA-F5-6702-01; TCGA-EI-6885-01; TCGA-G5-6233-01
+ - check fit.gof for the convergeCode and convergeMessage
