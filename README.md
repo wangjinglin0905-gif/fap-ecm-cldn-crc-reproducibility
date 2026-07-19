@@ -1,6 +1,17 @@
 # FAP–ECM–CLDN colorectal cancer reproducibility package
 
-Version: 2026-07-15, R 4.6.1 audit release
+Version: v1.1.0 candidate, 2026-07-19, R 4.6.1 audit release
+
+## v1.1.0 revision scope
+
+This candidate release supersedes v1.0.0 for the audited manuscript. It adds:
+
+- member-specific TCGA correlations for CLDN1, CLDN2, CLDN4 and the prespecified CLDN core;
+- a 380-primary-tumour sensitivity analysis;
+- a 32-pair matched TCGA primary-tumour versus adjacent-normal sensitivity analysis;
+- corrected sparse-matrix dimension-name handling and barcode identity checks in both conventional CellChat scripts;
+- regenerated Figures 1 and 6 and updated figure source data;
+- a consolidated validation manifest that distinguishes the historical full run from the 2026-07-19 reruns.
 
 This package supports the manuscript:
 
@@ -25,7 +36,7 @@ The internal result-column name `FAP_CAF_de_ligand` is retained for traceability
 - `audits/`: evidence ledger, result-comparison, reference-verification and document-structure audit outputs.
 - `FILE_MANIFEST.csv`: SHA-256, size and relative path for every packaged file.
 
-Large public raw files are retained locally but are not redistributed in this ZIP. Their filenames, sizes and checksums are listed in `manifests/raw_input_manifest_r461.csv`.
+Large public raw files are retained locally but are not redistributed in this ZIP. Their filenames, sizes and checksums are listed in `manifests/raw_input_manifest_r461.csv` (408 files; 5.678 GiB in the retained audit set).
 
 ## Required R environment
 
@@ -100,7 +111,7 @@ $env:FAP_R_LIBRARY='D:/path/to/R/library'
 & 'work/reproducibility/run_r461_pipeline.ps1'
 ```
 
-The runner verifies that the configured executable is R 4.6.1 and executes 18 R stages in this order:
+The runner verifies that the configured executable is R 4.6.1 and executes 19 R stages in this order:
 
 1. TCGA bulk analysis
 2. Qi spatial analysis
@@ -119,9 +130,10 @@ The runner verifies that the configured executable is R 4.6.1 and executes 18 R 
 15. Spatial CellChat post-processing
 16. UALCAN CPTAC parsing
 17. Primary-tumour-only TCGA sensitivity analysis
-18. Final figure regeneration
+18. Individual-claudin and matched primary-tumour/normal sensitivity analysis
+19. Final figure regeneration
 
-The completed audit manifest in `manifests/run_manifest.csv` records exit code 0 for every stage. Reference verification is kept separate because it requires live Crossref or NCBI access.
+The historical full-run manifest is retained in `manifests/run_manifest.csv`. The consolidated `manifests/current_validation_manifest.csv` records the historical run, the 2026-07-19 reruns, the added stage 18 sensitivity analysis and the corrected CellChat reruns. Reference verification is kept separate because it requires live Crossref or NCBI access.
 
 `scripts/06_oncopredict_l4.R` is retained for audit completeness. Its output is excluded from the revised manuscript because it did not provide externally validated clinical prediction.
 
@@ -133,6 +145,18 @@ The previous draft's value of 85 interactions was incorrect. The R 4.6.1 rerun p
 - SMC20-excluded sensitivity analysis: 93 significant pairs, including 35 COLLAGEN-pathway and 4 FN1-pathway pairs.
 
 The conventional analysis uses `type = "triMean"`. The spatial CellChat analysis uses a 10% truncated mean. These outputs represent expression-compatible communication probabilities and do not prove receptor activation or causality.
+
+Both conventional CellChat scripts now preserve matrix dimension names after sparse-matrix normalisation and assert exact barcode identity between the expression matrix and metadata before creating the CellChat object. The corrected reruns retained the same reported pair counts: 80 in the pooled analysis and 93 after excluding SMC20.
+
+## Member-specific claudin and matched-pair sensitivity
+
+`scripts/18_tcga_individual_claudin_and_matched_sensitivity.R` prevents opposing claudin directions from being hidden by the composite score.
+
+- Across all 434 profiles, reduced FAP-CAF score correlations were positive for CLDN1 (rho=0.155, FDR=0.00255), inverse for CLDN4 (rho=-0.154, FDR=0.00255), and not significant for CLDN2 or the CLDN core.
+- In 380 primary tumours, correlations were inverse for CLDN2, CLDN4 and the CLDN core; the CLDN1 estimate attenuated to rho=0.100 (FDR=0.0510).
+- In 32 matched primary-tumour/adjacent-normal pairs, FAP, CLDN1 and CLDN2 were higher in tumours, whereas CLDN4 was not significantly different after correction.
+
+These analyses support weak, member-specific associations rather than a consistent family-wide positive FAP-CLDN relationship.
 
 ## Analysis units and multiplicity
 

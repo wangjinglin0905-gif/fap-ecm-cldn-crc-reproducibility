@@ -24,12 +24,14 @@ rownames(counts) <- genes
 colnames(counts) <- rownames(meta)
 meta <- meta[colnames(counts), , drop = FALSE]
 stopifnot(identical(colnames(counts), rownames(meta)))
-meta$samples <- meta$patient
+meta$samples <- factor(meta$patient)
 
 library_sizes <- Matrix::colSums(counts)
 if (any(library_sizes == 0)) stop("Zero-library cells were detected")
 normalized <- counts %*% Diagonal(x = 10000 / library_sizes)
 normalized@x <- log1p(normalized@x)
+dimnames(normalized) <- dimnames(counts)
+stopifnot(identical(colnames(normalized), rownames(meta)))
 
 data(CellChatDB.human)
 base_object <- createCellChat(

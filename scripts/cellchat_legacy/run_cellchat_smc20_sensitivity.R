@@ -25,6 +25,8 @@ meta$samples <- factor(meta$patient)
 library_sizes <- Matrix::colSums(counts)
 normalized <- counts %*% Diagonal(x = 10000 / library_sizes)
 normalized@x <- log1p(normalized@x)
+dimnames(normalized) <- dimnames(counts)
+stopifnot(identical(colnames(normalized), rownames(meta)))
 
 data(CellChatDB.human)
 object <- createCellChat(normalized, meta = meta, group.by = "group")

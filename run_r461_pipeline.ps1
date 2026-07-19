@@ -1,4 +1,9 @@
-$ErrorActionPreference = "Stop"
+# R writes routine progress messages to stderr. Windows PowerShell 5.1 wraps
+# such lines as non-terminating NativeCommandError records; treating every one
+# as "Stop" aborts otherwise successful R stages. We therefore let the native
+# process complete and use its exit code below as the authoritative failure
+# signal.
+$ErrorActionPreference = "Continue"
 
 $ProjectRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path
 $Rscript = if ($env:FAP_R461) {
@@ -34,8 +39,18 @@ $Stages = @(
     @{ Label = "14b_spatial_cellchat_postprocess"; Script = "work/reproducibility/scripts/14b_spatial_cellchat_postprocess.R" },
     @{ Label = "15_ualcan_cptac_parser"; Script = "work/reproducibility/scripts/15_ualcan_cptac_parser.R" },
     @{ Label = "17_tcga_primary_sensitivity"; Script = "work/reproducibility/scripts/17_tcga_primary_tumour_sensitivity.R" },
+    @{ Label = "18_tcga_claudin_matched_sensitivity"; Script = "work/reproducibility/scripts/18_tcga_individual_claudin_and_matched_sensitivity.R" },
     @{ Label = "20_regenerate_all_figures"; Script = "work/reproducibility/scripts/20_regenerate_all_figures.R" }
 )
+
+# Optional restart support. Supply a comma-separated list of completed labels,
+# for example:
+#   $env:FAP_SKIP_COMPLETED='01_tcga_l0,03_spatial_l2'
+# With the variable unset, the full 19-stage audit is run.
+if ($env:FAP_SKIP_COMPLETED) {
+    $CompletedLabels = @($env:FAP_SKIP_COMPLETED -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ })
+    $Stages = @($Stages | Where-Object { $CompletedLabels -notcontains $_.Label })
+}
 
 $LogDirectory = Join-Path $ProjectRoot "work/reproducibility/run_logs"
 New-Item -ItemType Directory -Force -Path $LogDirectory | Out-Null
@@ -46,6 +61,8 @@ try {
     foreach ($Stage in $Stages) {
         $Started = Get-Date
         $LogPath = Join-Path $LogDirectory ($Stage.Label + ".log")
+        # Ensure a zero-output R stage still has a resolvable log artifact.
+        [System.IO.File]::WriteAllText($LogPath, "")
         & $Rscript --vanilla $Stage.Script 2>&1 | Tee-Object -FilePath $LogPath
         $ExitCode = $LASTEXITCODE
         $Ended = Get-Date

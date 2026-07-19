@@ -1,0 +1,8 @@
+﻿"label","script","started","ended","duration_seconds","exit_code","log"
+"12b_gse166555_statistics","work/reproducibility/scripts/12b_gse166555_statistics.R","2026-07-19T14:39:17.0977673+08:00","2026-07-19T14:39:33.2571461+08:00","16.159","0","work\reproducibility\run_logs\12b_gse166555_statistics.log"
+"13_valdeolivas_spatial","work/reproducibility/scripts/13_valdeolivas_spatial_validation.R","2026-07-19T14:39:33.2712105+08:00","2026-07-19T14:42:04.4031015+08:00","151.132","0","work\reproducibility\run_logs\13_valdeolivas_spatial.log"
+"14_spatial_cellchat","work/reproducibility/scripts/14_spatial_cellchat_validation.R","2026-07-19T14:42:04.4038260+08:00","2026-07-19T14:51:31.3837706+08:00","566.98","0","work\reproducibility\run_logs\14_spatial_cellchat.log"
+"14b_spatial_cellchat_postprocess","work/reproducibility/scripts/14b_spatial_cellchat_postprocess.R","2026-07-19T14:51:31.3847710+08:00","2026-07-19T14:51:31.5938776+08:00","0.209","0","work\reproducibility\run_logs\14b_spatial_cellchat_postprocess.log"
+"15_ualcan_cptac_parser","work/reproducibility/scripts/15_ualcan_cptac_parser.R","2026-07-19T14:51:31.5938776+08:00","2026-07-19T14:51:33.8197195+08:00","2.226","0","work\reproducibility\run_logs\15_ualcan_cptac_parser.log"
+"17_tcga_primary_sensitivity","work/reproducibility/scripts/17_tcga_primary_tumour_sensitivity.R","2026-07-19T14:51:33.8207192+08:00","2026-07-19T14:51:36.1129419+08:00","2.292","0","work\reproducibility\run_logs\17_tcga_primary_sensitivity.log"
+"20_regenerate_all_figures","work/reproducibility/scripts/20_regenerate_all_figures.R","2026-07-19T14:51:36.1139406+08:00","2026-07-19T14:51:54.1171774+08:00","18.003","0","work\reproducibility\run_logs\20_regenerate_all_figures.log"

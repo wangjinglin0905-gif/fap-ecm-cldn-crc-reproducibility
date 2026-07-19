@@ -94,6 +94,24 @@ tn <- read_result("L0_TCGA", "tumor_normal_gene_comparisons.csv")
 scores <- read_result("L0_TCGA", "tcga_recomputed_scores.csv")
 cms <- read_result("L0_TCGA", "cms_classifier_results.csv")
 cptac <- read_result("CPTAC_protein", "cptac_prespecified_correlations.csv")
+bulk_cldn <- read_result(
+  "L0_TCGA_claudin_sensitivity",
+  "reduced_fap_caf_individual_claudin_correlations.csv"
+) %>%
+  filter(scope %in% c("all_profiles", "primary_tumours")) %>%
+  mutate(
+    scope_label = recode(
+      scope,
+      all_profiles = "All profiles",
+      primary_tumours = "Primary tumours"
+    ),
+    scope_label = factor(
+      scope_label,
+      levels = c("All profiles", "Primary tumours")
+    ),
+    outcome = factor(outcome, levels = rev(c("CLDN1", "CLDN2", "CLDN4", "CLDN_core")),
+                     labels = rev(c("CLDN1", "CLDN2", "CLDN4", "CLDN core")))
+  )
 
 p1a <- ggplot(tn, aes(x = reorder(gene, median_difference), y = median_difference,
                       fill = median_difference > 0)) +
@@ -115,14 +133,34 @@ p1b <- ggplot(scores, aes(FAP_CAF, FAP_CAF_de_ligand)) +
            label = "Spearman rho = 0.987\nn = 434", size = 2.25, family = "Arial") +
   labs(title = "FAP–CAF score robustness", x = "Original FAP–CAF score", y = "Reduced FAP–CAF score")
 
-p1c <- ggplot(scores, aes(FAP_CAF_de_ligand, CLDN_core)) +
-  geom_hline(yintercept = 0, linewidth = 0.25, colour = palette["light_grey"]) +
-  geom_vline(xintercept = 0, linewidth = 0.25, colour = palette["light_grey"]) +
-  geom_point(size = 0.65, alpha = 0.45, colour = palette["purple"]) +
-  geom_smooth(method = "lm", se = FALSE, linewidth = 0.65, colour = palette["dark"]) +
-  annotate("text", x = -Inf, y = Inf, hjust = -0.05, vjust = 1.3,
-           label = "Spearman rho = -0.054\nP = 0.262", size = 2.25, family = "Arial") +
-  labs(title = "No positive bulk association", x = "Reduced FAP–CAF score", y = "CLDN core score")
+p1c <- ggplot(bulk_cldn, aes(spearman_rho, outcome, colour = scope_label, shape = scope_label)) +
+  geom_vline(xintercept = 0, linewidth = 0.35, linetype = 2, colour = palette["grey"]) +
+  geom_errorbar(
+    aes(xmin = ci_low, xmax = ci_high),
+    width = 0.16,
+    orientation = "y",
+    position = position_dodge(width = 0.38),
+    linewidth = 0.45
+  ) +
+  geom_point(position = position_dodge(width = 0.38), size = 1.7) +
+  scale_colour_manual(
+    values = c("All profiles" = unname(palette["teal"]),
+               "Primary tumours" = unname(palette["purple"])),
+    name = NULL
+  ) +
+  scale_shape_manual(values = c("All profiles" = 16, "Primary tumours" = 17), name = NULL) +
+  coord_cartesian(xlim = c(-0.34, 0.34)) +
+  labs(
+    title = "Member-specific bulk associations",
+    subtitle = "All profiles n = 434; primary tumours n = 380",
+    x = "Spearman rho (95% CI)",
+    y = NULL
+  ) +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 5.6),
+    legend.box.spacing = grid::unit(0, "mm")
+  )
 
 cms_ssp <- cms %>% filter(SSP_predicted %in% paste0("CMS", 1:4)) %>%
   mutate(SSP_predicted = factor(SSP_predicted, levels = paste0("CMS", 1:4)))
@@ -397,17 +435,17 @@ evidence <- data.frame(
   layer = factor(c("Bulk RNA", "Single-cell", "Protein", "Spatial", "Spatial communication", "Causal perturbation"),
                  levels = rev(c("Bulk RNA", "Single-cell", "Protein", "Spatial", "Spatial communication", "Causal perturbation"))),
   FAP_ECM = c("Supported", "Supported", "Supported", "Supported", "Supported", "Not tested"),
-  FAP_CLDN = c("No positive support", "No positive support", "No positive support", "No positive support", "Not applicable", "Not tested"),
+  FAP_CLDN = c("Not supported", "Not supported", "Not supported", "Not supported", "Not applicable", "Not tested"),
   ECM_receptor = c("Indirect", "Supported", "Not tested", "Indirect", "Supported", "Not tested"),
   CLDN_effect = c("Linkage untested", "Linkage untested", "Linkage untested", "Linkage untested", "Not established", "Not tested")
 ) %>% pivot_longer(-layer, names_to = "claim", values_to = "status") %>%
-  mutate(claim = recode(claim, FAP_ECM = "FAP–ECM association", FAP_CLDN = "Direct FAP–CLDN coupling",
+  mutate(claim = recode(claim, FAP_ECM = "FAP–ECM association", FAP_CLDN = "Consistent positive FAP–CLDN covariation",
                         ECM_receptor = "ECM–receptor interface", CLDN_effect = "Downstream CLDN effect"),
-         claim = factor(claim, levels = c("FAP–ECM association", "Direct FAP–CLDN coupling",
+         claim = factor(claim, levels = c("FAP–ECM association", "Consistent positive FAP–CLDN covariation",
                                           "ECM–receptor interface", "Downstream CLDN effect")))
 
 status_colors <- c("Supported" = "#5AB4AC", "Indirect" = "#A8DDB5", "Linkage untested" = "#FDD49E",
-                   "No positive support" = "#D7301F", "Not established" = "#FC8D59", "Not applicable" = "#D9D9D9",
+                   "Not supported" = "#D7301F", "Not established" = "#FC8D59", "Not applicable" = "#D9D9D9",
                    "Not tested" = "#F0F0F0")
 p6a <- ggplot(evidence, aes(claim, layer, fill = status)) +
   geom_tile(colour = "white", linewidth = 1.0) +
@@ -511,6 +549,8 @@ source_files <- c(
   file.path(result_root, "L0_TCGA", "tumor_normal_gene_comparisons.csv"),
   file.path(result_root, "L0_TCGA", "tcga_recomputed_scores.csv"),
   file.path(result_root, "L0_TCGA", "cms_classifier_results.csv"),
+  file.path(result_root, "L0_TCGA_claudin_sensitivity", "reduced_fap_caf_individual_claudin_correlations.csv"),
+  file.path(result_root, "L0_TCGA_claudin_sensitivity", "matched_primary_normal_tests.csv"),
   file.path(result_root, "CPTAC_protein", "cptac_prespecified_correlations.csv"),
   file.path(result_root, "L1_single_cell", "gse132465_marker_expression_by_subtype.csv"),
   file.path(result_root, "L1_TISCH_GSE166555", "paired_tumor_normal_tests.csv"),

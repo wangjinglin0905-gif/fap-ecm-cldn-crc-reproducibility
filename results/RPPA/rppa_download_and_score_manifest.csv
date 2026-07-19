@@ -2,5 +2,5 @@ item,value
 study,coadread_tcga
 molecular_profile,coadread_tcga_rppa
 sample_list,coadread_tcga_rppa
-api_retrieval_date,2026-07-15
+api_retrieval_date,2026-07-19
 rna_score_genes,TGFB1;TGFB2;TGFB3;SMAD2;SMAD3;SMAD4;SMAD7
