@@ -95,6 +95,34 @@ See `DATA_MANIFEST.csv`, `DATA_USE_NOTICE.md` and `docs/DATA_DOWNLOAD.md`.
 - The historical target-gene-denominator mixed model is retained only to explain earlier values; the manuscript uses full-library normalisation.
 - MCP-counter and EPIC outputs must be selected by name, never by row position.
 
+## Manuscript figure and table crosswalk
+
+Release v1.3.0 supports the same audited analyses in the Scientific Reports R1 and AJCR journal-formatted manuscripts. The mapping below changes only figure and table numbering; the numerical results, source data and inferential scripts are identical.
+
+| Scientific Reports R1 | AJCR version | Content |
+|---|---|---|
+| Figure 1 | Figure 1 | Bulk transcriptomic and proteomic FAP-ECM/claudin analyses |
+| Figure 2 | Figure 2 | Single-cell compartment analyses |
+| Figure 3 | Figure 3 | CellChat-inferred interactions and spatial reproducibility |
+| Figure 4 | Figure 9 | Matched-null, CPTAC matrix3 and purity-robustness analyses |
+| Figure 5 | Figure 10 | Senescence-associated transcriptional covariation |
+| Supplementary Figures S1-S7 | Supplementary Figures S1-S7 | T-category, survival, differential-expression, state-ordering, claudin, CDH1 and CMS analyses |
+| Supplementary Figure S8 | Figure 4 | Spatially constrained CellChat and Visium analyses |
+| Supplementary Figure S9 | Figure 5 | Six-gene ECM-SDC4/CD44 nodal-status analysis |
+| Supplementary Figure S10 | Figure 6 | Exploratory TCGA nodal model and calibration |
+| Supplementary Figure S11 | Figure 7 | Mismatch-repair stratification |
+| Supplementary Figure S12 | Figure 8 | Immune/stromal deconvolution and secondary analyses |
+| Table 1 | Table 1 | Primary non-overlapping score correlations |
+| Table 2 | Table 3 | Patient-level and mixed-effects single-cell analyses |
+| Table 3 | Table 5 | CPTAC protein-level validation |
+| Supplementary Table S1 | Table 2 | Ordinal T-category trend tests |
+| Supplementary Table S2 | Table 4 | Cell-level differential-expression ranking |
+| Supplementary Table S3 | Table 6 | Stage-stratified claudin correlations |
+| Supplementary Table S4 | Table 7 | Lymph-node metastasis analyses |
+| Supplementary Table S5 | Table 8 | Fibroblast-abundance sensitivity analyses |
+
+This crosswalk is a navigation aid on the repository default branch. It does not modify the archived v1.3.0 analysis files or the Zenodo record.
+
 ## Citation and licence
 
 **GitHub release (v1.3.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v1.3.0
