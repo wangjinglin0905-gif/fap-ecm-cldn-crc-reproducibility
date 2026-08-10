@@ -1,9 +1,0 @@
-sample_type_code,sample_scope,Freq
-01,Adjacent_normal,0
-02,Adjacent_normal,0
-06,Adjacent_normal,0
-11,Adjacent_normal,51
-01,Tumor,380
-02,Tumor,2
-06,Tumor,1
-11,Tumor,0

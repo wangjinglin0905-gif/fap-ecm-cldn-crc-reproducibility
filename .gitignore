@@ -1,28 +1,15 @@
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# R temporary files
-.Rhistory
-.RData
-.Rapp.history
-*.Rproj
-
-# Python temporary files
-__pycache__/
-*.pyc
-*.pyo
-.venv/
-venv/
-
-# IDE
-.vscode/
-.idea/
-
-# Large raw data (not redistributed — see manifests/raw_input_manifest_r461.csv)
-inputs/
+data/TCGA/
+data/GSE39582/
+data/GSE132465/
+data/GSE166555/
+data/TCGA592/
+*.rds
+*.RData
 *.h5
 *.h5ad
 *.mtx
 *.mtx.gz
+__pycache__/
+.Rhistory
+.Rproj.user/
+derived_results/senescence_corrected_rerun/

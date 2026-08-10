@@ -1,0 +1,10 @@
+.libPaths(c('library', 'library', .libPaths()))
+key <- "SOFTWARE\\R-core\\Rtools"
+reg <- tryCatch(utils::readRegistry(key, hive = "HCU"), error = function(e) NULL)
+if (is.null(reg)) reg <- tryCatch(utils::readRegistry(key, hive = "HLM"), error = function(e) NULL)
+cat("=== Registry Rtools ===\n")
+print(reg)
+cat("\n=== find_rtools ===\n")
+print(tryCatch(pkgbuild::find_rtools(), error = function(e) paste("ERR:", conditionMessage(e))))
+cat("\n=== Sys.getenv RTOOLS ===\n")
+print(Sys.getenv()[grep("RTOOLS|R_MAKEVARS", names(Sys.getenv()))])

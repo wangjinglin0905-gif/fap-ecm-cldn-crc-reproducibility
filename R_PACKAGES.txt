@@ -1,0 +1,43 @@
+# Core audited pipeline
+R 4.6.1
+AnnotationDbi
+CMSclassifier (source revision documented in 06_tcga_cms_sensitivity.R)
+Matrix
+SeuratObject
+SummarizedExperiment
+data.table
+dplyr
+edgeR
+fgsea
+ggplot2
+hgu133plus2.db
+jsonlite
+limma
+lme4
+lmerTest
+monocle3
+msigdbr
+patchwork
+progeny
+ragg
+survival
+
+# Historical exploratory archive; install only if rerunning a named legacy script
+CellChat
+GEOquery
+Seurat
+SeuratDisk
+SeuratWrappers
+SingleCellExperiment
+TCGAbiolinks
+corrplot
+ggpubr
+ggtext
+org.Hs.eg.db
+pROC
+pheatmap
+rms
+scales
+survminer
+tibble
+tidyr

@@ -1,0 +1,15 @@
+resource,identifier_or_profile,role,authoritative_location,access_date,raw_in_archive,archive_content
+TCGA-COAD/READ expression,UCSC Xena TCGA COAD/READ HiSeqV2,Primary bulk transcriptomics,https://xenabrowser.net/datapages/,2026-08-02,No,Acquisition instructions and barcode-selection logic
+TCGA clinical data,GDC COAD/READ clinical matrix,Clinical covariates and survival,https://portal.gdc.cancer.gov/,2026-08-02,No,Acquisition instructions only
+GSE39582,GEO accession GSE39582,External bulk replication and survival,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39582,2026-08-02,No,Tumour/non-tumour inclusion map and parser
+GSE132465,GEO accession GSE132465,Single-cell compartment and patient-level analysis,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465,2026-08-02,No,Analysis scripts only
+GSE166555,GEO accession GSE166555,Independent single-cell compartment check,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555,2026-08-02,No,Analysis scripts only
+Qi spatial CRC study,Nature Communications 2022 DOI 10.1038/s41467-022-29366-6,Spatial habitat analysis,https://doi.org/10.1038/s41467-022-29366-6,2026-08-02,No,Analysis scripts and citation
+Valdeolivas spatial CRC study,npj Precision Oncology 2024 DOI 10.1038/s41698-023-00488-4,Spatial neighbourhood sensitivity,https://doi.org/10.1038/s41698-023-00488-4,2026-08-02,No,Analysis scripts and citation
+CPTAC-COAD proteomics,cBioPortal study coad_cptac_2019,Protein validation,https://www.cbioportal.org/study/summary?id=coad_cptac_2019,2026-08-03,No,Derived supporting table and analysis scripts
+TCGA PanCancer Atlas alternate route,cBioPortal coadread_tcga_pan_can_atlas_2018 profile coadread_tcga_pan_can_atlas_2018_rna_seq_v2_mrna,Processing-route sensitivity,https://www.cbioportal.org/,2026-08-07,No,Targeted acquisition script and mapping
+SenMayo,MSigDB M45803 / DOI 10.1038/s41467-022-32552-1,Senescence-associated signature,https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/SENMAYO.html,2026-08-07,No,Analysis gene list with source citation
+CellAge,CellAge senescence-inducing genes / DOI 10.1186/s13059-020-01990-9,Senescence sensitivity signature,https://genomics.senescence.info/cells/,2026-08-07,No,Analysis gene list with source citation
+TCGA MCP-counter fibroblast score,Derived from 380 barcode-reviewed Xena primary tumours,Fibroblast-abundance sensitivity,Local reproducible derivation,2026-08-10,Derived only,Named Fibroblasts row and sample mapping in R1 audit outputs
+TCGA EPIC CAF fraction,Derived from 380 barcode-reviewed Xena primary tumours,Fibroblast-abundance sensitivity,Local reproducible derivation,2026-08-10,Derived only,Named CAFs row and sample mapping in R1 audit outputs
+GSE132465 Monocle3 object,GEO accession GSE132465,Full-library-normalised mixed-model audit,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465,2026-08-10,No,Source-object MD5 and analysis script only

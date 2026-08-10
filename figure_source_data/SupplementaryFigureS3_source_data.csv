@@ -1,0 +1,10 @@
+gene,average_log2_fold_change,display_group
+COMP,4.81,ECM/remodelling
+MMP13,4.51,ECM/remodelling
+EPYC,4.47,ECM/remodelling
+COL1A1,2.43,ECM/remodelling
+COL3A1,2.1,ECM/remodelling
+COL1A2,1.94,ECM/remodelling
+FN1,1.46,ECM/remodelling
+SDC4,0.39,Receptor
+CD44,0.29,Receptor

@@ -1,8 +1,0 @@
-metric,value
-files_total,109
-files_byte_identical,92
-files_byte_changed,17
-tables_identical_values,84
-tables_values_changed,4
-tables_schema_or_dimension_changed,1
-tables_read_error,0

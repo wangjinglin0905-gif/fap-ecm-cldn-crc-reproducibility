@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript, this repository release, and the source datasets used."
+title: "Cross-platform characterization of a FAP-associated stromal matrix state and its senescence-related transcriptional covariation in colorectal cancer"
+type: software
+version: 1.3.0
+date-released: 2026-08-10
+url: "https://github.com/[owner]/FAP-SDC4-CD44-reproducibility"
+authors:
+  - family-names: Wang
+    given-names: Jinglin
+  - family-names: Sun
+    given-names: Pan
+  - family-names: Xu
+    given-names: Lei
+  - family-names: Wang
+    given-names: Yao
+  - family-names: Zhu
+    given-names: Wei
+  - family-names: Zhang
+    given-names: Yan
+  - family-names: Tang
+    given-names: Yao
+  - family-names: Yang
+    given-names: Juan
+    orcid: "https://orcid.org/0009-0001-2081-6950"
+keywords:
+  - FAP
+  - colorectal cancer
+  - cancer-associated fibroblasts
+  - extracellular matrix
+  - cellular senescence
+  - single-cell RNA sequencing
+  - spatial transcriptomics
+  - proteomics
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Wang
+      given-names: Jinglin
+    - family-names: Sun
+      given-names: Pan
+    - family-names: Xu
+      given-names: Lei
+    - family-names: Wang
+      given-names: Yao
+    - family-names: Zhu
+      given-names: Wei
+    - family-names: Zhang
+      given-names: Yan
+    - family-names: Tang
+      given-names: Yao
+    - family-names: Yang
+      given-names: Juan
+  title: "Cross-platform characterization of a FAP-associated stromal matrix state and its senescence-related transcriptional covariation in colorectal cancer"
+  year: 2026
+  status: "manuscript prepared for submission"

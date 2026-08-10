@@ -1,5 +1,0 @@
-variable,n_overlap,pearson_agreement,max_absolute_difference
-TGF_beta_RNA,315,0.81544548375758,2.02943802446588
-SMAD3_RPPA,315,1,0
-SMAD4_RPPA,315,1,0
-CDH1_RPPA,315,1,0

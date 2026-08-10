@@ -1,7 +1,0 @@
-"gene","url","status_code","bytes","raw_path","checksum_algorithm","checksum"
-"FAP","https://ualcan.path.uab.edu/cgi-bin/CPTAC-Result.pl?genenam=FAP&ctype=Colon",200,412491,"work/reproducibility/inputs/ualcan/FAP.html","SHA-256","acd0e53afa3d89b793ded7a4619a53d0cee2d018119b9900bc629c189b865608"
-"COL1A1","https://ualcan.path.uab.edu/cgi-bin/CPTAC-Result.pl?genenam=COL1A1&ctype=Colon",200,415797,"work/reproducibility/inputs/ualcan/COL1A1.html","SHA-256","0fa1a1f6a876efe47f2f6021bc1a208ac85f251106be42ae59a0af880aa2fb04"
-"COL1A2","https://ualcan.path.uab.edu/cgi-bin/CPTAC-Result.pl?genenam=COL1A2&ctype=Colon",200,415696,"work/reproducibility/inputs/ualcan/COL1A2.html","SHA-256","0cdd8e39c164aa71fd775382284bc7c6ce0d4cd92c26b3992985104e0529af8c"
-"FN1","https://ualcan.path.uab.edu/cgi-bin/CPTAC-Result.pl?genenam=FN1&ctype=Colon",200,420456,"work/reproducibility/inputs/ualcan/FN1.html","SHA-256","e4f3754c25f17982f3b8200ed8e2dfe9079e896a97acdbf540a33b15b4e4dbde"
-"CLDN1","https://ualcan.path.uab.edu/cgi-bin/CPTAC-Result.pl?genenam=CLDN1&ctype=Colon",200,411486,"work/reproducibility/inputs/ualcan/CLDN1.html","SHA-256","1ea9cc91cb4ddc47f0415d6877f2451e8e00dada3b7769ded118b2e631e3cae4"
-"CLDN4","https://ualcan.path.uab.edu/cgi-bin/CPTAC-Result.pl?genenam=CLDN4&ctype=Colon",200,418855,"work/reproducibility/inputs/ualcan/CLDN4.html","SHA-256","2841b581c4379e2040fc597e26dfa88b1631d4abd02694578ab40ece522f79ee"

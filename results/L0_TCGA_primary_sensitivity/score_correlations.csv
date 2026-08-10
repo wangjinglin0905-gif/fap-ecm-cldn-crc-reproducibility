@@ -1,4 +1,0 @@
-comparison,n,rho,p_value,fdr_bh_three_tests
-FAP_CAF_vs_de_ligand_primary_and_normal,431,0.986411925873966,0,0
-de_ligand_vs_CLDN_core_primary_and_normal,431,-0.0575728280484661,0.232962834008126,0.232962834008126
-de_ligand_vs_CLDN_core_primary_only,380,-0.151654352468544,0.00303956245264232,0.00455934367896347
