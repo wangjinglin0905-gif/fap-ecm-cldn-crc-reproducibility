@@ -4,7 +4,11 @@ title: "Cross-platform characterization of a FAP-associated stromal matrix state
 type: software
 version: 1.3.0
 date-released: 2026-08-10
-url: "https://github.com/[owner]/FAP-SDC4-CD44-reproducibility"
+url: "https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21873369"
+    description: "R1 release archive v1.3.0"
 authors:
   - family-names: Wang
     given-names: Jinglin
