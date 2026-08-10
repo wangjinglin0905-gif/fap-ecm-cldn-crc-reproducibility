@@ -97,5 +97,8 @@ See `DATA_MANIFEST.csv`, `DATA_USE_NOTICE.md` and `docs/DATA_DOWNLOAD.md`.
 
 ## Citation and licence
 
-Update `CITATION.cff` with the final GitHub URL and Zenodo DOI before public release. Code and derived-data terms are described in `LICENSE`, `LICENSE-DATA.md` and `DATA_USE_NOTICE.md`; source-dataset terms continue to apply.
+**GitHub release (v1.3.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v1.3.0
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.21873369
+
+Please cite the associated manuscript, this repository release, and the source datasets used. Code and derived-data terms are described in `LICENSE`, `LICENSE-DATA.md` and `DATA_USE_NOTICE.md`; source-dataset terms continue to apply.
 
