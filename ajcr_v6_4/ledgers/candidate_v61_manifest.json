@@ -1,0 +1,19 @@
+{
+  "received_date": "2026-08-14",
+  "purpose": "Candidate revision materials inspected as fragment sources; excluded as authoritative numerical evidence where they conflicted with frozen recomputation.",
+  "files": [
+    {
+      "name": "AJCR_CoverLetter_2026-08-14.docx",
+      "sha256": "76f16d5b1e6b99da84de1905fac133ccdc7d89615040adf8ac5fdee0cb5eb253"
+    },
+    {
+      "name": "AJCR_v6.0_审查报告_2026-08-14.md",
+      "sha256": "0bff8e9b85e8409b2d6d6cb0e42dac7942ae681f1fda19fb3ea55276aea2ad1c"
+    },
+    {
+      "name": "FAP_SDC4_CD44_论文_v6.1_修订版_2026-08-14.docx",
+      "sha256": "63971a10cc64594a3e213e85f0a06cb31497ee2c3faa3b315d742c47133ef4bc"
+    }
+  ],
+  "decision": "Retain verified author/submission metadata and isolated wording only. Exclude mixed tumour/normal B1/B2 coefficients, 120-gene SenMayo count, 1,498-cell matrix/receptor values, and the FAP-specific senescence framing."
+}

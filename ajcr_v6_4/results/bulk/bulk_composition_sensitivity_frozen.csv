@@ -1,0 +1,13 @@
+association,adjustment,partial_spearman_rho,ci_low,ci_high,p_value,source
+FAP13-matrix4,fib5 transcript score,0.650,0.574,0.715,5.79e-47,AJCR v5.7 Table 8
+FAP13-matrix4,MCP-counter Fibroblasts,0.113,-0.015,0.250,0.028,AJCR v5.7 Table 8
+FAP13-matrix4,EPIC CAFs,0.288,0.176,0.398,1.20e-8,AJCR v5.7 Table 8
+FAP13-matrix4,MCP-counter + EPIC,0.150,0.040,0.257,0.003,AJCR v5.7 Table 8
+overlap-removed SenMayo-FAP13,fib5 transcript score,0.388,0.284,0.485,4.92e-15,AJCR v5.7 Table 8
+overlap-removed SenMayo-FAP13,MCP-counter Fibroblasts,0.378,0.270,0.476,2.67e-14,AJCR v5.7 Table 8
+overlap-removed SenMayo-FAP13,EPIC CAFs,0.575,0.490,0.648,8.87e-35,AJCR v5.7 Table 8
+overlap-removed SenMayo-FAP13,MCP-counter + EPIC,0.384,0.273,0.485,1.02e-14,AJCR v5.7 Table 8
+overlap-removed SenMayo-matrix4,fib5 transcript score,0.133,0.020,0.248,0.010,AJCR v5.7 Table 8
+overlap-removed SenMayo-matrix4,MCP-counter Fibroblasts,-0.098,-0.221,0.043,0.058,AJCR v5.7 Table 8
+overlap-removed SenMayo-matrix4,EPIC CAFs,0.082,-0.015,0.188,0.110,AJCR v5.7 Table 8
+overlap-removed SenMayo-matrix4,MCP-counter + EPIC,-0.039,-0.137,0.059,0.449,AJCR v5.7 Table 8

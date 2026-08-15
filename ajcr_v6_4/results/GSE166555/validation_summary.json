@@ -1,0 +1,49 @@
+{
+  "dataset": "GSE166555",
+  "source": "GEO official supplementary count matrices and metadata",
+  "eligible_patients": 10,
+  "SenMayo_target_genes": 119,
+  "SenMayo_available_genes": 114,
+  "SASP_available_genes": 25,
+  "SenMayo119": {
+    "n": 10,
+    "concordant": 9,
+    "median_difference": 0.1485057446304,
+    "mean_difference": 0.1813422168985,
+    "ci_low": 0.04382460416086,
+    "ci_high": 0.3363898001456,
+    "p_exact": 0.01953125
+  },
+  "SASP25": {
+    "n": 10,
+    "concordant": 10,
+    "median_difference": 0.4754427258812,
+    "mean_difference": 0.4483242747886,
+    "ci_low": 0.1697920807479,
+    "ci_high": 0.7397001774297,
+    "p_exact": 0.001953125
+  },
+  "MKI67": {
+    "n": 10,
+    "concordant": 1,
+    "median_difference": -2.033283573748,
+    "mean_difference": -2.058470898674,
+    "ci_low": -2.878286341445,
+    "ci_high": -0.8736396563264,
+    "p_exact": 0.00390625
+  },
+  "fibroblast_patient_correlations": {
+    "FAP13_matrix4": {
+      "rho": 0.8787878787879,
+      "p": 0.0008138621117322
+    },
+    "FAP13_SenMayo": {
+      "rho": -0.06666666666667,
+      "p": 0.8548130882487
+    },
+    "SenMayo_matrix4": {
+      "rho": -0.4060606060606,
+      "p": 0.2442822940866
+    }
+  }
+}

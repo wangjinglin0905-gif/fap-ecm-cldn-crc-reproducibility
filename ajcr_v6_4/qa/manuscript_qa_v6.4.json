@@ -1,0 +1,119 @@
+{
+  "source_sha256": "49c759dd4a10fa8da678ac7e97f57cd6d13485b9f0111a78558adaecae57ff14",
+  "final_sha256": "30bd8c0bab7a525e60663cdeb07674a96605dc6a1b2a314e6e1f73c63322964b",
+  "paragraph_count": 142,
+  "table_count": 4,
+  "changed_text_entries": [
+    {
+      "entry": "P0023",
+      "source": "Raw unique molecular identifier (UMI) counts were normalized per cell as log1p(counts per 10,000). For each patient, mean SenMayo119, SASP25 and MKI67 values were summarized separately in tumour fibroblast-lineage and epithelial cells. Paired differences were tested with exact two-sided Wilcoxon signed-rank tests; 95% confidence intervals for median paired differences were obtained by 10,000 patient-level bootstrap resamples. A sensitivity analysis required at least 20 cells in both compartments. The patient, rather than each cell, was the inferential unit for paired contrasts, consistent with the hierarchical sampling structure of single-cell data [22,23].",
+      "final": "Raw unique molecular identifier (UMI) counts were normalized per cell as log1p(counts per 10,000). For each patient, mean SenMayo119, SASP25 and MKI67 values were summarized separately in tumour fibroblast-lineage and epithelial cells. Paired differences were tested with exact two-sided Wilcoxon signed-rank tests; 95% confidence intervals for the reported paired effect sizes (median or mean paired differences, as specified) were obtained by 10,000 patient-level percentile bootstrap resamples. A sensitivity analysis required at least 20 cells in both compartments. The patient, rather than each cell, was the inferential unit for paired contrasts, consistent with the hierarchical sampling structure of single-cell data [22,23]."
+    },
+    {
+      "entry": "P0045",
+      "source": "Using the frozen 119-gene, FAP-overlap-removed score, tumour fibroblast-lineage cells had higher SenMayo values than paired epithelial cells in all 23 patients (median standardized paired difference 0.466, 95% bootstrap CI 0.410-0.553; exact P = 2.38 x 10^-7; Figure 1A and Table 2). Requiring at least 20 cells in each compartment retained 15 patients and gave the same median difference (0.466, 95% CI 0.410-0.551; P = 6.10 x 10^-5). SASP25 was higher in fibroblasts in 22 of 23 patients (mean log-normalized paired difference 0.236; P = 4.77 x 10^-7; Figure 1B). MKI67 showed the opposite direction in 21 of 23 patients (mean paired difference -0.104; P = 1.81 x 10^-4; Figure 1C). The paired results localize a senescence-associated transcriptional pattern to the fibroblast compartment; stable arrest remains a tissue- and function-level question.",
+      "final": "Using the frozen 119-gene, FAP-overlap-removed score, tumour fibroblast-lineage cells had higher SenMayo values than paired epithelial cells in all 23 patients (median standardized paired difference 0.466, 95% bootstrap CI 0.410-0.553; exact P = 2.38 x 10^-7; Figure 1a and Table 2). Requiring at least 20 cells in each compartment retained 15 patients and gave the same median difference (0.466, 95% CI 0.410-0.551; P = 6.10 x 10^-5). SASP25 was higher in fibroblasts in 22 of 23 patients (mean log-normalized paired difference 0.236, 95% bootstrap CI 0.192-0.277; P = 4.77 x 10^-7; Figure 1b). MKI67 showed the opposite direction in 21 of 23 patients (mean paired difference -0.104, 95% bootstrap CI -0.142 to -0.063; P = 1.81 x 10^-4; Figure 1c). The paired results localize a senescence-associated transcriptional pattern to the fibroblast compartment; stable arrest remains a tissue- and function-level question."
+    },
+    {
+      "entry": "P0047",
+      "source": "The observed mean patient-level SenMayo fibroblast-minus-epithelial standardized difference was 0.499. Across 5,000 expression-matched gene sets, the null median was 0.219 and the 97.5th percentile was 0.340, yielding an empirical upper-tail P = 2.00 x 10^-4 (Figure 3A). For SASP25, the observed difference was 0.739 versus a null median of 0.405 and 97.5th percentile of 0.759 (empirical P = 0.0336; Figure 3B). Many matched signatures were concordantly higher in fibroblasts across patients, showing that concordance alone is not evidence of senescence. The magnitude of SenMayo enrichment, but not SASP to the same degree, exceeded generic lineage-skewed expression.",
+      "final": "The observed mean patient-level SenMayo fibroblast-minus-epithelial standardized difference was 0.499. Across 5,000 expression-matched gene sets, the null median was 0.219 and the 97.5th percentile was 0.340, yielding an empirical upper-tail P = 2.00 x 10^-4 (Figure 3a). For SASP25, the observed difference was 0.739 versus a null median of 0.405 and 97.5th percentile of 0.759 (empirical P = 0.0336; Figure 3b). Many matched signatures were concordantly higher in fibroblasts across patients, showing that concordance alone is not evidence of senescence. The magnitude of SenMayo enrichment, but not SASP to the same degree, exceeded generic lineage-skewed expression."
+    },
+    {
+      "entry": "P0051",
+      "source": "Within the 1,501 tumour fibroblast-lineage cells, the FAP-detected group had greater sequencing depth and higher unadjusted detection of several markers. After adjustment for log UMI depth, fibroblast subtype, MKI67 and patient clustering, the FAP-detection coefficient was 0.0238 for SenMayo (95% CI -0.0051 to 0.0527; P = 0.106) and 0.0323 for SASP25 (95% CI -0.0429 to 0.1074; P = 0.400; Figure 2A). Marker-detection estimates were similarly centred near the null: CDKN2A odds ratio (OR) 0.89 (P = 0.529), CDKN2B OR 0.98 (P = 0.911), CDKN1A OR 0.96 (P = 0.788), LMNB1 OR 0.86 (P = 0.601) and MKI67 OR 0.84 (P = 0.614; Figure 2B). The LMNB1 model was singular, and its unadjusted direction was higher in FAP-detected cells. The adjusted results place SenMayo and SASP enrichment at the broader fibroblast-compartment level rather than within the FAP-detected subgroup.",
+      "final": "Within the 1,501 tumour fibroblast-lineage cells, the FAP-detected group had greater sequencing depth and higher unadjusted detection of several markers. After adjustment for log UMI depth, fibroblast subtype, MKI67 and patient clustering, the FAP-detection coefficient was 0.0238 for SenMayo (95% CI -0.0051 to 0.0527; P = 0.106) and 0.0323 for SASP25 (95% CI -0.0429 to 0.1074; P = 0.400; Figure 2a). Marker-detection estimates were similarly centred near the null: CDKN2A odds ratio (OR) 0.89 (P = 0.529), CDKN2B OR 0.98 (P = 0.911), CDKN1A OR 0.96 (P = 0.788), LMNB1 OR 0.86 (P = 0.601) and MKI67 OR 0.84 (P = 0.614; Figure 2b). The LMNB1 model was singular, and its unadjusted direction was higher in FAP-detected cells. The adjusted results place SenMayo and SASP enrichment at the broader fibroblast-compartment level rather than within the FAP-detected subgroup."
+    },
+    {
+      "entry": "P0053",
+      "source": "At the patient level, fibroblast FAP expression correlated with matrix4 (rho = 0.649, P = 8.03 x 10^-4) but not significantly with SenMayo (rho = 0.331, P = 0.123); SenMayo and matrix4 were themselves unrelated (rho = -0.048, P = 0.826; Figure 2C-E). In full-library mixed models, matrix4 increased with FAP (slope 0.253, 95% CI 0.213-0.294; P = 9.17 x 10^-33), whereas receptor2 did not (slope -0.021, 95% CI -0.062 to 0.019; P = 0.302). These results separate a FAP-associated matrix state from the compartment-level SenMayo pattern and from SDC4/CD44 co-induction.",
+      "final": "At the patient level, fibroblast FAP expression correlated with matrix4 (rho = 0.649, P = 8.03 x 10^-4) but not significantly with SenMayo (rho = 0.331, P = 0.123); SenMayo and matrix4 were themselves unrelated (rho = -0.048, P = 0.826; Figure 2c-e). In full-library mixed models, matrix4 increased with FAP (slope 0.253, 95% CI 0.213-0.294; P = 9.17 x 10^-33), whereas receptor2 did not (slope -0.021, 95% CI -0.062 to 0.019; P = 0.302). These results separate a FAP-associated matrix state from the compartment-level SenMayo pattern and from SDC4/CD44 co-induction."
+    },
+    {
+      "entry": "P0055",
+      "source": "Marginal FAP13-matrix4 correlations were 0.930 in TCGA-COAD/READ and 0.913 in GSE39582. In TCGA, the partial correlation remained 0.650 with the five-gene lineage proxy but fell to 0.113 with MCP-counter fibroblasts, 0.288 with EPIC CAFs and 0.150 with joint MCP-counter/EPIC adjustment (Figure 3C and Table 3). Thus, the large tissue-level association primarily tracked fibroblast abundance, and the residual estimate depended on the proxy. In contrast, overlap-removed SenMayo-FAP13 partial correlations were 0.378-0.575 across the four specifications. SenMayo-matrix4 estimates ranged from -0.098 to 0.133 and included zero under three of four specifications. Bulk data therefore support composition-adjusted SenMayo-FAP covariation but not an independent senescence-associated matrix axis.",
+      "final": "Marginal FAP13-matrix4 correlations were 0.930 in TCGA-COAD/READ and 0.913 in GSE39582. In TCGA, the partial correlation remained 0.650 with the five-gene lineage proxy but fell to 0.113 with MCP-counter fibroblasts, 0.288 with EPIC CAFs and 0.150 with joint MCP-counter/EPIC adjustment (Figure 3c and Table 3). Thus, the large tissue-level association primarily tracked fibroblast abundance, and the residual estimate depended on the proxy. In contrast, overlap-removed SenMayo-FAP13 partial correlations were 0.378-0.575 across the four specifications. SenMayo-matrix4 estimates ranged from -0.098 to 0.133 and included zero under three of four specifications. Bulk data therefore support composition-adjusted SenMayo-FAP covariation but not an independent senescence-associated matrix axis."
+    },
+    {
+      "entry": "P0122",
+      "source": "Figure 1. Tumour-only, patient-paired compartment distribution in GSE132465. (A) SenMayo119 score, (B) SASP25 score and (C) MKI67 expression in fibroblast-lineage and epithelial cells. Points are patient means of log-normalized values; grey lines connect the same patient; black bars are medians. Exact paired P values are shown. Scores localize transcriptional features and do not diagnose senescence. The standardized-scale median paired SenMayo119 difference (0.466) is reported in the main text.",
+      "final": "Figure 1. Tumour-only, patient-paired compartment distribution in GSE132465. (a) SenMayo119 score, (b) SASP25 score and (c) MKI67 expression in fibroblast-lineage and epithelial cells. Points are patient means of log-normalized values; grey lines connect the same patient; black bars are medians. Exact paired P values are shown. Scores localize transcriptional features and do not diagnose senescence. The standardized-scale median paired SenMayo119 difference (0.466) is reported in the main text."
+    },
+    {
+      "entry": "P0123",
+      "source": "Figure 2. FAP-specific inference and separation of fibroblast axes in GSE132465. (A) Adjusted FAP-detection effects on SenMayo119 and SASP25. (B) Adjusted odds ratios for marker detection. (C-E) Patient-level fibroblast correlations among FAP, SenMayo119 and matrix4. Mixed models account for patient clustering; marker models adjust for log UMI depth and subtype. The LMNB1 model was singular.",
+      "final": "Figure 2. FAP-specific inference and separation of fibroblast axes in GSE132465. (a) Adjusted FAP-detection effects on SenMayo119 and SASP25. (b) Adjusted odds ratios for marker detection. (c-e) Patient-level fibroblast correlations among FAP, SenMayo119 and matrix4. Mixed models account for patient clustering; marker models adjust for log UMI depth and subtype. The LMNB1 model was singular."
+    },
+    {
+      "entry": "P0124",
+      "source": "Figure 3. Signature specificity and bulk composition sensitivity. (A, B) Expression-matched null distributions for the mean patient-level fibroblast-minus-epithelial SenMayo119 and SASP25 contrasts; red lines show observed values. (C) TCGA partial Spearman correlations under four fibroblast-content specifications. Error bars are 95% patient-bootstrap confidence intervals.",
+      "final": "Figure 3. Signature specificity and bulk composition sensitivity. (a, b) Expression-matched null distributions for the mean patient-level fibroblast-minus-epithelial SenMayo119 and SASP25 contrasts; red lines show observed values. (c) TCGA partial Spearman correlations under four fibroblast-content specifications. Error bars are 95% patient-bootstrap confidence intervals."
+    },
+    {
+      "entry": "P0125",
+      "source": "Figure 4. External tumour-compartment evaluation in GSE166555. Patient-paired pseudobulk SenMayo119, SASP25 and MKI67 values are shown for eligible CAF-like and epithelial compartments. This analysis tests direction in a differently annotated cohort and is not direct evidence of cellular senescence.",
+      "final": "Figure 4. External tumour-compartment evaluation in GSE166555. Patient-paired pseudobulk values are shown for (a) SenMayo119, (b) SASP25 and (c) MKI67 in eligible CAF-like and epithelial compartments. This analysis tests direction in a differently annotated cohort and is not direct evidence of cellular senescence."
+    },
+    {
+      "entry": "T2R5C2P1",
+      "source": "Mean log-normalized difference 0.236; 22/23 higher",
+      "final": "Mean log-normalized difference 0.236 (95% bootstrap CI 0.192-0.277); 22/23 higher"
+    },
+    {
+      "entry": "T2R7C2P1",
+      "source": "Mean difference -0.104; 21/23 lower",
+      "final": "Mean difference -0.104 (95% bootstrap CI -0.142 to -0.063); 21/23 lower"
+    }
+  ],
+  "changed_text_entry_count": 12,
+  "required_ci_strings": {
+    "SASP25": 2,
+    "MKI67": 2
+  },
+  "uppercase_panel_crossrefs": [],
+  "uppercase_panel_legend_labels": [],
+  "lowercase_panel_crossref_count": 9,
+  "lowercase_panel_legend_label_count": 11,
+  "submission_check_count": 1,
+  "submission_blocker_count": 1,
+  "embedded_image_checks": [
+    {
+      "member": "word/media/image1.png",
+      "exists": true,
+      "embedded_sha256": "f2bbee8a32bf6747fac656334da9afa2939190fb5d1fdf9cfac406ff2d8d8f94",
+      "source_sha256": "f2bbee8a32bf6747fac656334da9afa2939190fb5d1fdf9cfac406ff2d8d8f94",
+      "match": true
+    },
+    {
+      "member": "word/media/image2.png",
+      "exists": true,
+      "embedded_sha256": "f0d89c87ca8afed16acd7b8356097c1044c5ac378f2d9d00581c042fbce21b1d",
+      "source_sha256": "f0d89c87ca8afed16acd7b8356097c1044c5ac378f2d9d00581c042fbce21b1d",
+      "match": true
+    },
+    {
+      "member": "word/media/image3.png",
+      "exists": true,
+      "embedded_sha256": "df9d2e2417987dbc207c7ab41ea88c4b127219e5ccad5a2369624ff65f4430b7",
+      "source_sha256": "df9d2e2417987dbc207c7ab41ea88c4b127219e5ccad5a2369624ff65f4430b7",
+      "match": true
+    },
+    {
+      "member": "word/media/image4.png",
+      "exists": true,
+      "embedded_sha256": "f3babf62fdf09d777bf9f95c345bd9b09307fb3925a54eff0fa7e68241505a6c",
+      "source_sha256": "f3babf62fdf09d777bf9f95c345bd9b09307fb3925a54eff0fa7e68241505a6c",
+      "match": true
+    }
+  ],
+  "molecular_formatting": {
+    "gene_occurrences": 179,
+    "gene_occurrences_italic": 179,
+    "gene_failures": [],
+    "roman_term_occurrences": 118,
+    "roman_term_occurrences_correct": 118,
+    "roman_term_failures": []
+  },
+  "failures": [],
+  "status": "PASS"
+}

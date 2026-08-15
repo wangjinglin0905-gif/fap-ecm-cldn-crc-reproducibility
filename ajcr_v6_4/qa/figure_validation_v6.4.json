@@ -1,0 +1,175 @@
+{
+  "minimum_dpi": 600.0,
+  "files": [
+    {
+      "path": "figures/Figure1_tumor_only_compartment.png",
+      "bytes": 810036,
+      "sha256": "f2bbee8a32bf6747fac656334da9afa2939190fb5d1fdf9cfac406ff2d8d8f94",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        1700
+      ],
+      "dpi": [
+        599.999,
+        599.999
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure1_tumor_only_compartment.tiff",
+      "bytes": 669542,
+      "sha256": "72f045cf98fb38a16de235c1bdec826ac93d7b0e745d769660eb3547d4ded0fc",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        1700
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure2_FAP_and_matrix_separation.png",
+      "bytes": 490812,
+      "sha256": "f0d89c87ca8afed16acd7b8356097c1044c5ac378f2d9d00581c042fbce21b1d",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        3354
+      ],
+      "dpi": [
+        599.999,
+        599.999
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure2_FAP_and_matrix_separation.tiff",
+      "bytes": 625548,
+      "sha256": "9364f3ad6a0d9d776be70e63da46d4447394df88eae0ee1c38a001e1dc046233",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        3354
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure3_specificity_and_composition.png",
+      "bytes": 271172,
+      "sha256": "df9d2e2417987dbc207c7ab41ea88c4b127219e5ccad5a2369624ff65f4430b7",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        3259
+      ],
+      "dpi": [
+        599.999,
+        599.999
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure3_specificity_and_composition.tiff",
+      "bytes": 598088,
+      "sha256": "3e3980a2e6279be179bf7cf8e026538d095a7dc28ba58e2e7fad6c1249cafae3",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        3259
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure4_GSE166555_external_validation.png",
+      "bytes": 521340,
+      "sha256": "f3babf62fdf09d777bf9f95c345bd9b09307fb3925a54eff0fa7e68241505a6c",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        1937
+      ],
+      "dpi": [
+        599.999,
+        599.999
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure4_GSE166555_external_validation.tiff",
+      "bytes": 493886,
+      "sha256": "446c14a1ba122ecf527d6807b7efa73bf594406b373fd40b9e85aa8fe131c69f",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4251,
+        1937
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure5_cognate_SASP_immune_screen.png",
+      "bytes": 203305,
+      "sha256": "315f99d21c53abf8141c8013a79ed586435e2d1bd89d6e28e289fb389e3f12f9",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        3543,
+        2173
+      ],
+      "dpi": [
+        599.999,
+        599.999
+      ],
+      "frames": 1,
+      "warnings": []
+    },
+    {
+      "path": "figures/Figure5_cognate_SASP_immune_screen.tiff",
+      "bytes": 415126,
+      "sha256": "b9fe32b3765d4b700e5397d2e502372963fd8275f712383b49a183fd96469641",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        3543,
+        2173
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": []
+    }
+  ]
+}

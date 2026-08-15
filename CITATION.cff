@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "Please cite the associated manuscript, this repository release, and the source datasets used."
-title: "Cross-platform characterization of a FAP-associated stromal matrix state and its senescence-related transcriptional covariation in colorectal cancer"
+title: "Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer: reproducibility archive"
 type: software
-version: 1.3.0
-date-released: 2026-08-10
+version: 1.4.0
+date-released: 2026-08-15
 url: "https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.21873369"
-    description: "R1 release archive v1.3.0"
+    value: "10.5281/zenodo.21441731"
+    description: "Concept DOI resolving to the latest repository release"
 authors:
   - family-names: Wang
     given-names: Jinglin
@@ -56,6 +56,6 @@ preferred-citation:
       given-names: Yao
     - family-names: Yang
       given-names: Juan
-  title: "Cross-platform characterization of a FAP-associated stromal matrix state and its senescence-related transcriptional covariation in colorectal cancer"
+  title: "Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer"
   year: 2026
   status: "manuscript prepared for submission"

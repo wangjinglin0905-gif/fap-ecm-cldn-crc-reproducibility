@@ -1,0 +1,193 @@
+Cell-composition audit
+        FAP_status
+Class    FAP- FAP+
+  Normal 1861  100
+  Tumor   576  925
+
+### B1 all fibroblasts, manuscript-like 
+n = 3462 ; patients = 23 
+                  Estimate  Std. Error         df   t value
+(Intercept)     0.36512335 0.006883700   18.71115 53.041727
+FAP_statusFAP+  0.04436888 0.004010978 3191.91735 11.061861
+MKI67          -0.03497432 0.011774523 3458.62706 -2.970338
+                                           Pr(>|t|)
+(Intercept)    0.0000000000000000000007347048833386
+FAP_statusFAP+ 0.0000000000000000000000000006141239
+MKI67          0.0029951817160923498856162083825438
+singular: FALSE 
+
+### B1 all fibroblasts, Class-adjusted 
+n = 3462 ; patients = 23 
+                  Estimate  Std. Error         df   t value
+(Intercept)     0.35263568 0.006113476   19.44848 57.681696
+FAP_statusFAP+  0.03628284 0.004328915 3377.28436  8.381509
+MKI67          -0.04048350 0.011788511 3457.90330 -3.434149
+ClassTumor      0.02359721 0.004616368 1825.00498  5.111640
+                                      Pr(>|t|)
+(Intercept)    0.00000000000000000000003253685
+FAP_statusFAP+ 0.00000000000000007569079128275
+MKI67          0.00060140818916232816147143803
+ClassTumor     0.00000035283763003908703071755
+singular: FALSE 
+
+### B1 tumor-only fibroblasts 
+n = 1501 ; patients = 23 
+                  Estimate  Std. Error         df   t value
+(Intercept)     0.37233829 0.008547622   26.58437 43.560452
+FAP_statusFAP+  0.04760121 0.005321290 1495.81888  8.945427
+MKI67          -0.04228130 0.012772810 1492.68035 -3.310258
+                                         Pr(>|t|)
+(Intercept)    0.00000000000000000000000002952544
+FAP_statusFAP+ 0.00000000000000000106881062185730
+MKI67          0.00095433548759827323011012412124
+singular: FALSE 
+
+### B1 tumor-only fibroblasts, subtype-adjusted 
+n = 1501 ; patients = 23 
+                         Estimate  Std. Error         df   t value
+(Intercept)            0.34407341 0.009174658   31.45243 37.502588
+FAP_statusFAP+         0.05538073 0.005052143 1499.08402 10.961830
+MKI67                 -0.02309028 0.011946064 1493.90041 -1.932877
+Cell_subtypeStromal 1  0.04060900 0.011062440 1500.84508  3.670890
+Cell_subtypeStromal 2  0.05236609 0.008759679 1335.18934  5.978084
+Cell_subtypeStromal 3  0.15253013 0.010652843 1465.97308 14.318257
+                                                                 Pr(>|t|)
+(Intercept)           0.0000000000000000000000000011155833130919673617035
+FAP_statusFAP+        0.0000000000000000000000000059625904183588776378590
+MKI67                 0.0534401112261298355532446180404804181307554244995
+Cell_subtypeStromal 1 0.0002501752254647800883212427347501716212718747556
+Cell_subtypeStromal 2 0.0000000028932726286869072418114767764052430720767
+Cell_subtypeStromal 3 0.0000000000000000000000000000000000000000001271873
+singular: FALSE 
+
+### B1 tumor-only fibroblasts, gene-z score 
+n = 1501 ; patients = 23 
+                  Estimate Std. Error         df   t value
+(Intercept)     0.39753514 0.02697530   27.37796 14.737006
+FAP_statusFAP+  0.10513652 0.01561773 1498.70040  6.731870
+MKI67_z        -0.03421827 0.01349488 1491.92220 -2.535648
+                             Pr(>|t|)
+(Intercept)    0.00000000000001532043
+FAP_statusFAP+ 0.00000000002378280780
+MKI67_z        0.01132527941188742580
+singular: FALSE 
+
+### B1 tumor-only SASP 
+n = 1501 ; patients = 23 
+                  Estimate Std. Error         df   t value
+(Intercept)     0.48308572 0.02271780   29.54223 21.264634
+FAP_statusFAP+  0.06290236 0.01508923 1490.97806  4.168694
+MKI67          -0.07919055 0.03626542 1493.96787 -2.183638
+                                  Pr(>|t|)
+(Intercept)    0.0000000000000000001853609
+FAP_statusFAP+ 0.0000323972011404438951570
+MKI67          0.0291439686063781865088540
+singular: FALSE 
+
+### B2 all cells, manuscript-like 
+n = 22001 ; patients = 23 
+                        Estimate  Std. Error        df  t value
+(Intercept)           0.23618175 0.007562472    23.032 31.23076
+compartmentFibroblast 0.13715478 0.001626561 21995.191 84.32195
+MKI67                 0.01901893 0.001540604 21982.698 12.34511
+                                                         Pr(>|t|)
+(Intercept)           0.00000000000000000002340868809055847274327
+compartmentFibroblast 0.00000000000000000000000000000000000000000
+MKI67                 0.00000000000000000000000000000000006756412
+singular: FALSE 
+
+### B2 all cells, Class-adjusted 
+n = 22001 ; patients = 23 
+                        Estimate  Std. Error          df  t value
+(Intercept)           0.17454881 0.006791878    26.75733 25.69964
+compartmentFibroblast 0.16290784 0.001757516 22000.89171 92.69212
+MKI67                 0.01524047 0.001505982 21984.73405 10.11996
+ClassTumor            0.06757949 0.001988495 21884.38686 33.98524
+                                                                                                                                                                                                                                                                             Pr(>|t|)
+(Intercept)           0.0000000000000000000215193013198192254604133866191517654442577622830867767333984375000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+compartmentFibroblast 0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+MKI67                 0.0000000000000000000000050869142256671751214751331371388687330181710422039031982421875000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+ClassTumor            0.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009365575
+singular: FALSE 
+
+### B2 tumor-only cells 
+n = 18970 ; patients = 23 
+                        Estimate  Std. Error          df   t value
+(Intercept)           0.24144192 0.007355330    23.11501 32.825436
+compartmentFibroblast 0.14700704 0.002162636 18969.07898 67.975873
+MKI67                 0.01343948 0.001505823 18952.59889  8.925007
+                                          Pr(>|t|)
+(Intercept)           0.00000000000000000000674511
+compartmentFibroblast 0.00000000000000000000000000
+MKI67                 0.00000000000000000048547393
+singular: FALSE 
+
+### B2 all cells, gene-z score 
+n = 22001 ; patients = 23 
+                          Estimate   Std. Error          df    t value
+(Intercept)           -0.045943869 0.0137129706    22.99142  -3.350395
+compartmentFibroblast  0.326714279 0.0029954190 21994.07933 109.071313
+MKI67_z                0.009168643 0.0009747273 21982.83315   9.406367
+                                           Pr(>|t|)
+(Intercept)           0.002773009622598529479858831
+compartmentFibroblast 0.000000000000000000000000000
+MKI67_z               0.000000000000000000005623917
+singular: FALSE 
+
+### B2 tumor-only cells, gene-z score 
+n = 18970 ; patients = 23 
+                          Estimate  Std. Error          df    t value
+(Intercept)           -0.032525033 0.013579004    23.16948  -2.395244
+compartmentFibroblast  0.462387211 0.004225743 18967.36253 109.421522
+MKI67_z                0.006702502 0.001060276 18953.29152   6.321472
+                                Pr(>|t|)
+(Intercept)           0.0250768015503735
+compartmentFibroblast 0.0000000000000000
+MKI67_z               0.0000000002648671
+singular: FALSE 
+
+### B2 tumor-only SASP 
+n = 18970 ; patients = 23 
+                       Estimate  Std. Error          df   t value
+(Intercept)           0.2674288 0.017772308    22.96261 15.047499
+compartmentFibroblast 0.2642341 0.004891151 18969.93091 54.022901
+MKI67                 0.0102168 0.003405388 18951.82680  3.000187
+                                   Pr(>|t|)
+(Intercept)           0.0000000000002202589
+compartmentFibroblast 0.0000000000000000000
+MKI67                 0.0027016471964329213
+singular: FALSE 
+
+### B2 tumor-only MKI67 
+n = 18970 ; patients = 23 
+                        Estimate Std. Error         df   t value
+(Intercept)            0.1494950 0.01312140    23.9754  11.39322
+compartmentFibroblast -0.1056621 0.01035864 17865.8830 -10.20038
+                                              Pr(>|t|)
+(Intercept)           0.000000000036777710244947118107
+compartmentFibroblast 0.000000000000000000000002303217
+singular: FALSE 
+
+### B2 all-compartment SenMayo paired 
+n pairs = 23 ; mean diff = 0.1481973 ; median diff = 0.1475295 ; positive/negative/zero = 23 / 0 / 0 ; W = 276 ; P = 0.00002888847 
+
+### B2 tumor-only SenMayo paired 
+n pairs = 23 ; mean diff = 0.1539397 ; median diff = 0.1549797 ; positive/negative/zero = 23 / 0 / 0 ; W = 276 ; P = 0.00002888847 
+
+### B2 all-compartment SenMayo gene-z paired 
+n pairs = 23 ; mean diff = 0.3612391 ; median diff = 0.3509805 ; positive/negative/zero = 23 / 0 / 0 ; W = 276 ; P = 0.00002888847 
+
+### B2 tumor-only SenMayo gene-z paired 
+n pairs = 23 ; mean diff = 0.498824 ; median diff = 0.4661207 ; positive/negative/zero = 23 / 0 / 0 ; W = 276 ; P = 0.00002888847 
+
+### B2 all-compartment SASP paired 
+n pairs = 23 ; mean diff = 0.1913928 ; median diff = 0.1789696 ; positive/negative/zero = 21 / 2 / 0 ; W = 272 ; P = 0.0000489895 
+
+### B2 tumor-only SASP paired 
+n pairs = 23 ; mean diff = 0.2358117 ; median diff = 0.2432027 ; positive/negative/zero = 22 / 1 / 0 ; W = 275 ; P = 0.00003300996 
+
+### B2 all-compartment MKI67 paired 
+n pairs = 23 ; mean diff = -0.1053744 ; median diff = -0.1069853 ; positive/negative/zero = 2 / 21 / 0 ; W = 22 ; P = 0.0004431991 
+
+### B2 tumor-only MKI67 paired 
+n pairs = 23 ; mean diff = -0.1040325 ; median diff = -0.1181666 ; positive/negative/zero = 2 / 21 / 0 ; W = 24 ; P = 0.0005562473 

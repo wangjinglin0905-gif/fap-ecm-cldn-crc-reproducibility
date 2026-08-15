@@ -1,0 +1,53 @@
+{
+  "release": "v1.4.0",
+  "frozen_date": "2026-08-15",
+  "policy": "Public raw data are referenced by accession and hash but are not redistributed.",
+  "inputs": [
+    {
+      "dataset": "GSE132465",
+      "local_filename": "GSE132465_seurat.rds",
+      "bytes": 559430015,
+      "sha256": "b47188210dcf294233582d3f78e43057cea154fc4a0be5a17ee09747b2513bde",
+      "role": "primary tumour-only single-cell analysis",
+      "redistributed": false
+    },
+    {
+      "dataset": "GSE166555",
+      "local_filename": "GSE166555_RAW.tar",
+      "bytes": 136632320,
+      "sha256": "c5f7c1927be41f27778f5550de46c25b55bdabd60066b87ba4a6bd0d2c6e6b76",
+      "role": "external single-cell count archive",
+      "redistributed": false
+    },
+    {
+      "dataset": "GSE166555",
+      "local_filename": "GSE166555_meta_data.tsv.gz",
+      "bytes": 80927954,
+      "sha256": "4aba042a64a71507db4fad088c8a03510a50a4e9b4202b9bab8d6b07e15303d5",
+      "role": "external single-cell metadata",
+      "redistributed": false
+    },
+    {
+      "dataset": "CPTAC colon through cBioPortal",
+      "local_filename": "cptac_protein_sdc4_cd44.csv",
+      "bytes": 5325,
+      "sha256": "1ce410ff299d1ae4661b53d121383a856a6736bfb9ae6c868bafe6dd17d2171e",
+      "role": "FAP-excluded ECM and receptor protein boundary analysis",
+      "redistributed": false
+    },
+    {
+      "dataset": "SenMayo source gene list",
+      "local_filename": "config/senmayo_genes.txt",
+      "bytes": 719,
+      "sha256": "40c61e877c86957a3629abef9c8048ec9b2bad2f7787ca21b7eb59d5e0178c0d",
+      "role": "frozen 125-gene source list before overlap and availability filtering",
+      "redistributed": true
+    },
+    {
+      "dataset": "TCGA-COAD/READ and GSE39582",
+      "manifest": "../../DATA_MANIFEST.csv",
+      "role": "bulk composition-sensitivity and prognosis analyses",
+      "redistributed": false
+    }
+  ]
+}

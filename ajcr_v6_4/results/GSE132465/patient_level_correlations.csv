@@ -1,0 +1,9 @@
+"subset","x","y","n","rho","p_value"
+"all_fibroblast_including_normal","FAP_expr","SenMayo_mean",23,0.621541501976285,0.00154645158641577
+"all_fibroblast_including_normal","FAP_expr","SASP_mean",23,0.680830039525692,0.000349204004119187
+"all_fibroblast_including_normal","FAP_expr","matrix4_mean",23,0.58399209486166,0.00343559957363739
+"all_fibroblast_including_normal","SenMayo_mean","matrix4_mean",23,0.322134387351779,0.133863110045157
+"tumor_fibroblast","FAP_expr","SenMayo_mean",23,0.33102766798419,0.122856424758044
+"tumor_fibroblast","FAP_expr","SASP_mean",23,0.242094861660079,0.265727100048669
+"tumor_fibroblast","FAP_expr","matrix4_mean",23,0.649209486166008,0.000802784601811132
+"tumor_fibroblast","SenMayo_mean","matrix4_mean",23,-0.0484189723320158,0.826347838470786

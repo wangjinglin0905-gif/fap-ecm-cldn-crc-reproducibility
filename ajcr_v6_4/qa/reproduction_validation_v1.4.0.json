@@ -1,0 +1,60 @@
+{
+  "release": "v1.4.0",
+  "validation_date": "2026-08-15",
+  "status": "PASS",
+  "environment": {
+    "R": "4.6.1",
+    "R_user_library_major_minor": "4.6",
+    "python": "3.12",
+    "locale_startup_warnings": "Non-fatal LC_* warnings were observed on Windows; all analyses completed with exit code 0."
+  },
+  "input_hashes": {
+    "GSE132465_seurat.rds": "B47188210DCF294233582D3F78E43057CEA154FC4A0BE5A17EE09747B2513BDE",
+    "GSE166555_RAW.tar": "C5F7C1927BE41F27778F5550DE46C25B55BDABD60066B87BA4A6BD0D2C6E6B76",
+    "GSE166555_meta_data.tsv.gz": "4ABA042A64A71507DB4FAD088C8A03510A50A4E9B4202B9BAB8D6B07E15303D5",
+    "cptac_protein_sdc4_cd44.csv": "1CE410FF299D1AE4661B53D121383A856A6736BFB9AE6C868BAFE6DD17D2171E",
+    "senmayo_genes.txt": "40C61E877C86957A3629ABEF9C8048EC9B2BAD2F7787CA21B7EB59D5E0178C0D"
+  },
+  "checks": {
+    "R_scripts_parsed": 10,
+    "python_scripts_compiled": 7,
+    "GSE132465_primary_outputs_exact_hash_match": [
+      "cell_counts.csv",
+      "gene_availability.csv",
+      "patient_paired_summaries.csv",
+      "tumor_compartment_SenMayo_patient_values.csv",
+      "tumor_compartment_SASP_patient_values.csv",
+      "tumor_compartment_MKI67_patient_values.csv",
+      "tumor_fibroblast_patient_scores.csv",
+      "patient_level_correlations.csv"
+    ],
+    "GSE132465_adjusted_model_outputs_exact_hash_match": [
+      "domain_tumor_only_check.txt",
+      "domain_tumor_marker_check.txt",
+      "marker_detection_by_FAP_status.csv",
+      "mixed_model_results.csv",
+      "patient_paired_marker_detection.csv"
+    ],
+    "signature_specificity_outputs_exact_hash_match": [
+      "signature_matched_null_draws.csv",
+      "signature_matched_null_patient_differences.csv",
+      "signature_matched_null_summary.csv",
+      "signature_matched_null_run_info.txt"
+    ],
+    "GSE166555_outputs_exact_hash_match": [
+      "analysis_ledger.json",
+      "patient_compartment_scores.csv",
+      "target_gene_pseudobulk.csv"
+    ],
+    "CPTAC_frozen_summary_exact_hash_match": true,
+    "minor_revision_CI_table_exact_hash_match": true,
+    "publication_raster_outputs_exact_hash_match": 10,
+    "publication_raster_outputs_validated": "five PNG and five TIFF files; RGB; 600 dpi",
+    "PDF_note": "PDF reruns were visually equivalent but byte hashes were not expected to match because PDF device metadata can vary by run."
+  },
+  "expected_model_warnings": [
+    "LMNB1 logistic mixed model singular fit",
+    "one mixed model reported a large eigenvalue ratio; the frozen estimates and boundary interpretation are unchanged",
+    "ggplot2 4.0 deprecation warnings from the frozen horizontal-error-bar API; raster outputs remain byte-identical"
+  ]
+}

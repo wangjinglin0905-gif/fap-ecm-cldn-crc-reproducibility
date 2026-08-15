@@ -1,0 +1,119 @@
+Tumor-only fibroblast-lineage marker audit
+n cells: 1501 ; patients: 23 
+
+FAP- FAP+ 
+ 576  925 
+
+### CDKN2A 
+  FAP_status detection_rate
+1       FAP-      0.1197917
+2       FAP+      0.2021622
+patient paired n: 21 ; median difference: 0.04126984 ; positive/negative/zero: 13 / 5 / 3 ; P: 0.03658035 
+library-depth/subtype-adjusted GLMM: logOR = -0.1162983 ; OR = 0.8902096 ; 95% CI = 0.6200189 to 1.278143 ; P = 0.5285691 ; singular = FALSE 
+
+### CDKN2B 
+  FAP_status detection_rate
+1       FAP-      0.1545139
+2       FAP+      0.2551351
+patient paired n: 21 ; median difference: 0.02807018 ; positive/negative/zero: 13 / 6 / 2 ; P: 0.2597868 
+library-depth/subtype-adjusted GLMM: logOR = -0.01895603 ; OR = 0.9812225 ; 95% CI = 0.7031367 to 1.369289 ; P = 0.9112278 ; singular = FALSE 
+
+### CDKN1A 
+  FAP_status detection_rate
+1       FAP-      0.5329861
+2       FAP+      0.6832432
+patient paired n: 21 ; median difference: 0.09813953 ; positive/negative/zero: 14 / 6 / 1 ; P: 0.3603752 
+library-depth/subtype-adjusted GLMM: logOR = -0.03891522 ; OR = 0.9618322 ; 95% CI = 0.7238329 to 1.278087 ; P = 0.7884639 ; singular = FALSE 
+
+### LMNB1 
+  FAP_status detection_rate
+1       FAP-     0.03472222
+2       FAP+     0.07135135
+patient paired n: 21 ; median difference: 0.007843137 ; positive/negative/zero: 12 / 2 / 7 ; P: 0.02382415 
+library-depth/subtype-adjusted GLMM: logOR = -0.1553633 ; OR = 0.8561041 ; 95% CI = 0.4780376 to 1.533173 ; P = 0.6012626 ; singular = TRUE 
+
+### MKI67 
+  FAP_status detection_rate
+1       FAP-     0.02604167
+2       FAP+     0.04540541
+patient paired n: 21 ; median difference: 0 ; positive/negative/zero: 7 / 7 / 7 ; P: 0.530158 
+library-depth/subtype-adjusted GLMM: logOR = -0.1786665 ; OR = 0.8363848 ; 95% CI = 0.4177235 to 1.674647 ; P = 0.6139833 ; singular = FALSE 
+
+### SenMayo score, tumour-only fibroblasts with technical/subtype adjustment
+                         Estimate  Std. Error       df    t value
+(Intercept)           -0.99822671 0.079961015 1199.559 -12.483917
+FAP_statusFAP+         0.02382830 0.014747729 1492.734   1.615727
+MKI67_z               -0.03041329 0.011348817 1494.512  -2.679865
+log_nCount             0.15062048 0.008832027 1494.115  17.053896
+Cell_subtypeStromal 1  0.22417037 0.029057805 1500.998   7.714635
+Cell_subtypeStromal 2  0.13271971 0.023168553 1298.724   5.728442
+Cell_subtypeStromal 3  0.38814538 0.028381022 1458.911  13.676230
+                                                                                 Pr(>|t|)
+(Intercept)           0.00000000000000000000000000000000102819888944238656844441109905475
+FAP_statusFAP+        0.10636472059706428283654133792879292741417884826660156250000000000
+MKI67_z               0.00744608509357919546439719127306489099282771348953247070312500000
+log_nCount            0.00000000000000000000000000000000000000000000000000000000001006651
+Cell_subtypeStromal 1 0.00000000000002197768958475395748497147052624711704993387684226036
+Cell_subtypeStromal 2 0.00000001258173555389010370673952277087437323643825948238372802734
+Cell_subtypeStromal 3 0.00000000000000000000000000000000000000037597488782862993432747761
+singular: FALSE 
+
+### SenMayo score, tumour-only fibroblasts with depth adjustment only
+                  Estimate  Std. Error       df    t value
+(Intercept)    -1.16218593 0.085612547 1119.598 -13.574949
+FAP_statusFAP+ -0.01632844 0.015390539 1500.021  -1.060940
+MKI67_z        -0.05110047 0.012126857 1491.526  -4.213826
+log_nCount      0.17764792 0.009293783 1489.882  19.114706
+                                                                                        Pr(>|t|)
+(Intercept)    0.0000000000000000000000000000000000000056938136889619053388270075721777629951248
+FAP_statusFAP+ 0.2888877711623583643962831501994514837861061096191406250000000000000000000000000
+MKI67_z        0.0000266135726768660429227171537736040818344918079674243927001953125000000000000
+log_nCount     0.0000000000000000000000000000000000000000000000000000000000000000000000005130973
+
+### SenMayo score, tumour-only fibroblasts with subtype adjustment only
+                         Estimate Std. Error         df    t value
+(Intercept)            0.30399480 0.02469557   32.09008 12.3096882
+FAP_statusFAP+         0.13416699 0.01448370 1500.26700  9.2633107
+MKI67_z               -0.01153359 0.01234514 1494.36550 -0.9342617
+Cell_subtypeStromal 1  0.24991694 0.03170464 1500.83466  7.8826614
+Cell_subtypeStromal 2  0.18681380 0.02500246 1267.01260  7.4718161
+Cell_subtypeStromal 3  0.47324033 0.03047120 1431.30188 15.5307427
+                                                                        Pr(>|t|)
+(Intercept)           0.00000000000010704677859282260410757683932736483711778419
+FAP_statusFAP+        0.00000000000000000006644720660740484391350996196123901427
+MKI67_z               0.35031983652452525213050193997332826256752014160156250000
+Cell_subtypeStromal 1 0.00000000000000611472741689708538083761202308608062594431
+Cell_subtypeStromal 2 0.00000000000014686863794217895898969183932081250532064587
+Cell_subtypeStromal 3 0.00000000000000000000000000000000000000000000000002180994
+
+### SASP score, tumour-only fibroblasts with technical/subtype adjustment
+                         Estimate Std. Error       df    t value
+(Intercept)           -1.48359107 0.20531342 1359.822 -7.2259819
+FAP_statusFAP+         0.03225654 0.03834018 1497.218  0.8413246
+MKI67_z               -0.05066791 0.02950036 1497.154 -1.7175352
+log_nCount             0.22823473 0.02295570 1498.639  9.9424013
+Cell_subtypeStromal 1  0.02625215 0.07535907 1495.357  0.3483608
+Cell_subtypeStromal 2  0.13376821 0.05936765 1132.313  2.2532172
+Cell_subtypeStromal 3  0.41901283 0.07315868 1326.791  5.7274519
+                                            Pr(>|t|)
+(Intercept)           0.0000000000008263601437279747
+FAP_statusFAP+        0.4003004757504718957861200579
+MKI67_z               0.0860882215426073543751428474
+log_nCount            0.0000000000000000000001339474
+Cell_subtypeStromal 1 0.7276182907535990729286368150
+Cell_subtypeStromal 2 0.0244361933812784377917370904
+Cell_subtypeStromal 3 0.0000000125967646841687073934
+singular: FALSE 
+
+### SenMayo score, tumour-only compartment contrast with depth adjustment
+                          Estimate   Std. Error         df   t value
+(Intercept)           -0.790225053 0.0166383731    51.8059 -47.49413
+compartmentFibroblast  0.483478828 0.0036740551 18969.9949 131.59270
+MKI67_z               -0.003224555 0.0009277748 18952.2176  -3.47558
+log_nCount             0.079912777 0.0010099545 18967.5389  79.12513
+                                                                  Pr(>|t|)
+(Intercept)           0.00000000000000000000000000000000000000000002185717
+compartmentFibroblast 0.00000000000000000000000000000000000000000000000000
+MKI67_z               0.00051089110158953200506448677487014720099978148937
+log_nCount            0.00000000000000000000000000000000000000000000000000
+singular: FALSE 

@@ -1,0 +1,4 @@
+SenMayo represented genes: 119
+SASP represented genes: 25
+Candidate pool: 19563
+Draws per signature: 5000

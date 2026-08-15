@@ -1,12 +1,20 @@
-# FAP-associated stromal matrix state in colorectal cancer
+# Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer
 
-Repository-ready reproducibility archive for the Scientific Reports R1 manuscript:
+Versioned reproducibility archive for the AJCR manuscript:
 
-> A reproducible FAP-associated stromal matrix state with senescence-related transcriptional covariation in colorectal cancer
+> Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer
 
-Release date: 2026-08-10.
+Current release: **v1.4.0 (2026-08-15)**.
 
-## What is in this release
+## Current AJCR v6.4 release
+
+The frozen AJCR v6.4 analysis is documented in [`ajcr_v6_4/README.md`](ajcr_v6_4/README.md). It contains portable analysis and figure scripts, small derived source tables, independent audit reports, input hashes, environment records and a complete SHA-256 manifest. The associated public raw datasets are identified by accession and hash but are not redistributed.
+
+The current evidence supports a tumour-fibroblast-enriched senescence-associated transcriptional pattern and a distinct FAP-linked matrix state. It does **not** establish a FAP-specific senescent CAF population, SASP-mediated communication, an independently prognostic senescence/matrix score or causal cellular senescence. The frozen primary single-cell analysis uses source-annotated tumour cells only (1,501 fibroblast-lineage cells and 17,469 epithelial cells from 23 patients), removes all four FAP13 overlaps from SenMayo, adjusts FAP-specific models for sequencing depth and fibroblast subtype, and includes an independent GSE166555 direction check.
+
+See [`CHANGELOG_v1.4.0.md`](CHANGELOG_v1.4.0.md) for the interpretation changes and [`ajcr_v6_4/CHECKSUMS_SHA256.csv`](ajcr_v6_4/CHECKSUMS_SHA256.csv) for file-level integrity records.
+
+## Prior v1.3.0 R1 archive
 
 This package preserves the full code lineage assembled for the manuscript and adds the audited R1 analyses. It contains 58 R analysis/provenance scripts, 14 Python acquisition/figure/manuscript utilities, one candidate R template and one candidate Python script retained only as audit evidence, derived result tables, figure source data, sample metadata, environment records and checksums.
 
@@ -28,7 +36,7 @@ The inferential R1 additions are:
 
 Machine-readable outputs are in `results/R1_audited/`.
 
-## Scientific status of the R1 manuscript
+## Scientific status of the prior R1 manuscript
 
 - Primary TCGA score analysis: 380 unique primary tumours (COAD 286; READ 94).
 - Stage-stratified TCGA subset: 89 tumours.
@@ -58,6 +66,7 @@ figure_source_data/         machine-readable figure source values
 audit/                      candidate scripts retained only for comparison
 docs/                       data-retrieval and lineage notes
 checksums/                  release checksum records
+ajcr_v6_4/                  frozen AJCR v6.4 analyses, audits, figures and checksums
 ```
 
 ## R1 execution order
@@ -121,12 +130,15 @@ Release v1.3.0 supports the same audited analyses in the Scientific Reports R1 a
 | Supplementary Table S4 | Table 7 | Lymph-node metastasis analyses |
 | Supplementary Table S5 | Table 8 | Fibroblast-abundance sensitivity analyses |
 
-This crosswalk is a navigation aid on the repository default branch. It does not modify the archived v1.3.0 analysis files or the Zenodo record.
+This crosswalk is a navigation aid for the archived v1.3.0 materials. It does not redefine the v1.4.0 AJCR evidence boundary.
 
 ## Citation and licence
 
-**GitHub release (v1.3.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v1.3.0
-**Zenodo DOI:** https://doi.org/10.5281/zenodo.21873369
+**Current GitHub release (v1.4.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v1.4.0
+
+**All-version Zenodo DOI:** https://doi.org/10.5281/zenodo.21441731
+
+**Prior v1.3.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.21873369
 
 Please cite the associated manuscript, this repository release, and the source datasets used. Code and derived-data terms are described in `LICENSE`, `LICENSE-DATA.md` and `DATA_USE_NOTICE.md`; source-dataset terms continue to apply.
 

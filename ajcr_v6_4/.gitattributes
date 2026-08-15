@@ -1,0 +1,3 @@
+# Preserve frozen release bytes across platforms so SHA-256 verification remains meaningful.
+* -text
+* whitespace=-trailing-space,cr-at-eol

@@ -1,0 +1,12 @@
+"set","n"
+"all_cells",63689
+"all_fibroblast_lineage",3462
+"tumor_fibroblast_lineage",1501
+"normal_fibroblast_lineage",1961
+"all_epithelial",18539
+"tumor_epithelial",17469
+"normal_epithelial",1070
+"all_FAP_detected",1882
+"all_fib_FAP_detected",1025
+"tumor_fib_FAP_detected",925
+"normal_fib_FAP_detected",100

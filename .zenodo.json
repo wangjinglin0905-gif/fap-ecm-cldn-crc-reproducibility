@@ -1,0 +1,36 @@
+{
+  "title": "Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer: reproducibility archive",
+  "description": "Version 1.4.0 freezes the tumour-only GSE132465 analysis, independent GSE166555 direction check, signature-specificity audits, CPTAC and prognosis boundaries, patient-level confidence intervals, lowercase-panel publication figures, input hashes and independent review records supporting the AJCR v6.4 manuscript.",
+  "upload_type": "software",
+  "publication_date": "2026-08-15",
+  "version": "1.4.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "creators": [
+    {"name": "Wang, Jinglin"},
+    {"name": "Sun, Pan"},
+    {"name": "Xu, Lei"},
+    {"name": "Wang, Yao"},
+    {"name": "Zhu, Wei"},
+    {"name": "Zhang, Yan"},
+    {"name": "Tang, Yao"},
+    {"name": "Yang, Juan", "orcid": "0009-0001-2081-6950"}
+  ],
+  "keywords": [
+    "FAP",
+    "colorectal cancer",
+    "cancer-associated fibroblasts",
+    "extracellular matrix",
+    "senescence-associated transcription",
+    "single-cell RNA sequencing",
+    "proteomics",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility",
+      "relation": "isSupplementTo"
+    }
+  ]
+}
