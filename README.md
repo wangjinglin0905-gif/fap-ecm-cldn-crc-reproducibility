@@ -136,6 +136,8 @@ This crosswalk is a navigation aid for the archived v1.3.0 materials. It does no
 
 **Current GitHub release (v1.4.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v1.4.0
 
+**Current v1.4.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.21949766
+
 **All-version Zenodo DOI:** https://doi.org/10.5281/zenodo.21441731
 
 **Prior v1.3.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.21873369
