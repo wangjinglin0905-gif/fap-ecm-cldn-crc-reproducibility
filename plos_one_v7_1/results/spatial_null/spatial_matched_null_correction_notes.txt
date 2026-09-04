@@ -1,0 +1,6 @@
+Correction rule
+The original two-sided implementation compared abs(null draw) with abs(observed), implicitly centering the null at zero.
+The corrected primary empirical P value compares absolute deviations around the empirical null median:
+(1 + sum(abs(null - median(null)) >= abs(observed - median(null)))) / (B + 1).
+The one-sided upper-tail and doubled-tail values are retained as sensitivity quantities.
+No Route-B source output was overwritten.

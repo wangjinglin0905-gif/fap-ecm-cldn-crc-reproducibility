@@ -1,0 +1,28 @@
+"patient","definition","median_difference"
+"P1","Author
+singlet
+(primary)",0.0536603744526923
+"P2","Author
+singlet
+(primary)",-0.00995176719930307
+"P5","Author
+singlet
+(primary)",0.00254655548384905
+"P1","Singlet +
+doublets",0.0542419710019757
+"P1","Author
+unsupervised L1",0.0454008903874462
+"P1","Frozen marker
+margin",0.00958845738116226
+"P2","Singlet +
+doublets",0.000228316746676741
+"P2","Author
+unsupervised L1",0.00109018256445328
+"P2","Frozen marker
+margin",-0.00787050418968224
+"P5","Singlet +
+doublets",0.00755412363267008
+"P5","Author
+unsupervised L1",-0.012610590834785
+"P5","Frozen marker
+margin",-0.0146647667845043

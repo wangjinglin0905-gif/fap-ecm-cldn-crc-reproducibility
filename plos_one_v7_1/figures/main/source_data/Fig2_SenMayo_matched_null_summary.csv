@@ -1,0 +1,2 @@
+"signature","represented_genes","patients","statistic","observed","null_median","null_q025","null_q975","empirical_p_upper","percentile"
+"SenMayo_nonoverlap",119,23,"median_patient_difference",0.466132986623438,0.216191771799466,0.101603459157654,0.338541415282737,0.0001999600079984,1

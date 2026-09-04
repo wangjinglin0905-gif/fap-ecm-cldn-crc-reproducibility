@@ -1,0 +1,56 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed
+2: Setting LC_CTYPE=C.UTF-8 failed
+3: Setting LC_MONETARY=C.UTF-8 failed
+4: Setting LC_TIME=C.UTF-8 failed
+Completed single-cell cluster and dependent-correlation lock analyses.
+                            model_id
+ GSE132_FAPdet_SenMayo_depth_subtype
+    GSE132_FAPdet_SASP_depth_subtype
+ GSE132_matrix4_on_FAP_depth_subtype
+ GSE132_FAPdet_SenMayo_depth_subtype
+    GSE132_FAPdet_SASP_depth_subtype
+ GSE132_matrix4_on_FAP_depth_subtype
+                                                       estimator           term
+                  random-intercept lmer; Satterthwaite inference FAP_statusFAP+
+                  random-intercept lmer; Satterthwaite inference FAP_statusFAP+
+                  random-intercept lmer; Satterthwaite inference       FAP_expr
+ patient fixed effects with patient-cluster percentile bootstrap FAP_statusFAP+
+ patient fixed effects with patient-cluster percentile bootstrap FAP_statusFAP+
+ patient fixed effects with patient-cluster percentile bootstrap       FAP_expr
+  estimate std_error      df statistic                 p_value      ci_low
+ 0.0238283 0.0147477 1492.73  1.615727 0.106364719392159079447 -0.00507672
+ 0.0322565 0.0383402 1497.22  0.841325 0.400300458355478117056 -0.04288884
+ 0.3015273 0.0359759 1494.29  8.381364 0.000000000000000119193  0.23101582
+ 0.0239353 0.0214170   22.00        NA 0.273945210957808438224 -0.01746797
+ 0.0340400 0.0368445   22.00        NA 0.362727454509098157232 -0.03742485
+ 0.2985797 0.0701618   22.00        NA 0.000399920015996800624  0.18720045
+   ci_high clusters bootstrap_requested bootstrap_valid
+ 0.0527333       23                  NA              NA
+ 0.1074019       23                  NA              NA
+ 0.3720389       23                  NA              NA
+ 0.0674826       23                5000            5000
+ 0.1094964       23                5000            5000
+ 0.4552066       23                5000            5000
+    cohort                        estimand n_patients   estimate    ci_low
+ GSE132465                  rho_FAP_matrix         23  0.6492095  0.263747
+ GSE132465                 rho_FAP_SenMayo         23  0.3310277 -0.130907
+ GSE132465              rho_SenMayo_matrix         23 -0.0484190 -0.513479
+ GSE132465    FAP_matrix_minus_FAP_SenMayo         23  0.3181818 -0.284999
+ GSE132465 FAP_matrix_minus_SenMayo_matrix         23  0.6976285  0.232515
+ GSE166555                  rho_FAP_matrix         10  0.8787879  0.388535
+ GSE166555                 rho_FAP_SenMayo         10 -0.0666667 -0.787493
+ GSE166555              rho_SenMayo_matrix         10 -0.4060606 -0.871795
+ GSE166555    FAP_matrix_minus_FAP_SenMayo         10  0.9454545 -0.176101
+ GSE166555 FAP_matrix_minus_SenMayo_matrix         10  1.2848485  0.423125
+  ci_high bootstrap_sign_p bootstrap_requested bootstrap_valid
+ 0.870324       0.00279972               10000           10000
+ 0.689398       0.14978502               10000           10000
+ 0.455335       0.83171683               10000           10000
+ 0.888213       0.28697130               10000           10000
+ 1.134184       0.00239976               10000           10000
+ 1.000000       0.00319968               10000           10000
+ 0.735849       0.86511349               10000           10000
+ 0.391304       0.27257274               10000           10000
+ 1.761006       0.10958904               10000           10000
+ 1.811321       0.00259974               10000           10000

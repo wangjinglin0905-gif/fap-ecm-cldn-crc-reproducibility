@@ -1,0 +1,7 @@
+cohort,patient,n_sections,n_stromal,n_tumour,median_difference
+Valdeolivas_Visium,A121573,2,645,710,0.0871774135875678
+Valdeolivas_Visium,A416371,2,1252,1299,0.00757234692831718
+Valdeolivas_Visium,A551763,2,120,1073,0.0733974956082171
+Valdeolivas_Visium,A595688,2,283,397,0.105047411785804
+Valdeolivas_Visium,A938797,2,1982,286,0.120445511591333
+Valdeolivas_Visium,A120838,2,564,275,0.217025960355804

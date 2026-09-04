@@ -1,0 +1,2 @@
+"cohort","normalization","common_core_n","retained_nonzero_variance_n","patients","paired_mean_difference","paired_median_difference","mean_difference_ci_low","mean_difference_ci_high","positive_differences","negative_differences","zero_differences","wilcoxon_signed_rank_statistic","wilcoxon_signed_rank_p"
+"GSE166555","patient-compartment pseudobulk log1p(CPM), gene-wise z across eligible compartments",111,111,10,0.188716550248003,0.163164166737682,0.0784692061142763,0.306280821870573,9,1,0,50,0.01953125

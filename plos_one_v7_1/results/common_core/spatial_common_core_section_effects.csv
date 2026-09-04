@@ -1,0 +1,19 @@
+"cohort","patient","sample","definition","common_core_n","retained_nonzero_variance_n","stromal_minus_tumour_mean_score"
+"GSE280315","P1","P1","author-deconvolution singlet; exact mean-score reconstruction from stored gene z contrasts",111,111,0.066048112953867
+"GSE280315","P2","P2","author-deconvolution singlet; exact mean-score reconstruction from stored gene z contrasts",111,111,0.00486855517669311
+"GSE280315","P5","P5","author-deconvolution singlet; exact mean-score reconstruction from stored gene z contrasts",111,111,0.0230533140497261
+"GSE334323","CRC03","CRC03","frozen stromal-vs-epithelial marker margin; direct common-core rescore",111,111,-0.214011799539304
+"GSE334323","CRC07","CRC07","frozen stromal-vs-epithelial marker margin; direct common-core rescore",111,111,-0.0376616753411128
+"GSE334323","CRC08","CRC08","frozen stromal-vs-epithelial marker margin; direct common-core rescore",111,111,0.0716313022563782
+"Valdeolivas_Visium","A121573","SN048_A121573_Rep1","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,110,0.138630195793596
+"Valdeolivas_Visium","A121573","SN048_A121573_Rep2","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,111,0.0919782266082737
+"Valdeolivas_Visium","A416371","SN048_A416371_Rep1","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,109,0.0115909962460186
+"Valdeolivas_Visium","A416371","SN048_A416371_Rep2","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,109,0.0230583674117139
+"Valdeolivas_Visium","A551763","SN123_A551763_Rep1","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,108,0.135455053907452
+"Valdeolivas_Visium","A551763","SN124_A551763_Rep2","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,106,0.0659279866441708
+"Valdeolivas_Visium","A595688","SN123_A595688_Rep1","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,108,0.117231276647984
+"Valdeolivas_Visium","A595688","SN124_A595688_Rep2","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,103,0.148931725310738
+"Valdeolivas_Visium","A938797","SN123_A938797_Rep1_X","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,108,0.0816021295489426
+"Valdeolivas_Visium","A938797","SN124_A938797_Rep2","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,110,0.159135736531136
+"Valdeolivas_Visium","A120838","SN84_A120838_Rep1","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,106,0.268855741589562
+"Valdeolivas_Visium","A120838","SN84_A120838_Rep2","pathologist fibroblastic-stroma vs tumour; exact mean-score reconstruction from stored gene z contrasts",111,106,0.192697265078411

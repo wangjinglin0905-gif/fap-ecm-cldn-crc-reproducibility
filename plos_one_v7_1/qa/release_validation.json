@@ -1,0 +1,72 @@
+{
+  "release": "v2.0.0",
+  "generated_utc": "2026-09-04T15:10:17+00:00",
+  "root": ".",
+  "manifest_records": 148,
+  "summary": {
+    "pass": 12,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "check": "required files",
+      "status": "PASS",
+      "detail": "missing=none"
+    },
+    {
+      "check": "four main PNG figures",
+      "status": "PASS",
+      "detail": "count=4"
+    },
+    {
+      "check": "four main TIFF figures",
+      "status": "PASS",
+      "detail": "count=4"
+    },
+    {
+      "check": "six supporting PNG figures",
+      "status": "PASS",
+      "detail": "count=6"
+    },
+    {
+      "check": "six supporting TIFF figures",
+      "status": "PASS",
+      "detail": "count=6"
+    },
+    {
+      "check": "S1-S7 tables",
+      "status": "PASS",
+      "detail": "missing=none"
+    },
+    {
+      "check": "no file exceeds 50 MiB",
+      "status": "PASS",
+      "detail": "files=none"
+    },
+    {
+      "check": "no local absolute-path leakage",
+      "status": "PASS",
+      "detail": "files=none"
+    },
+    {
+      "check": "manifest path uniqueness",
+      "status": "PASS",
+      "detail": "duplicates=none"
+    },
+    {
+      "check": "manifest files present",
+      "status": "PASS",
+      "detail": "missing=none"
+    },
+    {
+      "check": "manifest hashes",
+      "status": "PASS",
+      "detail": "mismatches=none"
+    },
+    {
+      "check": "no unmanifested static files",
+      "status": "PASS",
+      "detail": "files=none"
+    }
+  ]
+}

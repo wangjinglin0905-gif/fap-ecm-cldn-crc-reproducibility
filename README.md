@@ -1,18 +1,22 @@
-# Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer
+# Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer
 
-Versioned reproducibility archive for the AJCR manuscript:
+Versioned reproducibility archive for the manuscript:
 
-> Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer
+> Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer
 
-Current release: **v1.4.0 (2026-08-15)**.
+Current release: **v2.0.0 (2026-09-04)**.
 
-## Current AJCR v6.4 release
+## Current PLOS ONE v7.1 release
 
-The frozen AJCR v6.4 analysis is documented in [`ajcr_v6_4/README.md`](ajcr_v6_4/README.md). It contains portable analysis and figure scripts, small derived source tables, independent audit reports, input hashes, environment records and a complete SHA-256 manifest. The associated public raw datasets are identified by accession and hash but are not redistributed.
+The PLOS ONE v7.1 analysis is documented in [`plos_one_v7_1/README.md`](plos_one_v7_1/README.md). It contains frozen analysis outputs, compact derived inputs, portable analysis/table/figure scripts, machine-readable source data, four main figures, six supporting figures, seven supporting tables, environment records and a complete SHA-256 manifest. Public raw matrices are identified by accession and consumed-artifact hashes but are not redistributed.
 
-The current evidence supports a tumour-fibroblast-enriched senescence-associated transcriptional pattern and a distinct FAP-linked matrix state. It does **not** establish a FAP-specific senescent CAF population, SASP-mediated communication, an independently prognostic senescence/matrix score or causal cellular senescence. The frozen primary single-cell analysis uses source-annotated tumour cells only (1,501 fibroblast-lineage cells and 17,469 epithelial cells from 23 patients), removes all four FAP13 overlaps from SenMayo, adjusts FAP-specific models for sequencing depth and fibroblast subtype, and includes an independent GSE166555 direction check.
+The current evidence supports preferential localization of senescence-associated transcription to tumour fibroblast compartments and FAP–matrix covariation whose bulk magnitude depends on the composition proxy. It does **not** establish a FAP-specific senescent CAF population, durable cellular senescence, causal stromal signalling, trogocytosis, mitoxyperilysis or a universal spatial effect. The inferential hierarchy uses patients or independent tumour samples as the biological units, includes GSE166555 as an independent directional evaluation, retains non-supportive FAP-specific and spatial results, and separates source-available scores from the fixed 111-gene common-core sensitivity.
 
-See [`CHANGELOG_v1.4.0.md`](CHANGELOG_v1.4.0.md) for the interpretation changes and [`ajcr_v6_4/CHECKSUMS_SHA256.csv`](ajcr_v6_4/CHECKSUMS_SHA256.csv) for file-level integrity records.
+See [`CHANGELOG_v2.0.0.md`](CHANGELOG_v2.0.0.md) for the evidence-architecture changes and [`plos_one_v7_1/CHECKSUMS_SHA256.csv`](plos_one_v7_1/CHECKSUMS_SHA256.csv) for file-level integrity records.
+
+## Prior v1.4.0 AJCR archive
+
+The frozen AJCR v6.4 analysis remains available in [`ajcr_v6_4/README.md`](ajcr_v6_4/README.md). It records the earlier tumour-only GSE132465 analysis, independent GSE166555 direction check, signature-specificity audits, CPTAC and prognosis boundaries, patient-level confidence intervals, lowercase-panel figures, input hashes and independent review records. It is retained for provenance and is not the current inferential package.
 
 ## Prior v1.3.0 R1 archive
 
@@ -134,9 +138,11 @@ This crosswalk is a navigation aid for the archived v1.3.0 materials. It does no
 
 ## Citation and licence
 
-**Current GitHub release (v1.4.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v1.4.0
+**Current GitHub release (v2.0.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.0
 
-**Current v1.4.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.21949766
+**Current version-specific Zenodo DOI:** assigned when the v2.0.0 GitHub release is archived; use the all-version DOI below to resolve the latest archived version.
+
+**Prior v1.4.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.21949766
 
 **All-version Zenodo DOI:** https://doi.org/10.5281/zenodo.21441731
 

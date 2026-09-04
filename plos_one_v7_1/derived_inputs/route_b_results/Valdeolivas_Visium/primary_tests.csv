@@ -1,0 +1,3 @@
+hypothesis,n_patients,median_effect,ci_low,ci_high,positive_patients,raw_p,holm_p
+H1V_compartment_localization,6,0.0961124126866857,0.0404849212682671,0.168735735973569,6,0.03125,0.0625
+H2V_axis_separation,6,-0.00412583587967255,-0.150902005679525,0.208208241044189,3,1,1

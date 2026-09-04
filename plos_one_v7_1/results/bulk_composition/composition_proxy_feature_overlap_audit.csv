@@ -1,0 +1,9 @@
+"proxy","target_set","proxy_feature_count","target_feature_count","overlap_count","overlap_genes","retained_after_purge"
+"MCP-counter Fibroblasts","FAP13_matrix4",8,17,3,"COL1A1;COL3A1;TAGLN",5
+"EPIC TRef signature genes","FAP13_matrix4",98,17,2,"COL1A1;COL3A1",96
+"MCP-counter Fibroblasts","SenMayo_FAP13",8,132,1,"TAGLN",7
+"EPIC TRef signature genes","SenMayo_FAP13",98,132,1,"IL1B",97
+"MCP-counter Fibroblasts","SenMayo_matrix4",8,123,2,"COL1A1;COL3A1",6
+"EPIC TRef signature genes","SenMayo_matrix4",98,123,3,"COL1A1;COL3A1;IL1B",95
+"MCP-counter Fibroblasts","global_disjoint",8,136,3,"COL1A1;COL3A1;TAGLN",5
+"EPIC TRef signature genes","global_disjoint",98,136,3,"COL1A1;COL3A1;IL1B",95

@@ -1,9 +1,9 @@
 {
-  "title": "Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer: reproducibility archive",
-  "description": "Version 1.4.0 freezes the tumour-only GSE132465 analysis, independent GSE166555 direction check, signature-specificity audits, CPTAC and prognosis boundaries, patient-level confidence intervals, lowercase-panel publication figures, input hashes and independent review records supporting the AJCR v6.4 manuscript.",
+  "title": "Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer: reproducibility archive",
+  "description": "Version 2.0.0 supports the PLOS ONE v7.1 manuscript with patient-level single-cell localization analyses, FAP-specific cluster-bootstrap models, matched-null controls, target-purged bulk composition sensitivity, proteomic triangulation, a three-cohort spatial generalizability stress test, lowercase-panel publication figures, source tables, scripts and integrity records. Public raw matrices are not redistributed.",
   "upload_type": "software",
-  "publication_date": "2026-08-15",
-  "version": "1.4.0",
+  "publication_date": "2026-09-04",
+  "version": "2.0.0",
   "access_right": "open",
   "license": "mit",
   "language": "eng",
@@ -24,6 +24,8 @@
     "extracellular matrix",
     "senescence-associated transcription",
     "single-cell RNA sequencing",
+    "spatial transcriptomics",
+    "composition adjustment",
     "proteomics",
     "reproducibility"
   ],

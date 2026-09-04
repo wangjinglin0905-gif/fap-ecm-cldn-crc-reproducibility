@@ -1,0 +1,4 @@
+"pair","adjustment","proxy_definition","n","rho","p_value","ci_low","ci_high","label"
+"FAP13_matrix4","MCP+EPIC global-disjoint","joint proxies disjoint from all manuscript target sets",380,0.466009752879497,0.000000000000000000000894559589111865,0.364240859099141,0.555270687293375,"FAP13-matrix4"
+"SenMayo_FAP13","MCP+EPIC global-disjoint","joint proxies disjoint from all manuscript target sets",380,0.314812411461284,0.000000000384326003383405,0.210599756171565,0.411619398432887,"SenMayo-FAP13"
+"SenMayo_matrix4","MCP+EPIC global-disjoint","joint proxies disjoint from all manuscript target sets",380,-0.0157092570028056,0.760800228062382,-0.1339252898855,0.108866590798477,"SenMayo-matrix4"

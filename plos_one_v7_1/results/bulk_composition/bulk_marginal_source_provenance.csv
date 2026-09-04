@@ -1,0 +1,5 @@
+"role","source_file","input_rows","note"
+"expression","GSE39582_expr.csv",585,"Public GSE39582 probe-level expression matrix; locally archived input"
+"probe map","gene2probe.csv",70,"Frozen gene-to-probe mapping used by the locked release pipeline"
+"tumour/non-tumour map","gse39582_sample_dataset.csv",585,"Frozen sample classification; 19 non-tumour samples excluded"
+"TCGA scores","tcga_primary_target_scores.csv",380,"Frozen TCGA primary tumour signature scores"

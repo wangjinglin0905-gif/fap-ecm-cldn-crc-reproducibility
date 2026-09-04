@@ -1,0 +1,536 @@
+{
+  "generated_utc": "2026-09-04T14:55:08+00:00",
+  "expected_files": 20,
+  "observed_files": 20,
+  "minimum_dpi": {
+    "PNG": 300,
+    "TIFF": 600
+  },
+  "summary": {
+    "pass": 20,
+    "fail": 0
+  },
+  "files": [
+    {
+      "path": "figures/main/Fig1_scRNA_compartment_localization_preview.png",
+      "bytes": 506933,
+      "sha256": "b1b95fadd926ed246425955bae33dc6b1962cb8882762b9d7f3c1626e3fbbb07",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        1965
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/main/Fig2_FAP_specific_and_covariance_preview.png",
+      "bytes": 197664,
+      "sha256": "df4fb93a81bffdf9c40c204d70c03a59a668bf0fe3f247c505ad9b620111463a",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        2055
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/main/Fig3_bulk_composition_and_proteomics_preview.png",
+      "bytes": 171261,
+      "sha256": "0cfa133826a64959005bacaf6f42384cf5778cabddd85853b8906b3edaa1ca73",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        1995
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/main/Fig4_spatial_generalizability_preview.png",
+      "bytes": 171768,
+      "sha256": "02d3e1c1fa0cdea20f7fac8498d2ce2c5a2544f2336fdf3fa4d441144a68b1df",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        2025
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/main/Fig1_scRNA_compartment_localization_review_600dpi.tiff",
+      "bytes": 1055572,
+      "sha256": "46bd3a53057748278720a3ff206655001e305cd71de4d2cf78642521e0a45077",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        3930
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/main/Fig2_FAP_specific_and_covariance_review_600dpi.tiff",
+      "bytes": 656882,
+      "sha256": "4a4beb228c3bc8a77bf57be772d4e64607fc8a122117518476f4eafb9a62ca27",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        4110
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/main/Fig3_bulk_composition_and_proteomics_review_600dpi.tiff",
+      "bytes": 480672,
+      "sha256": "9fd5c43fd726c307ac33e9e1feb1fcd1266d7a845dfbfffa5bcb61ee6ad88a8e",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        3990
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/main/Fig4_spatial_generalizability_review_600dpi.tiff",
+      "bytes": 493698,
+      "sha256": "9538dc4b063fbe6816fc315477e8a27bc65aef686cbadd07e1739d0b9fbd543c",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        4050
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S1_dataset_flow_and_evidence_hierarchy_preview.png",
+      "bytes": 186301,
+      "sha256": "24b897d5242fd4a5fc354fc6d2add6de05442edbe9eaf8321c560950df2fb184",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2340,
+        1935
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S2_cell_census_and_common_core_preview.png",
+      "bytes": 261691,
+      "sha256": "0a923b0c9313bc70fb559c3715c2d9ab0332557060b3c325ee3f9511b1e63939",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2340,
+        1995
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S3_single_gene_models_and_diagnostics_preview.png",
+      "bytes": 202075,
+      "sha256": "4d6b41cbde1858939bb15afaaac4f9082bf9ce7c453cbd7fe32b11e832393e7f",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        2025
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S4_matched_null_diagnostics_preview.png",
+      "bytes": 149342,
+      "sha256": "5447b246f2ebc7127ef417bd58cfc97aa5f1069ca261e66443bcd047ffff6376",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        1965
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S5_composition_proxy_overlap_and_purging_preview.png",
+      "bytes": 218023,
+      "sha256": "3df8abcd3474673b37707b199805b765a3d6bf5595ecc966cb944af97aaf8d6f",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        2025
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S6_spatial_QC_and_provenance_preview.png",
+      "bytes": 284249,
+      "sha256": "45a99ed75f065af0f8dbcb748b26289f63566ec610f5ffaa0cfd7cd5067ca78a",
+      "kind": "preview_png",
+      "format": "PNG",
+      "mode": "RGB",
+      "pixels": [
+        2250,
+        2055
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S1_dataset_flow_and_evidence_hierarchy_review_600dpi.tiff",
+      "bytes": 745390,
+      "sha256": "e33d2b7073425bc5c93edd86eae2f08e1ff78f07d62ceaf7b43f57a19ac83108",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4680,
+        3870
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S2_cell_census_and_common_core_review_600dpi.tiff",
+      "bytes": 671380,
+      "sha256": "4d6d2368e2d22c94049261288f32c30da1a8241ec72e6a6c5bceb1f238e6b00d",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4680,
+        3990
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S3_single_gene_models_and_diagnostics_review_600dpi.tiff",
+      "bytes": 586186,
+      "sha256": "989fe17f7e605aa6d6ca05ff8d8a17e78477efdba524b758ca6fb7fe841df30e",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        4050
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S4_matched_null_diagnostics_review_600dpi.tiff",
+      "bytes": 928542,
+      "sha256": "8463aa7a16209905edf8fbbc0e18bb724f2a07a0de8f5945fc7c17aca736dc8e",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        3930
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S5_composition_proxy_overlap_and_purging_review_600dpi.tiff",
+      "bytes": 604240,
+      "sha256": "b192a828c567cd86974288ba15f183abe91a3bd7f2b94283140da8ad57d87f72",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        4050
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    },
+    {
+      "path": "figures/supporting/S6_spatial_QC_and_provenance_review_600dpi.tiff",
+      "bytes": 629444,
+      "sha256": "cb45ddc76f2c8d94c7913924e8080e250b8fb93bce9c638af459625c8dc36ddb",
+      "kind": "submission_tiff",
+      "format": "TIFF",
+      "mode": "RGB",
+      "pixels": [
+        4500,
+        4110
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "frames": 1,
+      "warnings": [],
+      "checks": {
+        "format": true,
+        "rgb": true,
+        "single_frame": true,
+        "dpi": true,
+        "warnings": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "root": "."
+}

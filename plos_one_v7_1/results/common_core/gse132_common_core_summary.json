@@ -1,0 +1,16 @@
+{
+  "cohort": "GSE132465",
+  "normalization": "log1p_CPTT_1e4",
+  "common_core_n": 111,
+  "retained_nonzero_variance_n": 111,
+  "patients": 23,
+  "paired_mean_difference": 0.5169734290737206,
+  "paired_median_difference": 0.49266658064340946,
+  "mean_difference_ci_low": 0.46335944479340063,
+  "mean_difference_ci_high": 0.5710087866037408,
+  "positive_differences": 23,
+  "negative_differences": 0,
+  "zero_differences": 0,
+  "wilcoxon_signed_rank_statistic": 0.0,
+  "wilcoxon_signed_rank_p": 2.384185791015625e-07
+}

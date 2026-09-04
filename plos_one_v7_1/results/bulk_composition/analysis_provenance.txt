@@ -1,0 +1,11 @@
+R_version=R version 4.6.1 (2026-06-24 ucrt)
+runtime=R 4.6.1; primary user library=R 4.6; backup R installations were not used
+MCPcounter_version=1.2.0
+EPIC_version=1.1.7
+MCPcounter_source_commit=b6eac73e91c246fcff0bb1a5c68a816cd588fc48
+MCPcounter_genes_sha256=3BF042D9C1637CA2C1A6B8D1D1B2E4A14B97A6A7553B19A94FE47E4F37F3516A
+TCGA_primary_samples=380
+SenMayo_represented_nonoverlap=119
+bootstrap_resamples=5000
+seed=2026090310
+chosen_EPIC_preprocessing=linearized_scale_TRUE

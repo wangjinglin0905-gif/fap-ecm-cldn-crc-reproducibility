@@ -1,0 +1,3 @@
+"comparison","n","rho","ci_low","ci_high","p_value","bootstrap_resamples","bootstrap_seed","fdr_bh_two","interpretation","short"
+"FAP protein vs FAP-excluded matrix3 protein score",97,0.81160582789817,0.706378232101106,0.878770568984802,0.00000000000000000000000666853815139854,5000,2026081505,0.0000000000000000000000133370763027971,"FAP-ECM protein covariation; not a SASP or senescence assay","FAP vs FAP-excluded ECM"
+"matrix3 protein score vs receptor2 protein score",97,0.0961103513570377,-0.0917670841933809,0.284890466894842,0.349028005182705,5000,2026081506,0.349028005182705,"No coordinated receptor co-induction","ECM vs SDC4/CD44"

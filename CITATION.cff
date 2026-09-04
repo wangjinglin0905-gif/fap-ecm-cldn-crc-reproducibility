@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "Please cite the associated manuscript, this repository release, and the source datasets used."
-title: "Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer: reproducibility archive"
+title: "Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer: reproducibility archive"
 type: software
-version: 1.4.0
-date-released: 2026-08-15
+version: 2.0.0
+date-released: 2026-09-04
 url: "https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility"
 identifiers:
   - type: doi
@@ -56,6 +56,6 @@ preferred-citation:
       given-names: Yao
     - family-names: Yang
       given-names: Juan
-  title: "Fibroblast-enriched senescence-associated transcription and a distinct FAP-linked matrix state in colorectal cancer"
+  title: "Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer"
   year: 2026
   status: "manuscript prepared for submission"

@@ -1,0 +1,4 @@
+candidate,n_cells,represented_genes,retained_nonzero_variance,pearson_vs_archived_SenMayo_zmean,rmse_vs_archived_SenMayo_zmean,max_abs_difference
+log1p_CPTT_1e4,18970,119,119,1.0,2.7365558837003366e-16,5.329070518200751e-15
+log1p_CPM_1e6,18970,119,119,0.8959436314817701,0.1030964628509058,0.6851506940813825
+log1p_raw_UMI,18970,119,119,0.7900476498211175,0.1679275792619141,1.1455870172395293

@@ -1,0 +1,6 @@
+"gene","estimate","ci_low","ci_high","p_value","diagnostic","source"
+"CDKN2A",0.8902096,0.6200189,1.278143,0.5285691,"converged","v6.4 frozen adjusted marker-detection model"
+"CDKN2B",0.9812225,0.7031367,1.369289,0.9112278,"converged","v6.4 frozen adjusted marker-detection model"
+"CDKN1A",0.9618322,0.7238329,1.278087,0.7884639,"converged","v6.4 frozen adjusted marker-detection model"
+"LMNB1",0.8561041,0.4780376,1.533173,0.6012626,"singular fit","v6.4 frozen adjusted marker-detection model"
+"MKI67",0.8363848,0.4177235,1.674647,0.6139833,"converged","v6.4 frozen adjusted marker-detection model"

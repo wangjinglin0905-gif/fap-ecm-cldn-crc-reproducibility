@@ -1,0 +1,53 @@
+record_type,cohort_or_proxy,target_pair,adjustment_or_target_set,proxy_definition,n,estimate,ci_low,ci_high,p_value,bootstrap_replicates,overlap_count,overlap_genes,retained_after_purge
+marginal correlation,TCGA-COAD/READ,FAP13_matrix4,none,not applicable,380,0.929585676530053,0.909881027789463,0.943945088169241,0.0,5000,,,
+marginal correlation,GSE39582,FAP13_matrix4,none,not applicable,566,0.913363978444187,0.895410770546509,0.927796907670917,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,none,not applicable,380,0.929585676530053,,,0.0,,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,fib5 transcript score,"five genes disjoint from FAP13, matrix4 and SenMayo",380,0.650479278571174,0.570860450656015,0.713993564549329,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP recomputed full,official fibroblast marker score; target overlap retained,380,0.113039074265828,-0.0140946823014323,0.246922633971829,0.0277768306185061,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP pair-purged,official fibroblast marker score after removal of both target sets,380,0.500846914258756,0.40284165846414,0.583949664087314,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP global-disjoint,official fibroblast marker score after removal of all three manuscript target sets,380,0.500846914258756,0.404848570982003,0.587503058825897,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,EPIC recomputed full,TRef CAF fraction; target overlap retained,380,0.287538780032554,0.172628212779165,0.39601890569953,1.19728482e-08,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,EPIC pair-purged,"TRef CAF fraction after removal of both target sets from signatures, reference scaling and bulk scaling",380,0.700745614284171,0.627469920425689,0.759323670892044,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,EPIC global-disjoint,TRef CAF fraction after removal of all three manuscript target sets,380,0.700174022273046,0.628427596108905,0.758428736174556,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP+EPIC recomputed full,joint full official proxies,380,0.150208727989048,0.036132133890832,0.260830157261806,0.0034186920253517,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP+EPIC pair-purged,joint proxies purged for this target pair,380,0.466131460869516,0.362500822424909,0.555540696442766,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP+EPIC global-disjoint,joint proxies disjoint from all manuscript target sets,380,0.466009752879497,0.364240859099141,0.555270687293375,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP archived legacy,archived covariate; exact primary-sample intersection,380,0.113039074265828,-0.0112376805755328,0.248387207719074,0.0277768306185061,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,EPIC archived legacy,archived covariate; exact primary-sample intersection,380,0.287538780032554,0.173874489213615,0.397848721202624,1.19728482e-08,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,FAP13_matrix4,MCP+EPIC archived legacy,archived covariates; exact primary-sample intersection,380,0.150208727989048,0.0345034600229486,0.258831286508746,0.0034186920253517,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,none,not applicable,380,0.828627694972374,,,0.0,,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,fib5 transcript score,"five genes disjoint from FAP13, matrix4 and SenMayo",380,0.387597021710658,0.285788188237255,0.482066342601498,4.9e-15,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP recomputed full,official fibroblast marker score; target overlap retained,380,0.377732006793071,0.265536416362488,0.476343291944434,2.67e-14,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP pair-purged,official fibroblast marker score after removal of both target sets,380,0.267153461633771,0.159780662902035,0.368649798644247,1.291738096e-07,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP global-disjoint,official fibroblast marker score after removal of all three manuscript target sets,380,0.213492052210109,0.0990623117360703,0.327266044469268,2.77808583989e-05,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,EPIC recomputed full,TRef CAF fraction; target overlap retained,380,0.57529878091836,0.492822796846567,0.650435206300789,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,EPIC pair-purged,"TRef CAF fraction after removal of both target sets from signatures, reference scaling and bulk scaling",380,0.57330157400154,0.491111172258161,0.646750121657849,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,EPIC global-disjoint,TRef CAF fraction after removal of all three manuscript target sets,380,0.652351173788705,0.581972581650738,0.708899689210265,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP+EPIC recomputed full,joint full official proxies,380,0.383830605644023,0.27064726081087,0.484189122076523,1.02e-14,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP+EPIC pair-purged,joint proxies purged for this target pair,380,0.26213930367072,0.153585747613815,0.367137607667277,2.336142143e-07,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP+EPIC global-disjoint,joint proxies disjoint from all manuscript target sets,380,0.314812411461284,0.210599756171565,0.411619398432887,3.84326e-10,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP archived legacy,archived covariate; exact primary-sample intersection,380,0.377732006793071,0.265750413101385,0.47887854967005,2.67e-14,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,EPIC archived legacy,archived covariate; exact primary-sample intersection,380,0.57529878091836,0.490581649243613,0.646816234405975,0.0,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_FAP13,MCP+EPIC archived legacy,archived covariates; exact primary-sample intersection,380,0.383830605644023,0.270607108967104,0.483690879209811,1.02e-14,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,none,not applicable,380,0.734644466483767,,,0.0,,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,fib5 transcript score,"five genes disjoint from FAP13, matrix4 and SenMayo",380,0.13282702037109,0.0191952168739005,0.248049417596297,0.0096309614936564,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP recomputed full,official fibroblast marker score; target overlap retained,380,-0.0975375376633708,-0.222510485374452,0.0376958517237459,0.0578138674117953,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP pair-purged,official fibroblast marker score after removal of both target sets,380,0.0540972321496551,-0.080284570357928,0.190466116279155,0.293510665223766,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP global-disjoint,official fibroblast marker score after removal of all three manuscript target sets,380,-0.0558636675132996,-0.17722079049347,0.0735460935233457,0.278008257035889,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,EPIC recomputed full,TRef CAF fraction; target overlap retained,380,0.0822081398850164,-0.0172539242739407,0.186641777936196,0.11007841654388,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,EPIC pair-purged,"TRef CAF fraction after removal of both target sets from signatures, reference scaling and bulk scaling",380,0.367889857955344,0.270121319966966,0.45614589780028,1.367e-13,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,EPIC global-disjoint,TRef CAF fraction after removal of all three manuscript target sets,380,0.366429213206118,0.271818124057032,0.453184780491657,1.733e-13,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP+EPIC recomputed full,joint full official proxies,380,-0.0390612018976357,-0.134496270005088,0.0606070744861976,0.448923824045381,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP+EPIC pair-purged,joint proxies purged for this target pair,380,0.0753343320064775,-0.0600255107910936,0.204589385786258,0.143770255609145,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP+EPIC global-disjoint,joint proxies disjoint from all manuscript target sets,380,-0.0157092570028056,-0.1339252898855,0.108866590798477,0.760800228062382,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP archived legacy,archived covariate; exact primary-sample intersection,380,-0.0975375376633708,-0.224497511370123,0.0459742311068537,0.0578138674117953,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,EPIC archived legacy,archived covariate; exact primary-sample intersection,380,0.0822081398850164,-0.0128300201114841,0.184885972059135,0.11007841654388,5000,,,
+TCGA partial correlation,TCGA-COAD/READ,SenMayo_matrix4,MCP+EPIC archived legacy,archived covariates; exact primary-sample intersection,380,-0.0390612018976357,-0.13150626703278,0.0584184222547497,0.448923824045381,5000,,,
+proxy feature overlap,MCP-counter Fibroblasts,,FAP13_matrix4,,,,,,,,3,COL1A1;COL3A1;TAGLN,5
+proxy feature overlap,EPIC TRef signature genes,,FAP13_matrix4,,,,,,,,2,COL1A1;COL3A1,96
+proxy feature overlap,MCP-counter Fibroblasts,,SenMayo_FAP13,,,,,,,,1,TAGLN,7
+proxy feature overlap,EPIC TRef signature genes,,SenMayo_FAP13,,,,,,,,1,IL1B,97
+proxy feature overlap,MCP-counter Fibroblasts,,SenMayo_matrix4,,,,,,,,2,COL1A1;COL3A1,6
+proxy feature overlap,EPIC TRef signature genes,,SenMayo_matrix4,,,,,,,,3,COL1A1;COL3A1;IL1B,95
+proxy feature overlap,MCP-counter Fibroblasts,,global_disjoint,,,,,,,,3,COL1A1;COL3A1;TAGLN,5
+proxy feature overlap,EPIC TRef signature genes,,global_disjoint,,,,,,,,3,COL1A1;COL3A1;IL1B,95

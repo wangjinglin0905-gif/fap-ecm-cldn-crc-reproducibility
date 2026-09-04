@@ -1,0 +1,4 @@
+"model_id","estimator","term","estimate","std_error","df","statistic","p_value","ci_low","ci_high","clusters","bootstrap_requested","bootstrap_valid","outcome","predictor"
+"GSE132_FAPdet_SenMayo_depth_subtype","patient fixed effects with patient-cluster percentile bootstrap","FAP_statusFAP+",0.0239352966902746,0.0214169664314475,22,NA,0.273945210957808,-0.017467965657271,0.0674826479484025,23,5000,5000,"SenMayo","FAP-detected"
+"GSE132_FAPdet_SASP_depth_subtype","patient fixed effects with patient-cluster percentile bootstrap","FAP_statusFAP+",0.0340399533940065,0.0368445094638096,22,NA,0.362727454509098,-0.0374248478921378,0.109496413037663,23,5000,5000,"SASP25","FAP-detected"
+"GSE132_matrix4_on_FAP_depth_subtype","patient fixed effects with patient-cluster percentile bootstrap","FAP_expr",0.298579658138803,0.0701618241737324,22,NA,0.000399920015996801,0.187200453753113,0.455206626229917,23,5000,5000,"matrix4","FAP expression"
