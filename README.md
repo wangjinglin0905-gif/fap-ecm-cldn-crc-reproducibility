@@ -140,7 +140,7 @@ This crosswalk is a navigation aid for the archived v1.3.0 materials. It does no
 
 **Current GitHub release (v2.0.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.0
 
-**Current version-specific Zenodo DOI:** assigned when the v2.0.0 GitHub release is archived; use the all-version DOI below to resolve the latest archived version.
+**Current v2.0.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.22307401
 
 **Prior v1.4.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.21949766
 
