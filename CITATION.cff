@@ -7,6 +7,9 @@ date-released: 2026-09-07
 url: "https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility"
 identifiers:
   - type: doi
+    value: "10.5281/zenodo.22646652"
+    description: "Version DOI for repository release v2.0.2"
+  - type: doi
     value: "10.5281/zenodo.21441731"
     description: "Concept DOI resolving to the latest repository release"
 authors:

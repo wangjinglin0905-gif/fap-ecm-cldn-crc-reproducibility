@@ -6,6 +6,8 @@ Versioned reproducibility archive for the manuscript:
 
 Current release: **v2.0.2 (2026-09-07)**.
 
+Version archive: [Zenodo 10.5281/zenodo.22646652](https://doi.org/10.5281/zenodo.22646652) · [GitHub release v2.0.2](https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.2). The actual Zenodo ZIP was downloaded and verified against 151 package-file hashes and 11 supplementary-table hashes. This DOI link was added after release publication; the immutable tag itself retains the concept DOI.
+
 ## Current PLOS ONE v7.2 reporting patch
 
 Release v2.0.2 synchronizes the v7.2 supplementary-table reporting corrections: five legacy version labels in S4 are replaced by model descriptions, and 16 S6 P values previously serialized as zero are restored from the frozen result CSVs. No statistical models were rerun; effect estimates, confidence intervals, sample counts, conclusions and all 20 PNG/TIFF figure files are unchanged. The stable directory name `plos_one_v7_1/` is retained to preserve reproducibility paths; this tagged snapshot supports manuscript v7.2. The new reference ledger maps all 34 current references, including three linked correction notices.
