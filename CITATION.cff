@@ -2,13 +2,10 @@ cff-version: 1.2.0
 message: "Please cite the associated manuscript, this repository release, and the source datasets used."
 title: "Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer: reproducibility archive"
 type: software
-version: 2.0.1
+version: 2.0.2
 date-released: 2026-09-07
 url: "https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility"
 identifiers:
-  - type: doi
-    value: "10.5281/zenodo.22640341"
-    description: "Version DOI for repository release v2.0.1"
   - type: doi
     value: "10.5281/zenodo.21441731"
     description: "Concept DOI resolving to the latest repository release"

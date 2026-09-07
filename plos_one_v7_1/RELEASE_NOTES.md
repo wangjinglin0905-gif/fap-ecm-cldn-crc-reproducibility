@@ -1,4 +1,12 @@
-# Release v2.0.1 integrity correction
+# Release v2.0.2 reporting correction
+
+Date: 2026-09-07
+
+This snapshot supports PLOS ONE manuscript v7.2 while retaining the stable package directory name. Five S4 source-note cells now describe the marker-detection model without a historical manuscript-version label. Sixteen S6 P-value cells have been restored from the unchanged frozen result CSVs and are reported in scientific notation rather than zero. The portable table builder preserves small P values through decimal-string parsing. The cell-level patch ledger provides repository-relative sources, and the current DOI ledger covers 34 references including three linked correction notices.
+
+No model was rerun. All frozen scientific results, effect estimates, confidence intervals, sample counts and figure images are unchanged. Both manifests have been refreshed for the new reporting files. Prior release notes below describe historical snapshots, not the current manuscript.
+
+## Prior release v2.0.1 integrity correction
 
 Date: 2026-09-07
 

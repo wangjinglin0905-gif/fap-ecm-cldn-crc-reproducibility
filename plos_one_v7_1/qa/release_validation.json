@@ -1,8 +1,8 @@
 {
-  "release": "v2.0.1",
-  "generated_utc": "2026-09-07T08:56:02+00:00",
+  "release": "v2.0.2",
+  "generated_utc": "2026-09-07T15:22:06+00:00",
   "root": ".",
-  "manifest_records": 149,
+  "manifest_records": 151,
   "summary": {
     "pass": 13,
     "fail": 0

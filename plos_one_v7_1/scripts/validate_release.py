@@ -131,7 +131,7 @@ def main() -> None:
 
     failed = [check for check in checks if check["status"] == "FAIL"]
     payload = {
-        "release": "v2.0.1",
+        "release": "v2.0.2",
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "root": ".",
         "manifest_records": len(rows),

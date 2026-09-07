@@ -1,9 +1,9 @@
 {
   "title": "Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer: reproducibility archive",
-  "description": "Version 2.0.1 supports the PLOS ONE v7.1 manuscript with patient-level single-cell localization analyses, FAP-specific cluster-bootstrap models, matched-null controls, target-purged bulk composition sensitivity, proteomic triangulation, a three-cohort spatial generalizability stress test, lowercase-panel publication figures, source tables, scripts and integrity records. Public raw matrices are not redistributed. This patch repairs cross-platform line-ending checksum consistency and removes a self-referential supplementary-table manifest entry. Scientific inputs, numeric results, claims and figure files are unchanged from v2.0.0.",
+  "description": "Version 2.0.2 supports the PLOS ONE v7.2 manuscript. This reporting patch replaces five legacy version labels in supplementary table S4 with model descriptions and restores 16 small P values in S6 from the frozen source CSVs after intermediate floating-point CSV parsing had serialized them as zero. The table builder now preserves these values in scientific notation. No statistical analyses were rerun; effect estimates, confidence intervals, sample counts, conclusions and all PNG/TIFF figure files are unchanged. A current 34-reference DOI ledger includes three linked correction notices. The archive retains patient-level single-cell analyses, cluster-bootstrap models, matched-null controls, bulk composition sensitivity, proteomic triangulation, spatial stress tests, scripts and integrity records. Public raw matrices and unpublished manuscript DOCX files are not redistributed. The stable package directory remains plos_one_v7_1 for path continuity.",
   "upload_type": "software",
   "publication_date": "2026-09-07",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "access_right": "open",
   "license": "mit",
   "language": "eng",

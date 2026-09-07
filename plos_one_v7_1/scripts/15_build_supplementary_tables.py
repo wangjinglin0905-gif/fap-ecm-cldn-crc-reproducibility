@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+from decimal import Decimal
 from pathlib import Path
 
 import pandas as pd
@@ -310,7 +311,7 @@ def build_s4(project: Path, out_dir: Path) -> Path:
                 "bootstrap_requested": pd.NA,
                 "bootstrap_valid": pd.NA,
                 "diagnostic": row["diagnostic"],
-                "source_note": row["source"],
+                "source_note": "Adjusted marker-detection model with depth, subtype and patient effects",
             }
         )
     output = out_dir / "S4_Table_FAP_specific_models_and_diagnostics.csv"
@@ -333,9 +334,23 @@ def build_s5(project: Path, out_dir: Path) -> Path:
 
 def build_s6(project: Path, out_dir: Path) -> Path:
     bulk_dir = project / "results" / "bulk_composition"
-    partial = pd.read_csv(bulk_dir / "target_purged_partial_correlations.csv")
+    # Read P values as strings: some source CSVs use long fixed-point decimals
+    # that a floating-point CSV parser previously converted to zero.
+    partial_path = bulk_dir / "target_purged_partial_correlations.csv"
+    marginal_path = bulk_dir / "bulk_marginal_correlations_bootstrap.csv"
+    partial = pd.read_csv(partial_path)
     overlap = pd.read_csv(bulk_dir / "composition_proxy_feature_overlap_audit.csv")
-    marginal = pd.read_csv(bulk_dir / "bulk_marginal_correlations_bootstrap.csv")
+    marginal = pd.read_csv(marginal_path)
+    for frame, source_path in ((partial, partial_path), (marginal, marginal_path)):
+        raw_p = pd.read_csv(source_path, dtype={"p_value": "string"})["p_value"]
+        frame["p_value"] = frame["p_value"].astype(object)
+        for index, value in raw_p.items():
+            if pd.notna(value) and frame.at[index, "p_value"] == 0:
+                exact = Decimal(str(value))
+                if exact > 0:
+                    frame.at[index, "p_value"] = format(exact, ".14E")
+    # Preserve the existing reporting precision for already nonzero values;
+    # this patch changes only the 16 falsely zeroed cells, not other results.
     rows = []
     for _, row in marginal.iterrows():
         rows.append(

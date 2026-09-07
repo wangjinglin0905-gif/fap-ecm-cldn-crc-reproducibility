@@ -1,10 +1,10 @@
-# PLOS ONE v7.1 reproducibility package
+# PLOS ONE v7.2 reproducibility reporting patch
 
 This directory contains the frozen analysis outputs, analysis and figure scripts, figure source data, supplementary tables, environment records and integrity checks supporting the manuscript:
 
 > **Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer**
 
-Release: **v2.0.1 (2026-09-07)**.
+Release: **v2.0.2 (2026-09-07)**. The directory name `plos_one_v7_1` is retained for path continuity; v2.0.2 supports manuscript v7.2. This is a reporting patch, not a new analysis run.
 
 ## Scientific scope
 
@@ -85,5 +85,9 @@ The earlier-stage scripts `01`–`06` and `13a`–`13b` accept explicit input an
 - `ledgers/claim_lock_v01_2026-09-04.csv` records the permitted interpretation ceiling and prohibited extensions.
 - `ledgers/scrna_endpoint_estimand_lock_v01_2026-09-04.csv` fixes patient-level single-cell estimands.
 - `ledgers/reference_verification_v7.1_2026-09-04.csv` records Crossref verification for all 31 DOI-bearing references.
+- `ledgers/reference_verification_v7.2_2026-09-07.csv` is the current 34-reference DOI ledger, including three linked correction notices; the older ledger is retained as provenance.
+- `ledgers/reporting_patch_v7.2_2026-09-07.json` records the 21 changed table cells and their repository-relative sources.
+
+S6 retains small nonzero P values in scientific notation. Its table builder reads these source values as decimal strings before formatting, preventing the intermediate CSV-parser zeroing found in v2.0.1. S4 uses model descriptions instead of a historical manuscript-version label. All statistical inputs, estimates, confidence intervals, sample counts and figure images are unchanged.
 
 See `RELEASE_NOTES.md` for the change from v1.4.0.

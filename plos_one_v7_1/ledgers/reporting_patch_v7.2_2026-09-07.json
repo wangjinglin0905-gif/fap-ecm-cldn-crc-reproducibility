@@ -1,0 +1,170 @@
+[
+  {
+    "file": "S4_Table_FAP_specific_models_and_diagnostics.csv",
+    "row": 8,
+    "column": "source_note",
+    "before": "v6.4 frozen adjusted marker-detection model",
+    "after": "Adjusted marker-detection model with depth, subtype and patient effects",
+    "source": "figures/supporting/source_data/S3_adjusted_marker_detection_ORs.csv"
+  },
+  {
+    "file": "S4_Table_FAP_specific_models_and_diagnostics.csv",
+    "row": 9,
+    "column": "source_note",
+    "before": "v6.4 frozen adjusted marker-detection model",
+    "after": "Adjusted marker-detection model with depth, subtype and patient effects",
+    "source": "figures/supporting/source_data/S3_adjusted_marker_detection_ORs.csv"
+  },
+  {
+    "file": "S4_Table_FAP_specific_models_and_diagnostics.csv",
+    "row": 10,
+    "column": "source_note",
+    "before": "v6.4 frozen adjusted marker-detection model",
+    "after": "Adjusted marker-detection model with depth, subtype and patient effects",
+    "source": "figures/supporting/source_data/S3_adjusted_marker_detection_ORs.csv"
+  },
+  {
+    "file": "S4_Table_FAP_specific_models_and_diagnostics.csv",
+    "row": 11,
+    "column": "source_note",
+    "before": "v6.4 frozen adjusted marker-detection model",
+    "after": "Adjusted marker-detection model with depth, subtype and patient effects",
+    "source": "figures/supporting/source_data/S3_adjusted_marker_detection_ORs.csv"
+  },
+  {
+    "file": "S4_Table_FAP_specific_models_and_diagnostics.csv",
+    "row": 12,
+    "column": "source_note",
+    "before": "v6.4 frozen adjusted marker-detection model",
+    "after": "Adjusted marker-detection model with depth, subtype and patient effects",
+    "source": "figures/supporting/source_data/S3_adjusted_marker_detection_ORs.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 2,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "6.38377647875680E-166",
+    "source": "results/bulk_composition/bulk_marginal_correlations_bootstrap.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 3,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "2.90542963249983E-222",
+    "source": "results/bulk_composition/bulk_marginal_correlations_bootstrap.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 4,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "6.38377647875680E-166",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 5,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "5.79222838302079E-47",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 7,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "1.84881441130528E-25",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 8,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "1.84881441130528E-25",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 10,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "2.99157117838453E-57",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 11,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "4.02669326625967E-57",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 13,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "8.70292517542164E-22",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 14,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "8.94559589111865E-22",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 18,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "2.82155430334585E-97",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 23,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "8.87066753519565E-35",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 24,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "1.69692315039296E-34",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 25,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "2.59893177240117E-47",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 30,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "8.87066753519565E-35",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  },
+  {
+    "file": "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
+    "row": 32,
+    "column": "p_value",
+    "before": "0.0",
+    "after": "1.14857726176056E-65",
+    "source": "results/bulk_composition/target_purged_partial_correlations.csv"
+  }
+]

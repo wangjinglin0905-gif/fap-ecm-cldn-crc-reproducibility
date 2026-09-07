@@ -4,15 +4,17 @@ Versioned reproducibility archive for the manuscript:
 
 > Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer
 
-Current release: **v2.0.1 (2026-09-07)**.
+Current release: **v2.0.2 (2026-09-07)**.
 
-## Current PLOS ONE v7.1 release
+## Current PLOS ONE v7.2 reporting patch
+
+Release v2.0.2 synchronizes the v7.2 supplementary-table reporting corrections: five legacy version labels in S4 are replaced by model descriptions, and 16 S6 P values previously serialized as zero are restored from the frozen result CSVs. No statistical models were rerun; effect estimates, confidence intervals, sample counts, conclusions and all 20 PNG/TIFF figure files are unchanged. The stable directory name `plos_one_v7_1/` is retained to preserve reproducibility paths; this tagged snapshot supports manuscript v7.2. The new reference ledger maps all 34 current references, including three linked correction notices.
 
 The PLOS ONE v7.1 analysis is documented in [`plos_one_v7_1/README.md`](plos_one_v7_1/README.md). It contains frozen analysis outputs, compact derived inputs, portable analysis/table/figure scripts, machine-readable source data, four main figures, six supporting figures, seven supporting tables, environment records and a complete SHA-256 manifest. Public raw matrices are identified by accession and consumed-artifact hashes but are not redistributed.
 
 The current evidence supports preferential localization of senescence-associated transcription to tumour fibroblast compartments and FAP–matrix covariation whose bulk magnitude depends on the composition proxy. It does **not** establish a FAP-specific senescent CAF population, durable cellular senescence, causal stromal signalling, trogocytosis, mitoxyperilysis or a universal spatial effect. The inferential hierarchy uses patients or independent tumour samples as the biological units, includes GSE166555 as an independent directional evaluation, retains non-supportive FAP-specific and spatial results, and separates source-available scores from the fixed 111-gene common-core sensitivity.
 
-See [`CHANGELOG_v2.0.1.md`](CHANGELOG_v2.0.1.md) for the integrity patch and [`CHANGELOG_v2.0.0.md`](CHANGELOG_v2.0.0.md) for the evidence-architecture changes and [`plos_one_v7_1/CHECKSUMS_SHA256.csv`](plos_one_v7_1/CHECKSUMS_SHA256.csv) for file-level integrity records.
+See [`CHANGELOG_v2.0.2.md`](CHANGELOG_v2.0.2.md) for the current reporting patch, [`CHANGELOG_v2.0.1.md`](CHANGELOG_v2.0.1.md) for the previous integrity patch, [`CHANGELOG_v2.0.0.md`](CHANGELOG_v2.0.0.md) for the evidence-architecture changes and [`plos_one_v7_1/CHECKSUMS_SHA256.csv`](plos_one_v7_1/CHECKSUMS_SHA256.csv) for file-level integrity records.
 
 ## Prior v1.4.0 AJCR archive
 
