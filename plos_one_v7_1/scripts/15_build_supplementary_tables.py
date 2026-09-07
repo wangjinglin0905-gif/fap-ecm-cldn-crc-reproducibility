@@ -138,7 +138,7 @@ def build_s1(project: Path, qa_root: Path, route_root: Path, out_dir: Path) -> P
         row["key_result_artifact"] = relative_to_project(path, project)
         row["key_artifact_sha256"] = sha256(path)
     output = out_dir / "S1_Table_dataset_accessions_eligibility_and_checksums.csv"
-    pd.DataFrame(rows).to_csv(output, index=False)
+    pd.DataFrame(rows).to_csv(output, index=False, lineterminator="\n")
     return output
 
 
@@ -184,8 +184,8 @@ def build_s2(project: Path, qa_root: Path, out_dir: Path) -> Path:
             record[f"SenMayo_represented_{cohort}"] = gene in represented[cohort]
         records.append(record)
     output = out_dir / "S2_Table_signature_membership_overlap_and_representation.csv"
-    pd.DataFrame(records).to_csv(output, index=False)
-    coverage.to_csv(out_dir / "S2_Data_SenMayo_cohort_coverage_summary.csv", index=False)
+    pd.DataFrame(records).to_csv(output, index=False, lineterminator="\n")
+    coverage.to_csv(out_dir / "S2_Data_SenMayo_cohort_coverage_summary.csv", index=False, lineterminator="\n")
     return output
 
 
@@ -233,7 +233,7 @@ def build_s3(project: Path, out_dir: Path) -> Path:
             }
         )
     output = out_dir / "S3_Table_single_cell_compartment_statistics.csv"
-    pd.DataFrame(rows).to_csv(output, index=False)
+    pd.DataFrame(rows).to_csv(output, index=False, lineterminator="\n")
     single_dir = project / "results" / "single_cell"
     pd.read_csv(single_dir / "scrna_patient_compartment_scores_aligned.csv").to_csv(
         out_dir / "S3_Data_patient_compartment_scores.csv", index=False
@@ -245,7 +245,7 @@ def build_s3(project: Path, out_dir: Path) -> Path:
         ],
         ignore_index=True,
     )
-    paired.to_csv(out_dir / "S3_Data_common_core_patient_effects.csv", index=False)
+    paired.to_csv(out_dir / "S3_Data_common_core_patient_effects.csv", index=False, lineterminator="\n")
     return output
 
 
@@ -314,7 +314,7 @@ def build_s4(project: Path, out_dir: Path) -> Path:
             }
         )
     output = out_dir / "S4_Table_FAP_specific_models_and_diagnostics.csv"
-    pd.DataFrame(cluster_rows).to_csv(output, index=False)
+    pd.DataFrame(cluster_rows).to_csv(output, index=False, lineterminator="\n")
     return output
 
 
@@ -327,7 +327,7 @@ def build_s5(project: Path, out_dir: Path) -> Path:
     )
     data = pd.read_csv(source)
     output = out_dir / "S5_Table_dependent_patient_level_correlations.csv"
-    data.to_csv(output, index=False)
+    data.to_csv(output, index=False, lineterminator="\n")
     return output
 
 
@@ -395,7 +395,7 @@ def build_s6(project: Path, out_dir: Path) -> Path:
             }
         )
     output = out_dir / "S6_Table_bulk_composition_overlap_and_sensitivity.csv"
-    pd.DataFrame(rows).to_csv(output, index=False)
+    pd.DataFrame(rows).to_csv(output, index=False, lineterminator="\n")
     return output
 
 
@@ -539,8 +539,8 @@ def build_s7(project: Path, route_root: Path, out_dir: Path) -> Path:
             row["cohort_holm_p"] = test["holm_p"]
 
     output = out_dir / "S7_Table_spatial_results_and_provenance.csv"
-    pd.DataFrame(rows).to_csv(output, index=False)
-    tests.to_csv(out_dir / "S7_Data_spatial_primary_tests.csv", index=False)
+    pd.DataFrame(rows).to_csv(output, index=False, lineterminator="\n")
+    tests.to_csv(out_dir / "S7_Data_spatial_primary_tests.csv", index=False, lineterminator="\n")
     return output
 
 
@@ -568,6 +568,8 @@ def main() -> None:
     ]
     manifest_rows = []
     for path in sorted(out_dir.glob("*.csv")):
+        if path.name == "Supplementary_table_manifest.csv":
+            continue
         frame = pd.read_csv(path)
         manifest_rows.append(
             {
@@ -579,7 +581,7 @@ def main() -> None:
                 "role": "primary supplementary table" if path in outputs else "companion source-data table",
             }
         )
-    pd.DataFrame(manifest_rows).to_csv(out_dir / "Supplementary_table_manifest.csv", index=False)
+    pd.DataFrame(manifest_rows).to_csv(out_dir / "Supplementary_table_manifest.csv", index=False, lineterminator="\n")
     print(f"Wrote {len(manifest_rows)} supplementary table files to {out_dir}")
 
 

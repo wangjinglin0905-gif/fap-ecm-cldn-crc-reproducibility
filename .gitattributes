@@ -1,0 +1,9 @@
+/plos_one_v7_1/**/*.csv text eol=lf
+/plos_one_v7_1/**/*.json text eol=lf
+/plos_one_v7_1/**/*.md text eol=lf
+/plos_one_v7_1/**/*.txt text eol=lf
+/plos_one_v7_1/**/*.log text eol=lf
+/plos_one_v7_1/**/*.py text eol=lf
+/plos_one_v7_1/**/*.R text eol=lf
+/plos_one_v7_1/**/*.png binary
+/plos_one_v7_1/**/*.tiff binary

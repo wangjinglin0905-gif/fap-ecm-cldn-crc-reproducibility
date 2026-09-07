@@ -7,11 +7,16 @@ import csv
 import hashlib
 import json
 import re
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+SCRIPT = Path(__file__).resolve()
+if os.name == "nt":
+    ROOT = Path("\\\\?\\" + str(ROOT).removeprefix("\\\\?\\"))
+    SCRIPT = Path("\\\\?\\" + str(SCRIPT).removeprefix("\\\\?\\"))
 MANIFEST = ROOT / "CHECKSUMS_SHA256.csv"
 REPORT = ROOT / "qa" / "release_validation.json"
 
@@ -86,7 +91,7 @@ def main() -> None:
     for path in ROOT.rglob("*"):
         if not path.is_file() or path.suffix.lower() not in text_suffixes:
             continue
-        if path == Path(__file__).resolve():
+        if path == SCRIPT:
             continue
         content = path.read_text(encoding="utf-8", errors="replace")
         if any(pattern.search(content) for pattern in private_patterns):
@@ -119,9 +124,14 @@ def main() -> None:
     unmanifested = sorted(actual_static.difference(manifest_paths).difference(allowed_unmanifested))
     record(checks, "no unmanifested static files", not unmanifested, f"files={unmanifested or 'none'}")
 
+    with (ROOT / "tables/Supplementary_table_manifest.csv").open(encoding="utf-8", newline="") as handle:
+        table_rows = list(csv.DictReader(handle))
+    table_bad = [row["file"] for row in table_rows if row["file"] == "Supplementary_table_manifest.csv" or sha256(ROOT / "tables" / row["file"]) != row["sha256"].lower() or (ROOT / "tables" / row["file"]).stat().st_size != int(row["bytes"])]
+    record(checks, "table manifest hashes and no self-reference", len(table_rows) == 11 and not table_bad, f"records={len(table_rows)}; mismatches={table_bad or 'none'}")
+
     failed = [check for check in checks if check["status"] == "FAIL"]
     payload = {
-        "release": "v2.0.0",
+        "release": "v2.0.1",
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "root": ".",
         "manifest_records": len(rows),

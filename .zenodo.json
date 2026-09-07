@@ -1,21 +1,38 @@
 {
   "title": "Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer: reproducibility archive",
-  "description": "Version 2.0.0 supports the PLOS ONE v7.1 manuscript with patient-level single-cell localization analyses, FAP-specific cluster-bootstrap models, matched-null controls, target-purged bulk composition sensitivity, proteomic triangulation, a three-cohort spatial generalizability stress test, lowercase-panel publication figures, source tables, scripts and integrity records. Public raw matrices are not redistributed.",
+  "description": "Version 2.0.1 supports the PLOS ONE v7.1 manuscript with patient-level single-cell localization analyses, FAP-specific cluster-bootstrap models, matched-null controls, target-purged bulk composition sensitivity, proteomic triangulation, a three-cohort spatial generalizability stress test, lowercase-panel publication figures, source tables, scripts and integrity records. Public raw matrices are not redistributed. This patch repairs cross-platform line-ending checksum consistency and removes a self-referential supplementary-table manifest entry. Scientific inputs, numeric results, claims and figure files are unchanged from v2.0.0.",
   "upload_type": "software",
-  "publication_date": "2026-09-04",
-  "version": "2.0.0",
+  "publication_date": "2026-09-07",
+  "version": "2.0.1",
   "access_right": "open",
   "license": "mit",
   "language": "eng",
   "creators": [
-    {"name": "Wang, Jinglin"},
-    {"name": "Sun, Pan"},
-    {"name": "Xu, Lei"},
-    {"name": "Wang, Yao"},
-    {"name": "Zhu, Wei"},
-    {"name": "Zhang, Yan"},
-    {"name": "Tang, Yao"},
-    {"name": "Yang, Juan", "orcid": "0009-0001-2081-6950"}
+    {
+      "name": "Wang, Jinglin"
+    },
+    {
+      "name": "Sun, Pan"
+    },
+    {
+      "name": "Xu, Lei"
+    },
+    {
+      "name": "Wang, Yao"
+    },
+    {
+      "name": "Zhu, Wei"
+    },
+    {
+      "name": "Zhang, Yan"
+    },
+    {
+      "name": "Tang, Yao"
+    },
+    {
+      "name": "Yang, Juan",
+      "orcid": "0009-0001-2081-6950"
+    }
   ],
   "keywords": [
     "FAP",

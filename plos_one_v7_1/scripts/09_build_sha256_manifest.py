@@ -10,10 +10,13 @@ from __future__ import annotations
 
 import csv
 import hashlib
+import os
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
+if os.name == "nt":
+    ROOT = Path("\\\\?\\" + str(ROOT).removeprefix("\\\\?\\"))
 OUTPUT = ROOT / "CHECKSUMS_SHA256.csv"
 EXCLUDED = {
     "CHECKSUMS_SHA256.csv",

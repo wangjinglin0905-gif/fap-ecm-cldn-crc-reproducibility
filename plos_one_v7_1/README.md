@@ -4,7 +4,7 @@ This directory contains the frozen analysis outputs, analysis and figure scripts
 
 > **Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer**
 
-Release: **v2.0.0 (2026-09-04)**.
+Release: **v2.0.1 (2026-09-07)**.
 
 ## Scientific scope
 
@@ -55,11 +55,12 @@ Python 3.11 or later is sufficient for the checksum and release validators. Rebu
 From this directory:
 
 ```text
-python scripts/09_build_sha256_manifest.py
 python scripts/validate_release.py
 ```
 
 The expected release-validation result is zero failures. The checksum builder intentionally excludes `CHECKSUMS_SHA256.csv` and the generated `qa/release_validation.json` to avoid self-referential hashes.
+
+Verify the supplied checksums before rebuilding any file. After an intentional rebuild, refresh `tables/Supplementary_table_manifest.csv` with `python scripts/10_refresh_table_manifest.py`, then refresh the package manifest with `python scripts/09_build_sha256_manifest.py`. Rebuilding manifests before verification would discard the original integrity baseline.
 
 ## Rebuilding derived tables and figures
 

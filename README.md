@@ -4,7 +4,7 @@ Versioned reproducibility archive for the manuscript:
 
 > Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer
 
-Current release: **v2.0.0 (2026-09-04)**.
+Current release: **v2.0.1 (2026-09-07)**.
 
 ## Current PLOS ONE v7.1 release
 
@@ -12,7 +12,7 @@ The PLOS ONE v7.1 analysis is documented in [`plos_one_v7_1/README.md`](plos_one
 
 The current evidence supports preferential localization of senescence-associated transcription to tumour fibroblast compartments and FAP–matrix covariation whose bulk magnitude depends on the composition proxy. It does **not** establish a FAP-specific senescent CAF population, durable cellular senescence, causal stromal signalling, trogocytosis, mitoxyperilysis or a universal spatial effect. The inferential hierarchy uses patients or independent tumour samples as the biological units, includes GSE166555 as an independent directional evaluation, retains non-supportive FAP-specific and spatial results, and separates source-available scores from the fixed 111-gene common-core sensitivity.
 
-See [`CHANGELOG_v2.0.0.md`](CHANGELOG_v2.0.0.md) for the evidence-architecture changes and [`plos_one_v7_1/CHECKSUMS_SHA256.csv`](plos_one_v7_1/CHECKSUMS_SHA256.csv) for file-level integrity records.
+See [`CHANGELOG_v2.0.1.md`](CHANGELOG_v2.0.1.md) for the integrity patch and [`CHANGELOG_v2.0.0.md`](CHANGELOG_v2.0.0.md) for the evidence-architecture changes and [`plos_one_v7_1/CHECKSUMS_SHA256.csv`](plos_one_v7_1/CHECKSUMS_SHA256.csv) for file-level integrity records.
 
 ## Prior v1.4.0 AJCR archive
 
@@ -138,9 +138,9 @@ This crosswalk is a navigation aid for the archived v1.3.0 materials. It does no
 
 ## Citation and licence
 
-**Current GitHub release (v2.0.0):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.0
+**Current GitHub release (v2.0.1):** https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.1
 
-**Current v2.0.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.22307401
+**Prior v2.0.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.22307401
 
 **Prior v1.4.0 Zenodo DOI:** https://doi.org/10.5281/zenodo.21949766
 

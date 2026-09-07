@@ -1,10 +1,10 @@
 {
-  "release": "v2.0.0",
-  "generated_utc": "2026-09-04T15:10:17+00:00",
+  "release": "v2.0.1",
+  "generated_utc": "2026-09-07T08:56:02+00:00",
   "root": ".",
-  "manifest_records": 148,
+  "manifest_records": 149,
   "summary": {
-    "pass": 12,
+    "pass": 13,
     "fail": 0
   },
   "checks": [
@@ -67,6 +67,11 @@
       "check": "no unmanifested static files",
       "status": "PASS",
       "detail": "files=none"
+    },
+    {
+      "check": "table manifest hashes and no self-reference",
+      "status": "PASS",
+      "detail": "records=11; mismatches=none"
     }
   ]
 }
