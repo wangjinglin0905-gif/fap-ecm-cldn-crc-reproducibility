@@ -4,19 +4,15 @@ Versioned reproducibility archive for the manuscript:
 
 > Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer
 
-Current release: **v2.0.2 (2026-09-07)**.
+Current release: **v2.0.3 (2026-09-09)**.
 
-Version archive: [Zenodo 10.5281/zenodo.22646652](https://doi.org/10.5281/zenodo.22646652) · [GitHub release v2.0.2](https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.2). The actual Zenodo ZIP was downloaded and verified against 151 package-file hashes and 11 supplementary-table hashes. This DOI link was added after release publication; the immutable tag itself retains the concept DOI.
+[GitHub release v2.0.3](https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.3) · [Zenodo concept record](https://doi.org/10.5281/zenodo.21441731). The version DOI will be added after the actual new archive has been verified.
 
-## Current PLOS ONE v7.2 reporting patch
+## Current PLOS ONE v7.3 patch
 
-Release v2.0.2 synchronizes the v7.2 supplementary-table reporting corrections: five legacy version labels in S4 are replaced by model descriptions, and 16 S6 P values previously serialized as zero are restored from the frozen result CSVs. No statistical models were rerun; effect estimates, confidence intervals, sample counts, conclusions and all 20 PNG/TIFF figure files are unchanged. The stable directory name `plos_one_v7_1/` is retained to preserve reproducibility paths; this tagged snapshot supports manuscript v7.2. The new reference ledger maps all 34 current references, including three linked correction notices.
+Version 2.0.3 supports the PLOS ONE v7.3 manuscript. This layout and reference patch moves the title, subtitle and lowercase panel-label anchors of Figure 3b and 3d closer to their plotting areas. All quantitative graphic objects, source data, effect estimates, confidence intervals, tables and other figures are unchanged. The manuscript adds one Discussion paragraph citing the tumour-derived organoid dependency biobank (doi:10.1038/s41586-026-10830-y) for future epithelial model selection, not CAF senescence validation. The 35-reference ledger refreshes registry status. No scientific models were refitted. The stable package directory remains plos_one_v7_1. Raw matrices, private reports and unpublished manuscript DOCX files are not redistributed.
 
-The PLOS ONE v7.1 analysis is documented in [`plos_one_v7_1/README.md`](plos_one_v7_1/README.md). It contains frozen analysis outputs, compact derived inputs, portable analysis/table/figure scripts, machine-readable source data, four main figures, six supporting figures, seven supporting tables, environment records and a complete SHA-256 manifest. Public raw matrices are identified by accession and consumed-artifact hashes but are not redistributed.
-
-The current evidence supports preferential localization of senescence-associated transcription to tumour fibroblast compartments and FAP–matrix covariation whose bulk magnitude depends on the composition proxy. It does **not** establish a FAP-specific senescent CAF population, durable cellular senescence, causal stromal signalling, trogocytosis, mitoxyperilysis or a universal spatial effect. The inferential hierarchy uses patients or independent tumour samples as the biological units, includes GSE166555 as an independent directional evaluation, retains non-supportive FAP-specific and spatial results, and separates source-available scores from the fixed 111-gene common-core sensitivity.
-
-See [`CHANGELOG_v2.0.2.md`](CHANGELOG_v2.0.2.md) for the current reporting patch, [`CHANGELOG_v2.0.1.md`](CHANGELOG_v2.0.1.md) for the previous integrity patch, [`CHANGELOG_v2.0.0.md`](CHANGELOG_v2.0.0.md) for the evidence-architecture changes and [`plos_one_v7_1/CHECKSUMS_SHA256.csv`](plos_one_v7_1/CHECKSUMS_SHA256.csv) for file-level integrity records.
+See [the current changelog](CHANGELOG_v2.0.3.md), [the PLOS analysis package](plos_one_v7_1/README.md) and [the file manifest](plos_one_v7_1/CHECKSUMS_SHA256.csv). Earlier release changelogs and tagged snapshots are preserved.
 
 ## Prior v1.4.0 AJCR archive
 

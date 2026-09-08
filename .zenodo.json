@@ -1,9 +1,9 @@
 {
   "title": "Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer: reproducibility archive",
-  "description": "Version 2.0.2 supports the PLOS ONE v7.2 manuscript. This reporting patch replaces five legacy version labels in supplementary table S4 with model descriptions and restores 16 small P values in S6 from the frozen source CSVs after intermediate floating-point CSV parsing had serialized them as zero. The table builder now preserves these values in scientific notation. No statistical analyses were rerun; effect estimates, confidence intervals, sample counts, conclusions and all PNG/TIFF figure files are unchanged. A current 34-reference DOI ledger includes three linked correction notices. The archive retains patient-level single-cell analyses, cluster-bootstrap models, matched-null controls, bulk composition sensitivity, proteomic triangulation, spatial stress tests, scripts and integrity records. Public raw matrices and unpublished manuscript DOCX files are not redistributed. The stable package directory remains plos_one_v7_1 for path continuity.",
+  "description": "Version 2.0.3 supports the PLOS ONE v7.3 manuscript. This layout and reference patch moves the title, subtitle and lowercase panel-label anchors of Figure 3b and 3d closer to their plotting areas. All quantitative graphic objects, source data, effect estimates, confidence intervals, tables and other figures are unchanged. The manuscript adds one Discussion paragraph citing the tumour-derived organoid dependency biobank (doi:10.1038/s41586-026-10830-y) for future epithelial model selection, not CAF senescence validation. The 35-reference ledger refreshes registry status. No scientific models were refitted. The stable package directory remains plos_one_v7_1. Raw matrices, private reports and unpublished manuscript DOCX files are not redistributed.",
   "upload_type": "software",
-  "publication_date": "2026-09-07",
-  "version": "2.0.2",
+  "publication_date": "2026-09-09",
+  "version": "2.0.3",
   "access_right": "open",
   "license": "mit",
   "language": "eng",
