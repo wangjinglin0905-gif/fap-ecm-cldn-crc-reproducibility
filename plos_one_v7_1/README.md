@@ -4,7 +4,7 @@ This directory contains the frozen analysis outputs, analysis and figure scripts
 
 > **Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer**
 
-Release: **v2.1.0 (2026-09-09)**. The directory name `plos_one_v7_1` is retained for path continuity; this snapshot supports manuscript v7.5. This release adds the previously executed CAF supplementary analysis; core models were not refitted. See caf_extension/README.md.
+Release: **v2.1.1 (2026-09-09)**. The directory name `plos_one_v7_1` is retained for path continuity; this snapshot supports manuscript v7.5. This release adds the previously executed CAF supplementary analysis; core models were not refitted. See caf_extension/README.md.
 
 ## Scientific scope
 

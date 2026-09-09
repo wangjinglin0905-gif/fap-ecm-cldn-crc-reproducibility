@@ -4,15 +4,15 @@ Versioned reproducibility archive for the manuscript:
 
 > Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer
 
-Current release: **v2.1.0 (2026-09-09)**.
+Current release: **v2.1.1 (2026-09-09)**.
 
-[GitHub release v2.1.0](https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.1.0) · [Zenodo concept record](https://doi.org/10.5281/zenodo.21441731). The version DOI will be added after the actual new archive has been verified.
+[GitHub release v2.1.1](https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.1.1) · [Zenodo concept record](https://doi.org/10.5281/zenodo.21441731). The version DOI will be added after the actual new archive has been verified.
 
 ## Current PLOS ONE v7.5 package
 
 Supports manuscript v7.5 (2026-09-09). Adds the executed exploratory CAF marker programme analysis, compact public-data-derived count inputs, frozen source programmes, all patient/bulk/null results, portable scripts, Fig S7, Table S8, and S1 Data. The preceding core analysis and Fig 1-4/S1-S6 are byte-preserved. Four manuscript-only prose edits do not alter numerical results; manuscript DOCX and screening reports are not public release assets. Thirty-six cited DOIs were rechecked. No core models were rerun for this release. Earlier tags remain immutable. Zenodo version DOI must be verified against the downloaded archive before manuscript backfill.
 
-See [the current changelog](CHANGELOG_v2.1.0.md), [the PLOS analysis package](plos_one_v7_1/README.md) and [the file manifest](plos_one_v7_1/CHECKSUMS_SHA256.csv). Earlier release changelogs and tagged snapshots are preserved.
+See [the current changelog](CHANGELOG_v2.1.1.md), [the PLOS analysis package](plos_one_v7_1/README.md) and [the file manifest](plos_one_v7_1/CHECKSUMS_SHA256.csv). Earlier release changelogs and tagged snapshots are preserved.
 
 ## Prior v1.4.0 AJCR archive
 
