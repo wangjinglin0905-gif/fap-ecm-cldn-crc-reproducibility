@@ -7,3 +7,5 @@
 /plos_one_v7_1/**/*.R text eol=lf
 /plos_one_v7_1/**/*.png binary
 /plos_one_v7_1/**/*.tiff binary
+# Preserve the bytes recorded by the scientific file manifests, including CRLF inputs.
+/plos_one_v7_1/** -text

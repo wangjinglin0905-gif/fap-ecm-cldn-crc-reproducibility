@@ -1,0 +1,20 @@
+[
+  {
+    "cohort": "GSE132465",
+    "genes": 25655,
+    "cells": 1435,
+    "patients": 15,
+    "max_library_difference": 0.0,
+    "median_library_difference": 0.0,
+    "library_exact": true
+  },
+  {
+    "cohort": "GSE166555",
+    "genes": 21854,
+    "cells": 1315,
+    "patients": 10,
+    "max_library_difference": 0.0,
+    "median_library_difference": 0.0,
+    "library_exact": true
+  }
+]

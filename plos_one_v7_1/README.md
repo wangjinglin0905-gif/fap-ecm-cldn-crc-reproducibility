@@ -1,10 +1,10 @@
-# PLOS ONE v7.3 reproducibility layout and reference patch
+# PLOS ONE v7.5 reproducibility package
 
 This directory contains the frozen analysis outputs, analysis and figure scripts, figure source data, supplementary tables, environment records and integrity checks supporting the manuscript:
 
 > **Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer**
 
-Release: **v2.0.3 (2026-09-09)**. The directory name `plos_one_v7_1` is retained for path continuity; this snapshot supports manuscript v7.3. This is a Figure 3 heading-layout and reference-status patch, not a new analysis run.
+Release: **v2.1.0 (2026-09-09)**. The directory name `plos_one_v7_1` is retained for path continuity; this snapshot supports manuscript v7.5. This release adds the previously executed CAF supplementary analysis; core models were not refitted. See caf_extension/README.md.
 
 ## Scientific scope
 

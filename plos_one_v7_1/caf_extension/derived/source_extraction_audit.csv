@@ -1,0 +1,4 @@
+program,cluster,positive_markers,significant_positive,top100_no_P_filter_difference
+Troph_MMPplus,trophocyte-like CAF MMP+,3755,1684,0
+Troph_MMPminus,trophocyte-like CAF MMP-,3236,1004,16
+Telocyte_CAF,telocyte-like CAF,2158,661,0

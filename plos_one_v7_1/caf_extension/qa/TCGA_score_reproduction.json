@@ -1,0 +1,26 @@
+[
+  {
+    "score": "FAP13",
+    "max_absolute_error": 5.995204332975845e-15,
+    "n_genes": 13,
+    "pass_tolerance_1e_8": true
+  },
+  {
+    "score": "matrix4",
+    "max_absolute_error": 5.329070518200751e-15,
+    "n_genes": 4,
+    "pass_tolerance_1e_8": true
+  },
+  {
+    "score": "fib5",
+    "max_absolute_error": 7.327471962526033e-15,
+    "n_genes": 5,
+    "pass_tolerance_1e_8": true
+  },
+  {
+    "score": "SenMayo",
+    "max_absolute_error": 4.218847493575595e-15,
+    "n_genes": 119,
+    "pass_tolerance_1e_8": true
+  }
+]

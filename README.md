@@ -4,15 +4,15 @@ Versioned reproducibility archive for the manuscript:
 
 > Fibroblast-enriched senescence-associated transcription and measurement-context-dependent FAP–matrix covariation in colorectal cancer
 
-Current release: **v2.0.3 (2026-09-09)**.
+Current release: **v2.1.0 (2026-09-09)**.
 
-[GitHub release v2.0.3](https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.0.3) · [Zenodo concept record](https://doi.org/10.5281/zenodo.21441731). The version DOI will be added after the actual new archive has been verified.
+[GitHub release v2.1.0](https://github.com/wangjinglin0905-gif/fap-ecm-cldn-crc-reproducibility/releases/tag/v2.1.0) · [Zenodo concept record](https://doi.org/10.5281/zenodo.21441731). The version DOI will be added after the actual new archive has been verified.
 
-## Current PLOS ONE v7.3 patch
+## Current PLOS ONE v7.5 package
 
-Version 2.0.3 supports the PLOS ONE v7.3 manuscript. This layout and reference patch moves the title, subtitle and lowercase panel-label anchors of Figure 3b and 3d closer to their plotting areas. All quantitative graphic objects, source data, effect estimates, confidence intervals, tables and other figures are unchanged. The manuscript adds one Discussion paragraph citing the tumour-derived organoid dependency biobank (doi:10.1038/s41586-026-10830-y) for future epithelial model selection, not CAF senescence validation. The 35-reference ledger refreshes registry status. No scientific models were refitted. The stable package directory remains plos_one_v7_1. Raw matrices, private reports and unpublished manuscript DOCX files are not redistributed.
+Supports manuscript v7.5 (2026-09-09). Adds the executed exploratory CAF marker programme analysis, compact public-data-derived count inputs, frozen source programmes, all patient/bulk/null results, portable scripts, Fig S7, Table S8, and S1 Data. The preceding core analysis and Fig 1-4/S1-S6 are byte-preserved. Four manuscript-only prose edits do not alter numerical results; manuscript DOCX and screening reports are not public release assets. Thirty-six cited DOIs were rechecked. No core models were rerun for this release. Earlier tags remain immutable. Zenodo version DOI must be verified against the downloaded archive before manuscript backfill.
 
-See [the current changelog](CHANGELOG_v2.0.3.md), [the PLOS analysis package](plos_one_v7_1/README.md) and [the file manifest](plos_one_v7_1/CHECKSUMS_SHA256.csv). Earlier release changelogs and tagged snapshots are preserved.
+See [the current changelog](CHANGELOG_v2.1.0.md), [the PLOS analysis package](plos_one_v7_1/README.md) and [the file manifest](plos_one_v7_1/CHECKSUMS_SHA256.csv). Earlier release changelogs and tagged snapshots are preserved.
 
 ## Prior v1.4.0 AJCR archive
 

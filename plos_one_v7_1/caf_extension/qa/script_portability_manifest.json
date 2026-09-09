@@ -1,0 +1,38 @@
+[
+  {
+    "script": "02c_adapt_source_detectability.py",
+    "release_sha256": "77f8d1ed683cb9a1a19837a5ae66514055c392c4b65dab59d7036fc850bf78d6",
+    "executed_source_sha256": "230de1bb23e5358d5b8359794e7242fa66428da9776b7bfda9cdc54348449053",
+    "change": "path portability or frozen-score entry point; computation retained"
+  },
+  {
+    "script": "03_single_cell_associations.py",
+    "release_sha256": "31b65d07ed52bac0c731f82424bd13634e69f8bac6fbab5917f7bf024b904d4b",
+    "executed_source_sha256": "31b65d07ed52bac0c731f82424bd13634e69f8bac6fbab5917f7bf024b904d4b",
+    "change": "identical"
+  },
+  {
+    "script": "04b_bulk_from_frozen_scores.py",
+    "release_sha256": "08dcb8a9af0612e7b108de8dcb356cc641fe20b26d4fd059b0c980bcde22adec",
+    "executed_source_sha256": null,
+    "change": "path portability or frozen-score entry point; computation retained"
+  },
+  {
+    "script": "04_bulk_associations.py",
+    "release_sha256": "f1e4e35fb3e5e2d29a0c2b2d83127e74e50dd085d176b2cdb85a47a0415c1329",
+    "executed_source_sha256": "8b6825c06b515ab15509d87b3abae926c5fd02bc3a887a4e2070e13d5280dd6a",
+    "change": "path portability or frozen-score entry point; computation retained"
+  },
+  {
+    "script": "05_environment_and_statistical_QA.R",
+    "release_sha256": "9fea1ae71b1457b65307bd06b18ab443ad5f4dc4623e866bd4d5f23119111231",
+    "executed_source_sha256": "7b917008a56a3c4dbae750e5f48bb84ed08a5e06b19aa566b0f398b2fabd3756",
+    "change": "path portability or frozen-score entry point; computation retained"
+  },
+  {
+    "script": "06_plot_CAF_extension.R",
+    "release_sha256": "d7402c68529117e64de14f8f44ed6c4cf5500c9d751b054aa18a75fb3926cff0",
+    "executed_source_sha256": "973095a243562cee35f0b723dab9ab9beb2b0ae194eb49834111bf50a05d6f4b",
+    "change": "path portability or frozen-score entry point; computation retained"
+  }
+]

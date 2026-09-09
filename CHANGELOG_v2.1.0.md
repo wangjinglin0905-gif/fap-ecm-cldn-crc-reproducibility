@@ -1,0 +1,3 @@
+# v2.1.0 - CAF supplementary reproducibility module
+
+Supports manuscript v7.5 (2026-09-09). Adds the executed exploratory CAF marker programme analysis, compact public-data-derived count inputs, frozen source programmes, all patient/bulk/null results, portable scripts, Fig S7, Table S8, and S1 Data. The preceding core analysis and Fig 1-4/S1-S6 are byte-preserved. Four manuscript-only prose edits do not alter numerical results; manuscript DOCX and screening reports are not public release assets. Thirty-six cited DOIs were rechecked. No core models were rerun for this release. Earlier tags remain immutable. Zenodo version DOI must be verified against the downloaded archive before manuscript backfill.

@@ -1,8 +1,8 @@
 {
-  "release": "v2.0.3",
-  "generated_utc": "2026-09-08T20:09:12+00:00",
+  "release": "v2.1.0",
+  "generated_utc": "2026-09-09T04:49:19+00:00",
   "root": ".",
-  "manifest_records": 155,
+  "manifest_records": 227,
   "summary": {
     "pass": 13,
     "fail": 0
@@ -24,17 +24,17 @@
       "detail": "count=4"
     },
     {
-      "check": "six supporting PNG figures",
+      "check": "seven supporting PNG figures",
       "status": "PASS",
-      "detail": "count=6"
+      "detail": "count=7"
     },
     {
-      "check": "six supporting TIFF figures",
+      "check": "seven supporting TIFF figures",
       "status": "PASS",
-      "detail": "count=6"
+      "detail": "count=7"
     },
     {
-      "check": "S1-S7 tables",
+      "check": "S1-S8 tables",
       "status": "PASS",
       "detail": "missing=none"
     },
@@ -71,7 +71,7 @@
     {
       "check": "table manifest hashes and no self-reference",
       "status": "PASS",
-      "detail": "records=11; mismatches=none"
+      "detail": "records=12; mismatches=none"
     }
   ]
 }

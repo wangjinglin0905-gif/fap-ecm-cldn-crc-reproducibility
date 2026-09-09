@@ -1,0 +1,142 @@
+[
+  {
+    "role": "publisher marker source",
+    "bytes": 11614001,
+    "sha256": "f7b0885aae902fc36e8735db2cfe3e0a6be35080149e5582012dc563971b2f93",
+    "file": "Nature_10344_Supplementary_Tables.xlsx",
+    "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10344-7/MediaObjects/41586_2026_10344_MOESM3_ESM.xlsx"
+  },
+  {
+    "role": "locked SenMayo gene list",
+    "bytes": 2668,
+    "sha256": "d0a2f55dac741f9ac084ffc14707932c31cc778cc502e5d5c76b2f609d1c7e4e",
+    "file": "gene_availability.csv",
+    "source": "Frozen derived input; see analysis provenance and core package."
+  },
+  {
+    "role": "GSE132465 raw counts",
+    "bytes": 128941455,
+    "sha256": "deff856c7fe1d2c845af5b31e1c65a1dd95ea29541772a66c89bda3aaa8c0666",
+    "file": "GSE132465_GEO_processed_CRC_10X_raw_UMI_count_matrix.txt.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465"
+  },
+  {
+    "role": "frozen tumour cell universe",
+    "bytes": 5830232,
+    "sha256": "a7c031baa5cefb24bcd22637b15d8c9421cfb803e98b88850eed720bafceb5c3",
+    "file": "cell_scores_tumor_fibroblast_epithelial.csv",
+    "source": "Frozen derived input; see analysis provenance and core package."
+  },
+  {
+    "role": "public cell annotation",
+    "bytes": 434022,
+    "sha256": "4bf2ebdadc88da53b0c46e654a6576e841925addc25c981d7cdbc0d988b4677c",
+    "file": "GSE132465_GEO_processed_CRC_10X_cell_annotation.txt.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 4473743,
+    "sha256": "643fe361c6f145a4fc99b28df8b77324cc26fa1d616c6220325379155a07f532",
+    "file": "GSM5075660_p007t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 7355391,
+    "sha256": "80a0f06eca20ff0baac25cfbd132a68caa2807e7d2af250db9673c83cfd63c31",
+    "file": "GSM5075662_p008t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 6908061,
+    "sha256": "6d97711c4f6f0f6ec2fcf6acf9ce8976ddc9adac76204d3116491b90a12543a1",
+    "file": "GSM5075665_p009t1.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 9054402,
+    "sha256": "61b16b5d8e7744acf0937b352fccfc59b09b6f2e48b8316aa6becedace994a5a",
+    "file": "GSM5075666_p009t2.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 7684742,
+    "sha256": "aa3a8f367a066d8b4600d049f227371419b968020c9d89519bb15bb6f30b8475",
+    "file": "GSM5075668_p012t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 7042749,
+    "sha256": "7c5f99c11137b64c2452d2bd8ffac2385b3722260f4bc3f22aade07f4d1b4e20",
+    "file": "GSM5075670_p013t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 7410383,
+    "sha256": "35f4ccb0d7e12622769289e0170548a46aeb86b4c59a7c6493f839ac64bee95c",
+    "file": "GSM5075672_p014t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 7090021,
+    "sha256": "42b519926b252ac3a78b2fb369dcbbbe01e23ad6f8388f3081950c63ce878206",
+    "file": "GSM5075674_p016t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 8611505,
+    "sha256": "8345403986da62474d256d5262b296d3efa8270c88016030670e9aa4720ecf03",
+    "file": "GSM5075676_p017t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 2593740,
+    "sha256": "3a1dbedebe2487a37b52006a54038abd85d192104455cd06ef8145cb70235ed3",
+    "file": "GSM5075680_p021t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 sample raw counts",
+    "bytes": 6787354,
+    "sha256": "7eabdf970a91270d70b3da86f58e05da662c93356d39981d477085c632661304",
+    "file": "GSM5075683_p026t.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "GSE166555 public metadata",
+    "bytes": 80927954,
+    "sha256": "4aba042a64a71507db4fad088c8a03510a50a4e9b4202b9bab8d6b07e15303d5",
+    "file": "GSE166555_meta_data.tsv.gz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  },
+  {
+    "role": "frozen external patient eligibility",
+    "bytes": 3949,
+    "sha256": "0c11ba7388590331b81e069c221e09bffde0c3add1fe4d87baff95987de00b35",
+    "file": "patient_compartment_scores.csv",
+    "source": "Frozen derived input; see analysis provenance and core package."
+  },
+  {
+    "role": "selected eligible gene-universe count cache",
+    "bytes": 5475881,
+    "sha256": "c9cc19abba454d9fd25585ad2bb39e4056371ad912f8a0afef5b0b66a10b83ff",
+    "file": "GSE132465_fibroblast_featurefiltered_counts.npz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132465"
+  },
+  {
+    "role": "selected eligible gene-universe count cache",
+    "bytes": 4402215,
+    "sha256": "b09aaec954e5a8d855395bfb32da268dc91e66c4a6b0f0a5fd2a7fa068a7761e",
+    "file": "GSE166555_fibroblast_counts.npz",
+    "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166555"
+  }
+]

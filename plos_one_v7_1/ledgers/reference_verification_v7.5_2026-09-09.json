@@ -1,0 +1,1689 @@
+[
+  {
+    "reference": 1,
+    "doi": "10.3322/caac.21834",
+    "checked_utc": "2026-09-09T04:24:10.529631+00:00",
+    "status": "verified",
+    "title": [
+      "Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "2024-02-12",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-02-12",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2024-04-04",
+          "order": 3,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 2,
+    "doi": "10.1038/s41568-019-0238-1",
+    "checked_utc": "2026-09-09T04:33:19.499083+00:00",
+    "status": "verified",
+    "title": [
+      "A framework for advancing our understanding of cancer-associated fibroblasts"
+    ],
+    "notices": {
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737260944.793580089",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737260944.793584889",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "19 December 2019",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "24 January 2020",
+          "order": 2,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "S.R.H. is a consultant for Halozyme Therapeutics, from which the Fred Hutchinson Cancer Research Center receives research funding. R.K.J. received honorarium from Amgen, consultant fees from Chugai, Merck, Ophthotech, Pfizer, SPARC, SynDevRx and XTuit, owns equity in Enlight, Ophthotech and SynDevRx and serves on the boards of trustees of Tekla Healthcare Investors, Tekla Life Sciences Investors, Tekla Healthcare Opportunities Fund and Tekla World Healthcare Fund. Neither any reagent nor any funding from these organizations was used in this study. A.C.K. has financial interests in Vescor Therapeutics, is an inventor named on patents pertaining to KRAS-regulated metabolic pathways, redox control pathways in pancreatic cancer, targeting GOT1 as a therapeutic approach and the autophagic control of iron metabolism, is on the Scientific Advisory Board of Rafael Pharmaceuticals and has been a consultant for Deciphera Pharmaceuticals. R.G.M. receives consulting fees from Bayer, Deciphera, Karyopharm, Springworks, the American Society of Clinical Oncology and UptoDate. E.P. receives research funds in the form of a sponsored research agreement from TMUNITY and a collaborative research agreement from Boehringer Ingelheim; prior funding was provided by Novartis. D.A.T. has received commercial research grants from Fibrogen and ONO, has ownership interest (including stock, patents and so on) in Leap Therapeutics and Surface Oncology and is a consultant/advisory board member for Leap Oncology, Surface Oncology, Cygnal and Merck. D.A.T. is Director and Chief Scientist of the Lustgarten Foundation, a designated laboratory of pancreatic cancer research. F.M.W. is currently on secondment as Executive Chair of the UK Medical Research Council. Z.W. is on the Advisory Board of Maverick Therapeutics. E.S., I.A., E.C., D.D., M.E., R.M.E., D.F., F.R.G., T.H., R.O.H., T.J., C.J., M.G.K, R.S.P., D.C.R., R.S-S., M.H.S., S.S., T.D.T., V.W. and A.T.W. declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing Interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 3,
+    "doi": "10.1007/s10555-020-09909-3",
+    "checked_utc": "2026-09-09T04:33:19.499083+00:00",
+    "status": "verified",
+    "title": [
+      "The role of fibroblast activation protein in health and malignancy"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "29 June 2020",
+          "order": 1,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Compliance with ethical standards"
+          }
+        },
+        {
+          "value": "All other authors declare no potential conflicts of interest to disclose.",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflicts of interest"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 4,
+    "doi": "10.1038/ng.3224",
+    "checked_utc": "2026-09-09T04:24:11.544874+00:00",
+    "status": "verified",
+    "title": [
+      "Stromal contribution to the colorectal cancer transcriptome"
+    ],
+    "notices": {
+      "updated-by": [
+        {
+          "DOI": "10.1038/ng1016-1296d",
+          "type": "erratum",
+          "label": "Erratum",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2016,
+                9,
+                28
+              ]
+            ],
+            "date-time": "2016-09-28T00:00:00Z",
+            "timestamp": 1475020800000
+          }
+        }
+      ],
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.725363957.793532292",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "31 August 2014",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 January 2015",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "23 February 2015",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "29 August 2016",
+          "order": 4,
+          "name": "change_date",
+          "label": "Change Date",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Erratum",
+          "order": 5,
+          "name": "change_type",
+          "label": "Change Type",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "In the version of this article initially published, an affiliation for author Zsolt Fekete was incorrectly omitted. The missing affiliation was to the Department of Oncology, University of Medicine and Pharmacy Iuliu Hatieganu, Cluj-Napoca, Romania. The error has been corrected in the HTML and PDF versions of the article.",
+          "order": 6,
+          "name": "change_details",
+          "label": "Change Details",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing financial interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 5,
+    "doi": "10.1038/ng1016-1296d",
+    "checked_utc": "2026-09-09T04:24:11.545875+00:00",
+    "status": "verified",
+    "title": [
+      "Erratum: Corrigendum: Stromal contribution to the colorectal cancer transcriptome"
+    ],
+    "notices": {
+      "update-to": [
+        {
+          "DOI": "10.1038/ng.3224",
+          "type": "erratum",
+          "label": "Erratum",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2016,
+                9,
+                28
+              ]
+            ],
+            "date-time": "2016-09-28T00:00:00Z",
+            "timestamp": 1475020800000
+          }
+        }
+      ],
+      "assertion": [
+        {
+          "value": "28 September 2016",
+          "order": 1,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 6,
+    "doi": "10.1038/ng.3225",
+    "checked_utc": "2026-09-09T04:24:12.142280+00:00",
+    "status": "verified",
+    "title": [
+      "Stromal gene expression defines poor-prognosis subtypes in colorectal cancer"
+    ],
+    "notices": {
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.725363956.793530564",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.725363956.793532293",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "24 September 2014",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 January 2015",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "23 February 2015",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing financial interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 7,
+    "doi": "10.1038/s41467-022-29366-6",
+    "checked_utc": "2026-09-09T04:24:13.124888+00:00",
+    "status": "verified",
+    "title": [
+      "Single-cell and spatial analysis reveal interaction of FAP+ fibroblasts and SPP1+ macrophages in colorectal cancer"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "1 February 2021",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "11 March 2022",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "1 April 2022",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests. A patent titled \u201cBiomarker panel and application of cell subpopulation of tumor boundary in Colorectal cancer\u201d related to this work is under application and currently has no identification number. The authors declare non-financial competing interests in this patent.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 8,
+    "doi": "10.1038/s41467-022-32552-1",
+    "checked_utc": "2026-09-09T04:24:14.023271+00:00",
+    "status": "verified",
+    "title": [
+      "A new gene set identifies senescent cells and predicts senescence-associated pathways across tissues"
+    ],
+    "notices": {
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/2021.12.10.472095",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.21203/rs.3.rs-1034608/v1",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "23 November 2021",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "5 August 2022",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "16 August 2022",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "J.L.K., T.T., and N.K.L. have a financial interest related to this research. Patents on senolytic drugs and their uses and SASP biomarkers are held by Mayo Clinic and the University of Minnesota. This research has been reviewed by the Mayo Clinic Conflict of Interest Review Board and was conducted in compliance with Mayo Clinic Conflict of Interest policies. The remaining authors declare no competing interests",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 9,
+    "doi": "10.1111/febs.15570",
+    "checked_utc": "2026-09-09T04:24:14.583295+00:00",
+    "status": "verified",
+    "title": [
+      "A guide to assessing cellular senescence <i>in\u00a0vitro</i> and <i>in\u00a0vivo</i>"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "2020-08-03",
+          "order": 0,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2020-09-15",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        },
+        {
+          "value": "2020-10-10",
+          "order": 2,
+          "name": "published",
+          "label": "Published",
+          "group": {
+            "name": "publication_history",
+            "label": "Publication History"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 10,
+    "doi": "10.1038/s41580-024-00738-8",
+    "checked_utc": "2026-09-09T04:24:16.285178+00:00",
+    "status": "verified",
+    "title": [
+      "SenNet recommendations for detecting senescent cells in different tissues"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "15 April 2024",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "3 June 2024",
+          "order": 2,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare the following competing interests: J.C. is a founder and shareholder of Unity Biotechnology, which develops senolytic drugs. M.J.S., C.M.C. and Mayo Clinic have intellectual property related to this research. Research in the M.J.S. and D.J.B. laboratory is reviewed by the Mayo Clinic Conflict of Interest Review Board and conducted in compliance with Mayo Clinic Conflict of Interest policies. D.J.B. has a potential financial interest related to this research; he is a co-inventor on patents held by Mayo Clinic and patent applications licensed to or filed by Unity Biotechnology and a Unity Biotechnology shareholder. N.\u00a0Slavov is a founding director and CEO of Parallel Squared Technology Institute, which is a non-profit research institute.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 11,
+    "doi": "10.1091/mbc.E11-10-0884",
+    "checked_utc": "2026-09-09T04:24:16.647560+00:00",
+    "status": "verified",
+    "title": [
+      "Lamin B1 loss is a senescence-associated biomarker"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 12,
+    "doi": "10.1038/s41568-019-0156-2",
+    "checked_utc": "2026-09-09T04:24:17.778784+00:00",
+    "status": "verified",
+    "title": [
+      "Unmasking senescence: context-dependent effects of SASP in cancer"
+    ],
+    "notices": {
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.736057492.793580104",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "15 May 2019",
+          "order": 1,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "24 June 2019",
+          "order": 2,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 13,
+    "doi": "10.1158/2159-8290.CD-23-0428",
+    "checked_utc": "2026-09-09T04:24:17.885129+00:00",
+    "status": "verified",
+    "title": [
+      "Senescence Defines a Distinct Subset of Myofibroblasts That Orchestrates Immunosuppression in Pancreatic Cancer"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 14,
+    "doi": "10.18632/aging.205577",
+    "checked_utc": "2026-09-09T04:24:20.589065+00:00",
+    "status": "verified",
+    "title": [
+      "Mapping the core senescence phenotype of primary human colon fibroblasts"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 15,
+    "doi": "10.1186/s12967-025-07636-3",
+    "checked_utc": "2026-09-09T04:24:20.727085+00:00",
+    "status": "verified",
+    "title": [
+      "Senescent fibroblasts drive CD8+ T cell dysfunction in colorectal cancer via CD36-mediated lipid transfer and peroxidation"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "15 October 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "22 December 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "14 January 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Declarations"
+          }
+        },
+        {
+          "value": "Two human colorecral tumor biopsy samples were collected for research purposes, with approval from the Ethics Committee of Huashan Hospital, Fudan University (Approval No. KY2022-913). All animal experiments were conducted in accordance with relevant guidelines and were approved by the Institutional Animal Care and Use Committee (IACUC) of Fudan University (2021JS-398).",
+          "order": 2,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics approval and consent to participate"
+          }
+        },
+        {
+          "value": "All authors of the manuscript have read and agreed to its content and are accountable for all aspects of the accuracy and integrity of the manuscript in accordance with ICMJE criteria.",
+          "order": 3,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Consent for publication"
+          }
+        },
+        {
+          "value": "The authors have no conflicts to disclose.",
+          "order": 4,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 16,
+    "doi": "10.1158/0008-5472.CAN-25-4870",
+    "checked_utc": "2026-09-09T04:24:21.226317+00:00",
+    "status": "verified",
+    "title": [
+      "Macrophage-Induced Senescent Cancer-Associated Fibroblasts Promote SASP-Mediated Chemoresistance in Colorectal Cancer"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 17,
+    "doi": "10.1016/j.jare.2026.08.047",
+    "checked_utc": "2026-09-09T04:24:21.850908+00:00",
+    "status": "verified",
+    "title": [
+      "Targeting a candidate stromal immune checkpoint: a cellular senescence signature identifies COMP\u207a cancer-associated fibroblasts associated with CD8\u207a T-cell exclusion via a predicted COMP\u2013CD47 axis in colorectal cancer"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Targeting a candidate stromal immune checkpoint: a cellular senescence signature identifies COMP\u207a cancer-associated fibroblasts associated with CD8\u207a T-cell exclusion via a predicted COMP\u2013CD47 axis in colorectal cancer",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Journal of Advanced Research",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.jare.2026.08.047",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "\u00a9 2026 The Author(s). Published by Elsevier B.V. on behalf of Cairo University.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 18,
+    "doi": "10.1038/s41586-026-10344-7",
+    "checked_utc": "2026-09-09T04:24:21.941281+00:00",
+    "status": "verified",
+    "title": [
+      "Emergence of oncofetal plasticity is ubiquitous in early colorectal cancers"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "7 March 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "2 March 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "15 April 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "S.E.M.v.d.H., M.M.L., L.M.G.M. and H.J.G.S. are inventors on a patent related to biomarkers of metastatic disease. The other authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 19,
+    "doi": "10.1038/s41467-021-21038-1",
+    "checked_utc": "2026-09-09T04:24:22.521502+00:00",
+    "status": "verified",
+    "title": [
+      "A practical solution to pseudoreplication bias in single-cell studies"
+    ],
+    "notices": {
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/2020.01.15.906248",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "12 December 2019",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "7 January 2021",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "2 February 2021",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 20,
+    "doi": "10.1038/s41467-021-25960-2",
+    "checked_utc": "2026-09-09T04:24:23.716131+00:00",
+    "status": "verified",
+    "title": [
+      "Confronting false discoveries in single-cell differential expression"
+    ],
+    "notices": {
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/2021.03.12.435024",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "18 May 2021",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "6 September 2021",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 September 2021",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "G.C. is a founder and shareholder of Onward Medical, a company with no direct relationships with the present work. The remaining authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 21,
+    "doi": "10.1038/nature11252",
+    "checked_utc": "2026-09-09T04:24:23.767764+00:00",
+    "status": "verified",
+    "title": [
+      "Comprehensive molecular characterization of human colon and rectal cancer"
+    ],
+    "notices": {
+      "relation": {
+        "is-referenced-by": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.02725",
+            "asserted-by": "object"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.717950661.793455968",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "15 November 2011",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "22 May 2012",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "18 July 2012",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The author declare no competing financial interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 22,
+    "doi": "10.1371/journal.pmed.1001453",
+    "checked_utc": "2026-09-09T04:24:25.116678+00:00",
+    "status": "verified",
+    "title": [
+      "Gene Expression Classification of Colon Cancer into Molecular Subtypes: Characterization, Validation, and Prognostic Value"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 23,
+    "doi": "10.1038/s41588-020-0636-z",
+    "checked_utc": "2026-09-09T04:24:25.206627+00:00",
+    "status": "verified",
+    "title": [
+      "Lineage-dependent gene expression programs influence the immune landscape of colorectal cancer"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "19 September 2019",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "28 April 2020",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "25 May 2020",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 24,
+    "doi": "10.15252/emmm.202114123",
+    "checked_utc": "2026-09-09T04:24:26.189584+00:00",
+    "status": "verified",
+    "title": [
+      "Mitogen\u2010activated protein kinase activity drives cell trajectories in colorectal cancer"
+    ],
+    "notices": {
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/2020.01.10.901579",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "assertion": [
+        {
+          "value": "11 February 2021",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "27 July 2021",
+          "order": 2,
+          "name": "revised",
+          "label": "Revised",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "30 July 2021",
+          "order": 3,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "19 August 2021",
+          "order": 4,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare that they have no conflict of interest.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Conflict of interest"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 25,
+    "doi": "10.1038/s41588-025-02193-3",
+    "checked_utc": "2026-09-09T04:24:27.020743+00:00",
+    "status": "verified",
+    "title": [
+      "High-definition spatial transcriptomic profiling of immune cell populations in colorectal cancer"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "13 June 2024",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "14 April 2025",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "5 June 2025",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "All authors are current or former employees or shareholders of 10x Genomics.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 26,
+    "doi": "10.1038/s41698-023-00488-4",
+    "checked_utc": "2026-09-09T04:24:28.203270+00:00",
+    "status": "verified",
+    "title": [
+      "Profiling the heterogeneity of colorectal cancer consensus molecular subtypes using spatial transcriptomics"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "24 February 2023",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "4 December 2023",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "10 January 2024",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "A.V., B.A., E.G., N.G., M.R., S.B., I.W., B.P., L.V., E.Y., M.B., M.S., N.K., B.J., P.S., T.B. and K.H. are currently employed by F. Hoffmann-La Roche Ltd. A.J.L. and D.T. were previously employed by F. Hoffmann-La Roche Ltd. A.J.L. is currently employed by Idorsia Pharmaceuticals Ltd. D.T. is currently employed by University of Bern. A.L. is currently employed by Genentech, Inc. M.D.T. was previously employed by Genentech, Inc and is currently employed by Gilead Sciences, Inc. J.S.R. has received funding from GSK and Sanofi and fees from Travere Therapeutics and Astex Pharmaceuticals. The authors declare that they have no other competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 27,
+    "doi": "10.64898/2026.07.29.741338",
+    "checked_utc": "2026-09-09T04:24:28.312875+00:00",
+    "status": "verified",
+    "title": [
+      "Custom Probe-Based Spatial Transcriptomics Enables Microbiome Detection in FFPE Colorectal Cancer Tissue"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 28,
+    "doi": "10.1016/j.cell.2019.03.030",
+    "checked_utc": "2026-09-09T04:24:28.962462+00:00",
+    "status": "verified",
+    "title": [
+      "Proteogenomic Analysis of Human Colon Cancer Reveals New Therapeutic Opportunities"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "Elsevier",
+          "name": "publisher",
+          "label": "This article is maintained by"
+        },
+        {
+          "value": "Proteogenomic Analysis of Human Colon Cancer Reveals New Therapeutic Opportunities",
+          "name": "articletitle",
+          "label": "Article Title"
+        },
+        {
+          "value": "Cell",
+          "name": "journaltitle",
+          "label": "Journal Title"
+        },
+        {
+          "value": "https://doi.org/10.1016/j.cell.2019.03.030",
+          "name": "articlelink",
+          "label": "CrossRef DOI link to publisher maintained version"
+        },
+        {
+          "value": "article",
+          "name": "content_type",
+          "label": "Content Type"
+        },
+        {
+          "value": "\u00a9 2019 Elsevier Inc.",
+          "name": "copyright",
+          "label": "Copyright"
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 29,
+    "doi": "10.1158/2159-8290.CD-12-0095",
+    "checked_utc": "2026-09-09T04:24:29.288896+00:00",
+    "status": "verified",
+    "title": [
+      "The cBio Cancer Genomics Portal: An Open Platform for Exploring Multidimensional Cancer Genomics Data"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 30,
+    "doi": "10.1126/scisignal.2004088",
+    "checked_utc": "2026-09-09T04:24:30.032170+00:00",
+    "status": "verified",
+    "title": [
+      "Integrative Analysis of Complex Cancer Genomics and Clinical Profiles Using the cBioPortal"
+    ],
+    "notices": {},
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 31,
+    "doi": "10.1186/s13059-016-1070-5",
+    "checked_utc": "2026-09-09T04:24:30.244141+00:00",
+    "status": "verified",
+    "title": [
+      "Estimating the\u00a0population abundance of tissue-infiltrating immune and stromal cell populations using gene expression"
+    ],
+    "notices": {
+      "updated-by": [
+        {
+          "DOI": "10.1186/s13059-016-1113-y",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2016,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2016-12-01T00:00:00Z",
+            "timestamp": 1480550400000
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 32,
+    "doi": "10.1186/s13059-016-1113-y",
+    "checked_utc": "2026-09-09T04:24:30.988753+00:00",
+    "status": "verified",
+    "title": [
+      "Erratum to: Estimating the population abundance of tissue-infiltrating immune and stromal cell populations using gene expression"
+    ],
+    "notices": {
+      "update-to": [
+        {
+          "DOI": "10.1186/s13059-016-1070-5",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2016,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2016-12-01T00:00:00Z",
+            "timestamp": 1480550400000
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 33,
+    "doi": "10.7554/eLife.26476",
+    "checked_utc": "2026-09-09T04:24:31.425108+00:00",
+    "status": "verified",
+    "title": [
+      "Simultaneous enumeration of cancer and immune cell types from bulk tumor gene expression data"
+    ],
+    "notices": {
+      "relation": {
+        "references": [
+          {
+            "id-type": "uri",
+            "id": "http://www.immport.org/immport-open/public/study/study/displayStudyDetail/SDY67",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "uri",
+            "id": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE64655",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "uri",
+            "id": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60424",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "uri",
+            "id": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE51984",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "uri",
+            "id": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE39582",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "uri",
+            "id": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE72056",
+            "asserted-by": "subject"
+          }
+        ],
+        "is-supplemented-by": [
+          {
+            "id-type": "uri",
+            "id": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE93722",
+            "asserted-by": "subject"
+          }
+        ],
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/117788",
+            "asserted-by": "object"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.26476.048",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.26476.049",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 34,
+    "doi": "10.1038/s41467-020-19015-1",
+    "checked_utc": "2026-09-09T04:24:32.632443+00:00",
+    "status": "verified",
+    "title": [
+      "Benchmarking of cell type deconvolution pipelines for transcriptomics data"
+    ],
+    "notices": {
+      "updated-by": [
+        {
+          "DOI": "10.1038/s41467-020-20288-9",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2020,
+                12,
+                2
+              ]
+            ],
+            "date-time": "2020-12-02T00:00:00Z",
+            "timestamp": 1606867200000
+          }
+        }
+      ],
+      "assertion": [
+        {
+          "value": "5 December 2019",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "16 September 2020",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "6 November 2020",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "2 December 2020",
+          "order": 4,
+          "name": "change_date",
+          "label": "Change Date",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "Correction",
+          "order": 5,
+          "name": "change_type",
+          "label": "Change Type",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "A Correction to this paper has been published: https://doi.org/10.1038/s41467-020-20288-9",
+          "order": 6,
+          "name": "change_details",
+          "label": "Change Details",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "The authors declare no competing interests.",
+          "order": 1,
+          "name": "Ethics",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Competing interests"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 35,
+    "doi": "10.1038/s41467-020-20288-9",
+    "checked_utc": "2026-09-09T04:24:33.466113+00:00",
+    "status": "verified",
+    "title": [
+      "Author Correction: Benchmarking of cell type deconvolution pipelines for transcriptomics data"
+    ],
+    "notices": {
+      "update-to": [
+        {
+          "DOI": "10.1038/s41467-020-19015-1",
+          "type": "correction",
+          "label": "Correction",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2020,
+                12,
+                2
+              ]
+            ],
+            "date-time": "2020-12-02T00:00:00Z",
+            "timestamp": 1606867200000
+          }
+        }
+      ],
+      "assertion": [
+        {
+          "value": "2 December 2020",
+          "order": 1,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  },
+  {
+    "reference": 36,
+    "doi": "10.1038/s41586-026-10830-y",
+    "checked_utc": "2026-09-09T04:24:34.221679+00:00",
+    "status": "verified",
+    "title": [
+      "A tumour-derived organoid biobank maps cancer gene dependencies"
+    ],
+    "notices": {
+      "assertion": [
+        {
+          "value": "6 February 2025",
+          "order": 1,
+          "name": "received",
+          "label": "Received",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "19 June 2026",
+          "order": 2,
+          "name": "accepted",
+          "label": "Accepted",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "5 August 2026",
+          "order": 3,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ArticleHistory",
+            "label": "Article History"
+          }
+        },
+        {
+          "value": "M.J.G. is a consultant and equity holder for Mosaic Therapeutics and is an inventor on a patent titled Culture of Organoids (patent ID GB2596787) that has been licensed by Genome Research Limited to Mosaic Therapeutics. R.C.F. is named on patents related to Cytosponge and related assays that have been licensed by the Medical Research Council to Covidien GI Solutions (now Medtronic) and is a co-founder and shareholder (<3%) of CYTED Ltd. R.C.F. has an ongoing collaboration with AstraZeneca and Natera with provision of expertise and materials. R.C.F. is a member of the scientific advisory board for the AstraZeneca and CRUK Functional Genomics Core and is on an advisory board for 23andme. J.D.B is a founder and shareholder of Tailor Bio Ltd.",
+          "order": 1,
+          "name": "Ethics",
+          "label": "Competing interests",
+          "group": {
+            "name": "EthicsHeading",
+            "label": "Ethics"
+          }
+        }
+      ]
+    },
+    "claim_support": "Existing traceable claim-support ledger reused; no source claim strengthened in local prose edits"
+  }
+]

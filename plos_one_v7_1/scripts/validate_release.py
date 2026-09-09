@@ -58,8 +58,8 @@ def main() -> None:
     supp_tif = sorted((ROOT / "figures" / "supporting").glob("S*_review_600dpi.tiff"))
     record(checks, "four main PNG figures", len(main_png) == 4, f"count={len(main_png)}")
     record(checks, "four main TIFF figures", len(main_tif) == 4, f"count={len(main_tif)}")
-    record(checks, "six supporting PNG figures", len(supp_png) == 6, f"count={len(supp_png)}")
-    record(checks, "six supporting TIFF figures", len(supp_tif) == 6, f"count={len(supp_tif)}")
+    record(checks, "seven supporting PNG figures", len(supp_png) == 7, f"count={len(supp_png)}")
+    record(checks, "seven supporting TIFF figures", len(supp_tif) == 7, f"count={len(supp_tif)}")
 
     table_names = {path.name for path in (ROOT / "tables").glob("*.csv")}
     expected_tables = {
@@ -70,8 +70,9 @@ def main() -> None:
         "S5_Table_dependent_patient_level_correlations.csv",
         "S6_Table_bulk_composition_overlap_and_sensitivity.csv",
         "S7_Table_spatial_results_and_provenance.csv",
+        "S8_Table_CAF_programme_associations.csv",
     }
-    record(checks, "S1-S7 tables", expected_tables.issubset(table_names), f"missing={sorted(expected_tables - table_names) or 'none'}")
+    record(checks, "S1-S8 tables", expected_tables.issubset(table_names), f"missing={sorted(expected_tables - table_names) or 'none'}")
 
     oversized = [
         path.relative_to(ROOT).as_posix()
@@ -127,11 +128,11 @@ def main() -> None:
     with (ROOT / "tables/Supplementary_table_manifest.csv").open(encoding="utf-8", newline="") as handle:
         table_rows = list(csv.DictReader(handle))
     table_bad = [row["file"] for row in table_rows if row["file"] == "Supplementary_table_manifest.csv" or sha256(ROOT / "tables" / row["file"]) != row["sha256"].lower() or (ROOT / "tables" / row["file"]).stat().st_size != int(row["bytes"])]
-    record(checks, "table manifest hashes and no self-reference", len(table_rows) == 11 and not table_bad, f"records={len(table_rows)}; mismatches={table_bad or 'none'}")
+    record(checks, "table manifest hashes and no self-reference", len(table_rows) == 12 and not table_bad, f"records={len(table_rows)}; mismatches={table_bad or 'none'}")
 
     failed = [check for check in checks if check["status"] == "FAIL"]
     payload = {
-        "release": "v2.0.3",
+        "release": "v2.1.0",
         "generated_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "root": ".",
         "manifest_records": len(rows),
